@@ -1,19 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study).
-  Creating makefile for BasicStudyEditor (game project files are newer)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 12.5121115 seconds
+  Reflection code generated for BasicStudyEditor in 12.7699239 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 8 processes...
-    [1/8] BasicStudy.init.gen.cpp
-    [2/8] UserProfile.cpp
-    [3/8] MyWarrior.cpp
-    [4/8] MyWarrior.gen.cpp
-    [5/8] UserProfile.gen.cpp
-    [6/8] UE4Editor-BasicStudy-0010.lib
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0010.lib
-    [7/8] UE4Editor-BasicStudy-0010.dll
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0010.suppressed.lib
-    [8/8] BasicStudyEditor.target
-  Total time in Parallel executor: 6.37 seconds
-  Total execution time: 23.19 seconds
+  Building 4 actions with 8 processes...
+    [1/4] soldier.cpp
+    [2/4] UE4Editor-BasicStudy-0021.lib
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0021.lib
+    [3/4] UE4Editor-BasicStudy-0021.dll
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0021.suppressed.lib
+    [4/4] BasicStudyEditor.target
+  Total time in Parallel executor: 2.84 seconds
+  Total execution time: 17.65 seconds

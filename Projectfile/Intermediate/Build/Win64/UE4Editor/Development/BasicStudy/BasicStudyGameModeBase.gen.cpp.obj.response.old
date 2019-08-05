@@ -68,9 +68,9 @@
 /I Runtime\Core\Public\Traits
 /I Runtime\Core\Public\UObject
 /I Runtime\Core\Public\Windows
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy
+/I C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy
+/I C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source
+/I C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source\BasicStudy
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -434,12 +434,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\BasicStudyGameModeBase.gen.cpp"
-/FI"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Definitions.BasicStudy.h"
-/Fo"C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\BasicStudyGameModeBase.gen.cpp.obj"
+/FI"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\BasicStudyGameModeBase.gen.cpp"
+/FI"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Definitions.BasicStudy.h"
+/Fo"C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\BasicStudyGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

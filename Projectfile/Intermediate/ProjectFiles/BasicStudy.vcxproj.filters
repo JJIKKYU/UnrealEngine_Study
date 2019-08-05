@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FCABEE5B-2F4D-4614-90A0-D6E145CEEF00}</UniqueIdentifier>
+      <UniqueIdentifier>{06EB1423-8420-480B-A49F-B54298D58D6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{70052980-B233-4351-A681-DE5B12A13A27}</UniqueIdentifier>
+      <UniqueIdentifier>{462F58D3-354C-460B-B69C-F8A31EFA9030}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{51FDAB26-DE95-42D7-B862-ED8F5F6C8826}</UniqueIdentifier>
+      <UniqueIdentifier>{504DBF63-C4E3-480D-8FB6-CD6FEE79E064}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy\BasicStudy.Build.cs">
       <Filter>Source\BasicStudy</Filter>
@@ -41,21 +41,23 @@
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\MyWarrior.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\soldier.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

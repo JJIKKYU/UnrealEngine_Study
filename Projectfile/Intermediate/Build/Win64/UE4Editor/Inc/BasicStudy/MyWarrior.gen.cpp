@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyWarrior, 1566791561);
+	IMPLEMENT_CLASS(UMyWarrior, 2588979467);
 	template<> BASICSTUDY_API UClass* StaticClass<UMyWarrior>()
 	{
 		return UMyWarrior::StaticClass();

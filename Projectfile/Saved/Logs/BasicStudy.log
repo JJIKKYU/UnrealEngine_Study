@@ -713,3 +713,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.05-07.31.45:046][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
 [2019.08.05-07.31.45:303][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
 [2019.08.05-07.31.46:445][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.08.05-07.43.34:918][936]LogHotReload: New module detected: UE4Editor-BasicStudy-0006.dll
+[2019.08.05-07.43.36:620][942]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-07.43.36:684][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.08.05-07.43.36:687][942]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-07.43.37:053][942]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.43.37:053][942]LogClass: Could not find existing class UserProfile in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.43.37:060][942]LogHotReload: Re-instancing MyWarrior after hot-reload.
+[2019.08.05-07.43.37:255][942]LogHotReload: Re-instancing UserProfile after hot-reload.
+[2019.08.05-07.43.37:431][942]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-07.43.37:432][942]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2019.08.05-07.43.37:439][942]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-07.43.37:537][942]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.08.05-07.43.37:538][942]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-07.43.37:559][942]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-07.43.37:563][942]Display: HotReload took  0.9s.
+[2019.08.05-07.43.41:961][143]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open

@@ -9,13 +9,21 @@
 /**
  * 
  */
-UCLASS(Blueprintable)
+UCLASS()
 class BASICSTUDY_API UUserProfile : public UObject
 {
 	GENERATED_BODY()
 	
 
 public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Unit)
+	TSubclassOf<UObject> UClassOfPlayer;
+
+	UPROPERTY(EditAnywhere, meta=(MetaClass="GameMode"), Category = Unit)
+	FStringClassReference UClassGameMode;
+
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
 	float Armor;
 

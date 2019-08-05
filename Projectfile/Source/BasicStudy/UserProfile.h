@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class BASICSTUDY_API UUserProfile : public UObject
 {
 	GENERATED_BODY()

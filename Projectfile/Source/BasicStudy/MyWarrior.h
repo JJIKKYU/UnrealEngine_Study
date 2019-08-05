@@ -18,4 +18,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BLueprintReadWrite, Category = Stats)
 	FString Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UClassNames")
+	TSubclassOf<UUserProfile> UPBlueprintClassName;
 };

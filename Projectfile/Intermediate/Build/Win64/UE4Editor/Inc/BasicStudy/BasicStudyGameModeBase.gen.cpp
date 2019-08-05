@@ -40,8 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeBasicStudyGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicStudyGameModeBase_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "BasicStudyGameModeBase.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "BasicStudyGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
@@ -73,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicStudyGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasicStudyGameModeBase, 2192683470);
+	IMPLEMENT_CLASS(ABasicStudyGameModeBase, 1019433446);
 	template<> BASICSTUDY_API UClass* StaticClass<ABasicStudyGameModeBase>()
 	{
 		return ABasicStudyGameModeBase::StaticClass();

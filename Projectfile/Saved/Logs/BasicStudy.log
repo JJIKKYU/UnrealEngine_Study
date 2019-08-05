@@ -729,3 +729,41 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.05-07.43.37:559][942]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2736 classes and 663 folders.
 [2019.08.05-07.43.37:563][942]Display: HotReload took  0.9s.
 [2019.08.05-07.43.41:961][143]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.05-07.46.43:994][948]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.08.05-07.54.03:128][521]LogAssetEditorManager: Opening Asset editor for Class /Script/BasicStudy.BasicStudyGameModeBase
+[2019.08.05-07.54.03:352][521]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Source/BasicStudy/BasicStudyGameModeBase.h'
+[2019.08.05-08.13.38:394][ 80]LogHotReload: New module detected: UE4Editor-BasicStudy-0007.dll
+[2019.08.05-08.13.40:549][ 87]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-08.13.40:977][ 87]LogUObjectHash: Compacting FUObjectHashTables data took  26.69ms
+[2019.08.05-08.13.40:989][ 87]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-08.13.41:404][ 87]LogClass: Could not find existing class BasicStudyGameModeBase in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.13.41:404][ 87]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.13.41:428][ 87]LogHotReload: Re-instancing BasicStudyGameModeBase after hot-reload.
+[2019.08.05-08.13.41:946][ 87]LogHotReload: Re-instancing MyWarrior after hot-reload.
+[2019.08.05-08.13.42:251][ 87]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-08.13.42:254][ 87]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0030 seconds. Added 3 classes and 2 folders.
+[2019.08.05-08.13.42:263][ 87]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-08.13.42:393][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2019.08.05-08.13.42:395][ 87]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-08.13.42:445][ 87]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-08.13.42:454][ 87]Display: HotReload took  1.9s.
+[2019.08.05-08.15.32:098][544]LogHotReload: New module detected: UE4Editor-BasicStudy-0008.dll
+[2019.08.05-08.15.34:512][552]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-08.15.34:924][552]LogUObjectHash: Compacting FUObjectHashTables data took  10.80ms
+[2019.08.05-08.15.34:928][552]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-08.15.35:362][552]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.15.35:363][552]LogClass: Could not find existing class UserProfile in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.15.35:377][552]LogHotReload: Re-instancing MyWarrior after hot-reload.
+[2019.08.05-08.15.35:666][552]LogHotReload: Re-instancing UserProfile after hot-reload.
+[2019.08.05-08.15.36:008][552]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-08.15.36:009][552]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0011 seconds. Added 3 classes and 2 folders.
+[2019.08.05-08.15.36:018][552]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-08.15.36:198][552]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2019.08.05-08.15.36:200][552]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-08.15.36:226][552]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-08.15.36:231][552]Display: HotReload took  1.7s.
+[2019.08.05-08.16.43:236][ 18]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/MyWarrior_BP.MyWarrior_BP
+[2019.08.05-08.16.45:637][128]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/MyWarrior_BP.MyWarrior_BP
+[2019.08.05-08.17.00:248][404]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/UserProfile_BP.UserProfile_BP
+[2019.08.05-08.17.17:310][735]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.05-08.18.26:745][353]LogUObjectHash: Compacting FUObjectHashTables data took   8.21ms

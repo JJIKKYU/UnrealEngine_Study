@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class BASICSTUDY_API ABasicStudyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()

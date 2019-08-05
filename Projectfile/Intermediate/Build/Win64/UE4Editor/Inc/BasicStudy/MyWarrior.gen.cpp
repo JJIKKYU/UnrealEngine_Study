@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 	BASICSTUDY_API UClass* Z_Construct_UClass_UMyWarrior();
 	BASICSTUDY_API UClass* Z_Construct_UClass_UUserProfile();
 	UPackage* Z_Construct_UPackage__Script_BasicStudy();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	BASICSTUDY_API UClass* Z_Construct_UClass_UUserProfile_NoRegister();
 // End Cross Module References
 	void UMyWarrior::StaticRegisterNativesUMyWarrior()
 	{
@@ -31,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UPBlueprintClassName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_UPBlueprintClassName;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[];
 #endif
@@ -52,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyWarrior_Statics::NewProp_UPBlueprintClassName_MetaData[] = {
+		{ "Category", "UClassNames" },
+		{ "ModuleRelativePath", "MyWarrior.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UMyWarrior_Statics::NewProp_UPBlueprintClassName = { "UPBlueprintClassName", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyWarrior, UPBlueprintClassName), Z_Construct_UClass_UUserProfile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UMyWarrior_Statics::NewProp_UPBlueprintClassName_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyWarrior_Statics::NewProp_UPBlueprintClassName_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyWarrior_Statics::NewProp_Name_MetaData[] = {
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "MyWarrior.h" },
@@ -59,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyWarrior_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyWarrior, Name), METADATA_PARAMS(Z_Construct_UClass_UMyWarrior_Statics::NewProp_Name_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyWarrior_Statics::NewProp_Name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyWarrior_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyWarrior_Statics::NewProp_UPBlueprintClassName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyWarrior_Statics::NewProp_Name,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMyWarrior_Statics::StaticCppClassTypeInfo = {
@@ -88,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeMyWarrior() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyWarrior, 2588979467);
+	IMPLEMENT_CLASS(UMyWarrior, 3566431636);
 	template<> BASICSTUDY_API UClass* StaticClass<UMyWarrior>()
 	{
 		return UMyWarrior::StaticClass();

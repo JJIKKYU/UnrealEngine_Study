@@ -60,7 +60,9 @@ void EmptyLinkFunctionForGeneratedCodeUserProfile() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UUserProfile_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "IncludePath", "UserProfile.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "UserProfile.h" },
 	};
 #endif
@@ -126,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeUserProfile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUserProfile, 3479167104);
+	IMPLEMENT_CLASS(UUserProfile, 2069907495);
 	template<> BASICSTUDY_API UClass* StaticClass<UUserProfile>()
 	{
 		return UUserProfile::StaticClass();

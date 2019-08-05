@@ -595,3 +595,121 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.05-07.08.30:075][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/UserProfile_BP]
 [2019.08.05-07.08.30:087][115]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/UserProfile_BP_Auto16E8BBA334CDFEC9EAC28DCBF9CC7FA7A.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/UserProfile_BP_Auto1.uasset'
 [2019.08.05-07.08.30:091][115]LogFileHelpers: Auto-saving content packages took 0.017
+[2019.08.05-07.22.18:076][596]LogHotReload: New module detected: UE4Editor-BasicStudy-0003.dll
+[2019.08.05-07.22.20:098][603]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-07.22.20:170][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.08.05-07.22.20:170][603]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-07.22.20:555][603]LogClass: Could not find existing class UserProfile in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.22.20:564][603]LogHotReload: Re-instancing UserProfile after hot-reload.
+[2019.08.05-07.22.20:730][603]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-07.22.20:731][603]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0014 seconds. Added 2 classes and 2 folders.
+[2019.08.05-07.22.20:735][603]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-07.22.20:816][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.08.05-07.22.20:817][603]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-07.22.20:839][603]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2735 classes and 663 folders.
+[2019.08.05-07.22.20:844][603]Display: HotReload took  0.7s.
+[2019.08.05-07.23.40:706][648]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/UserProfile_BP.UserProfile_BP
+[2019.08.05-07.23.41:076][648]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.05-07.23.44:155][824]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2019.08.05-07.23.45:171][824]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.08.05-07.23.45:215][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UserProfile_BP" FILE="../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/UserProfile_BP.uasset" SILENT=true
+[2019.08.05-07.23.45:222][824]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/UserProfile_BP11B88B364FE93AADA7DF6B82E8C98D4B.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/UserProfile_BP.uasset'
+[2019.08.05-07.23.45:231][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserProfile_BP" FILE="../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/UserProfile_BP.uasset" SILENT=true
+[2019.08.05-07.23.45:238][824]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/UserProfile_BP62A1C009411F4A099A206A9AF49BB177.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/UserProfile_BP.uasset'
+[2019.08.05-07.24.52:870][688]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2019.08.05-07.24.54:941][706]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/UserProfile_BP.UserProfile_BP
+[2019.08.05-07.24.55:239][706]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2019.08.05-07.24.57:407][832]LogSlate: Window 'CompilerResults' being destroyed
+[2019.08.05-07.24.57:416][832]LogSlate: Window 'CompilerResults' being destroyed
+[2019.08.05-07.25.00:101][991]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/UserProfile_BP.UserProfile_BP
+[2019.08.05-07.26.36:980][849]Candidate modules for hot reload:
+[2019.08.05-07.26.36:980][849]  BasicStudy
+[2019.08.05-07.26.36:981][849]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,8787 Win64 Development -TargetType=Editor -Project="C:/Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: New page: 컴파일 - Aug 6, 2019, 1:27:01 AM
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study).
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 12.8497372 seconds
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [1/7] BasicStudy.init.gen.cpp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [2/7] MyWarrior.cpp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [3/7] UserProfile.gen.cpp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [4/7] MyWarrior.gen.cpp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [5/7] UE4Editor-BasicStudy-8787.lib
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:      Creating library C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8787.lib and object C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8787.exp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [6/7] UE4Editor-BasicStudy-8787.dll
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:      Creating library C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8787.suppressed.lib and object C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8787.suppressed.exp
+[2019.08.05-07.27.01:751][849]CompilerResultsLog:   [7/7] BasicStudyEditor.target
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Total time in Parallel executor: 7.56 seconds
+[2019.08.05-07.27.01:751][849]CompilerResultsLog: Total execution time: 24.60 seconds
+[2019.08.05-07.27.01:751][849]LogMainFrame: MainFrame: Module compiling took 24.775 seconds
+[2019.08.05-07.27.01:855][849]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2019.08.05-07.27.01:856][849]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-07.27.02:208][849]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.27.02:208][849]LogClass: Could not find existing class UserProfile in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.27.02:217][849]LogHotReload: Re-instancing UserProfile after hot-reload.
+[2019.08.05-07.27.02:438][849]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-07.27.02:439][849]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 3 classes and 2 folders.
+[2019.08.05-07.27.02:444][849]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-07.27.02:584][849]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2019.08.05-07.27.02:584][849]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-07.27.02:605][849]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-07.27.02:605][849]Display: HotReload took 25.7s.
+[2019.08.05-07.27.02:607][849]Warning: HotReload operation took 25.7s.
+[2019.08.05-07.27.02:853][849]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Source/BasicStudy/MyWarrior.h'
+[2019.08.05-07.27.03:020][849]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Source/BasicStudy/MyWarrior.cpp'
+[2019.08.05-07.27.03:025][849]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.05-07.27.03:420][849]LogHotReload: New module detected: UE4Editor-BasicStudy-8787.dll
+[2019.08.05-07.27.03:503][850]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-07.27.03:613][850]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2019.08.05-07.27.03:613][850]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-07.27.03:620][850]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-07.27.03:620][850]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2019.08.05-07.27.03:626][850]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-07.27.03:666][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.08.05-07.27.03:667][850]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-07.27.03:692][850]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-07.27.03:696][850]Display: HotReload took  0.2s.
+[2019.08.05-07.27.13:979][880]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.08.05-07.27.13:979][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.072
+[2019.08.05-07.27.13:981][880]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/UserProfile_BP] ([1] browsable assets)...
+[2019.08.05-07.27.13:981][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/UserProfile_BP]
+[2019.08.05-07.27.13:988][880]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/UserProfile_BP_Auto28045862D491F9121C2DD8B88832D6A18.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/Blueprint/UserProfile_BP_Auto2.uasset'
+[2019.08.05-07.27.13:989][880]LogFileHelpers: Auto-saving content packages took 0.009
+[2019.08.05-07.28.11:123][368]LogHotReload: New module detected: UE4Editor-BasicStudy-0005.dll
+[2019.08.05-07.28.12:826][374]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-07.28.12:900][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.08.05-07.28.12:901][374]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-07.28.13:298][374]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-07.28.13:308][374]LogHotReload: Re-instancing MyWarrior after hot-reload.
+[2019.08.05-07.28.13:483][374]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-07.28.13:484][374]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 3 classes and 2 folders.
+[2019.08.05-07.28.13:489][374]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-07.28.13:579][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.08.05-07.28.13:579][374]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-07.28.13:600][374]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-07.28.13:604][374]Display: HotReload took  0.8s.
+[2019.08.05-07.28.57:208][818]LogSlate: Took 0.001771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.08.05-07.28.57:253][818]LogSlate: Took 0.008460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2019.08.05-07.29.17:558][  1]Cmd: SELECT NONE
+[2019.08.05-07.29.18:973][ 79]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.05-07.29.50:735][812]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/MyWarrior_BP.MyWarrior_BP
+[2019.08.05-07.29.51:157][812]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.05-07.29.53:179][886]LogSlate: Window 'MyWarrior_BP' being destroyed
+[2019.08.05-07.31.35:495][290]LogEditorTransaction: Undo 노드 이동
+[2019.08.05-07.31.36:185][331]LogEditorTransaction: Undo 노드 추가
+[2019.08.05-07.31.38:612][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/MyWarrior_BP" FILE="../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/MyWarrior_BP.uasset" SILENT=true
+[2019.08.05-07.31.38:618][475]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/MyWarrior_BP8B8AB94844674CA98FC39E82D2CF6598.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/MyWarrior_BP.uasset'
+[2019.08.05-07.31.39:343][518]BlueprintLog: New page: MyWarrior_BP 컴파일
+[2019.08.05-07.31.39:413][518]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.08.05-07.31.40:119][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/MyWarrior_BP" FILE="../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/MyWarrior_BP.uasset" SILENT=true
+[2019.08.05-07.31.40:127][559]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/MyWarrior_BP5812041845832A167607B490002747C0.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/MyWarrior_BP.uasset'
+[2019.08.05-07.31.40:964][608]BlueprintLog: New page: UserProfile_BP 컴파일
+[2019.08.05-07.31.41:010][608]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2019.08.05-07.31.41:337][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UserProfile_BP" FILE="../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/UserProfile_BP.uasset" SILENT=true
+[2019.08.05-07.31.41:343][626]LogSavePackage: Moving '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Saved/UserProfile_BP83D4E94F4F2BEA61D0EAEA99C7D17706.tmp' to '../../../../../../Users/jjikk/Desktop/Git_Unreal/UnrealEngine_Study/Projectfile/Content/Blueprint/UserProfile_BP.uasset'
+[2019.08.05-07.31.45:046][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.08.05-07.31.45:303][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.08.05-07.31.46:445][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms

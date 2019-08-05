@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\MyWarrior.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

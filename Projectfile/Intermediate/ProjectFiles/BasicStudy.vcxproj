@@ -463,7 +463,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\BasicStudy-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\BasicStudy\MyWarrior.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h" />
     <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h" />
     <None Include="..\..\BasicStudy.uproject" />
     <None Include="..\..\Source\BasicStudy.Target.cs" />

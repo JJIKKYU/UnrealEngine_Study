@@ -767,3 +767,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.05-08.17.00:248][404]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/UserProfile_BP.UserProfile_BP
 [2019.08.05-08.17.17:310][735]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
 [2019.08.05-08.18.26:745][353]LogUObjectHash: Compacting FUObjectHashTables data took   8.21ms
+[2019.08.05-08.47.21:410][778]LogHotReload: New module detected: UE4Editor-BasicStudy-0009.dll
+[2019.08.05-08.47.23:437][785]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-08.47.23:978][785]LogUObjectHash: Compacting FUObjectHashTables data took   8.81ms
+[2019.08.05-08.47.23:984][785]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-08.47.24:440][785]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-08.47.24:442][785]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0025 seconds. Added 3 classes and 2 folders.
+[2019.08.05-08.47.24:448][785]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-08.47.24:553][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.08.05-08.47.24:554][785]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-08.47.24:602][785]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-08.47.24:609][785]Display: HotReload took  1.2s.
+[2019.08.05-08.55.58:236][338]LogHotReload: New module detected: UE4Editor-BasicStudy-0010.dll
+[2019.08.05-08.56.00:622][346]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.05-08.56.00:870][346]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2019.08.05-08.56.00:873][346]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.05-08.56.03:895][346]LogClass: Could not find existing class MyWarrior in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.56.03:895][346]LogClass: Could not find existing class UserProfile in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.05-08.56.03:897][346]LogClass: Could not find existing type Status for HotReload. Assuming new
+[2019.08.05-08.56.03:914][346]LogHotReload: Re-instancing MyWarrior after hot-reload.
+[2019.08.05-08.56.04:218][346]LogHotReload: Re-instancing UserProfile after hot-reload.
+[2019.08.05-08.56.04:477][346]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.05-08.56.04:479][346]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2019.08.05-08.56.04:487][346]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.05-08.56.04:656][346]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2019.08.05-08.56.04:658][346]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.05-08.56.04:690][346]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2736 classes and 663 folders.
+[2019.08.05-08.56.04:695][346]Display: HotReload took  4.1s.

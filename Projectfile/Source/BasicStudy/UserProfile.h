@@ -6,6 +6,14 @@
 #include "UObject/NoExportTypes.h"
 #include "UserProfile.generated.h"
 
+UENUM()
+enum Status
+{
+	Stopped			UMETA(DisplayName = "Stopped"),
+	Moving			UMETA(DisplayName = "Moving"),
+	Attacking		UMETA(DisplayName = "Attacking")
+};
+
 /**
  * 
  */
@@ -29,4 +37,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
 	float HpMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+	TEnumAsByte<Status> status;
 };

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASICSTUDY_UserProfile_generated_h
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_RPC_WRAPPERS
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUserProfile(); \
 	friend struct Z_Construct_UClass_UUserProfile_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UUserProfile)
 
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesUUserProfile(); \
 	friend struct Z_Construct_UClass_UUserProfile_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UUserProfile)
 
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUserProfile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUserProfile) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUserProfile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUserProfile); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUserProfile)
 
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET
-#define Projectfile_Source_BasicStudy_UserProfile_h_12_PROLOG
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY_LEGACY \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_PRIVATE_PROPERTY_OFFSET
+#define Projectfile_Source_BasicStudy_UserProfile_h_20_PROLOG
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_RPC_WRAPPERS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_INCLASS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Projectfile_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY \
+#define Projectfile_Source_BasicStudy_UserProfile_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
-	Projectfile_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_INCLASS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UserProfile_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,4 +89,8 @@ template<> BASICSTUDY_API UClass* StaticClass<class UUserProfile>();
 #define CURRENT_FILE_ID Projectfile_Source_BasicStudy_UserProfile_h
 
 
+#define FOREACH_ENUM_STATUS(op) \
+	op(Stopped) \
+	op(Moving) \
+	op(Attacking) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,3 @@
+C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy\BasicStudy.Build.cs
+C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy.Target.cs
+C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudyEditor.Target.cs

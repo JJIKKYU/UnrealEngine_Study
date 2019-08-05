@@ -1,0 +1,2 @@
+C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Definitions.BasicStudy.h
+C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy\BasicStudy.h

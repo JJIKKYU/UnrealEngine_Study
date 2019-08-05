@@ -28,10 +28,17 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source
-/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
+/I Runtime\CoreUObject\Public
+/I Runtime\CoreUObject
+/I Runtime\CoreUObject\Public\Blueprint
+/I Runtime\CoreUObject\Public\Internationalization
+/I Runtime\CoreUObject\Public\Misc
+/I Runtime\CoreUObject\Public\Serialization
+/I Runtime\CoreUObject\Public\Serialization\Formatters
+/I Runtime\CoreUObject\Public\Templates
+/I Runtime\CoreUObject\Public\UObject
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -61,16 +68,9 @@
 /I Runtime\Core\Public\Traits
 /I Runtime\Core\Public\UObject
 /I Runtime\Core\Public\Windows
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
-/I Runtime\CoreUObject
-/I Runtime\CoreUObject\Public\Blueprint
-/I Runtime\CoreUObject\Public\Internationalization
-/I Runtime\CoreUObject\Public\Misc
-/I Runtime\CoreUObject\Public\Serialization
-/I Runtime\CoreUObject\Public\Serialization\Formatters
-/I Runtime\CoreUObject\Public\Templates
-/I Runtime\CoreUObject\Public\UObject
+/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy
+/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source
+/I C:\Users\jjikk\Desktop\Unreal\BasicStudy\Source\BasicStudy
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASICSTUDY_UserProfile_generated_h
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUserProfile(); \
 	friend struct Z_Construct_UClass_UUserProfile_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UUserProfile)
 
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_INCLASS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUUserProfile(); \
 	friend struct Z_Construct_UClass_UUserProfile_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UUserProfile)
 
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUserProfile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUserProfile) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUserProfile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUserProfile); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUserProfile)
 
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET
-#define BasicStudy_Source_BasicStudy_UserProfile_h_12_PROLOG
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY_LEGACY \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET
+#define Projectfile_Source_BasicStudy_UserProfile_h_12_PROLOG
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_INCLASS \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BasicStudy_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY \
+#define Projectfile_Source_BasicStudy_UserProfile_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
-	BasicStudy_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_INCLASS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UserProfile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,7 +86,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASICSTUDY_API UClass* StaticClass<class UUserProfile>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID BasicStudy_Source_BasicStudy_UserProfile_h
+#define CURRENT_FILE_ID Projectfile_Source_BasicStudy_UserProfile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

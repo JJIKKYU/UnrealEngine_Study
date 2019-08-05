@@ -1,0 +1,21 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study).
+  Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+  Parsing headers for BasicStudyEditor
+    Running UnrealHeaderTool "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BasicStudyEditor in 14.7036393 seconds
+  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 8 processes...
+    [1/10] SharedPCH.Engine.cpp
+    [2/10] BasicStudy.cpp
+    [3/10] UserProfile.cpp
+    [4/10] BasicStudy.init.gen.cpp
+    [5/10] BasicStudyGameModeBase.cpp
+    [6/10] UserProfile.gen.cpp
+    [7/10] BasicStudyGameModeBase.gen.cpp
+    [8/10] UE4Editor-BasicStudy-0002.lib
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0002.lib
+    [9/10] UE4Editor-BasicStudy-0002.dll
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0002.suppressed.lib
+    [10/10] BasicStudyEditor.target
+  Total time in Parallel executor: 33.61 seconds
+  Total execution time: 53.49 seconds

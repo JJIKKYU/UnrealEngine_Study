@@ -9,9 +9,16 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class BASICSTUDY_API UUserProfile : public UObject
 {
 	GENERATED_BODY()
 	
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+	float Armor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
+	float HpMax;
 };

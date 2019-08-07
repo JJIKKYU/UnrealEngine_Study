@@ -474,7 +474,11 @@
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudy.h" />
     <ClCompile Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp" />
+    <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\MyWarrior.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h" />
+    <ClInclude Include="..\..\Source\BasicStudy\MyFirstActor.h" />
     <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h" />
     <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\soldier.h" />

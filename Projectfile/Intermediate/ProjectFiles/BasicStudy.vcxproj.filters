@@ -60,4 +60,20 @@
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BasicStudy\MyFirstActor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

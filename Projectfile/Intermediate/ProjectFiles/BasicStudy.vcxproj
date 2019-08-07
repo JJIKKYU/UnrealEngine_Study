@@ -482,7 +482,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h" />
     <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\soldier.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\UE4CookBookGameMode.h" />
     <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h" />
   </ItemGroup>
   <PropertyGroup>

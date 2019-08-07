@@ -67,12 +67,18 @@
     <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\UE4CookBookGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

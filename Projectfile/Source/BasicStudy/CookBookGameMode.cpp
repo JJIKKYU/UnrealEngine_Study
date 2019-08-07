@@ -2,6 +2,8 @@
 
 
 #include "CookBookGameMode.h"
+#include "Engine/Engine.h"
+#include "MyFirstActor.h"
 
 // Sets default values
 ACookBookGameMode::ACookBookGameMode()
@@ -15,8 +17,8 @@ ACookBookGameMode::ACookBookGameMode()
 void ACookBookGameMode::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
+
 
 // Called every frame
 void ACookBookGameMode::Tick(float DeltaTime)

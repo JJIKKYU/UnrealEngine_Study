@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASICSTUDY_UE4CookBookGameMode_generated_h
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDestroyActorFunction) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyActorFunction(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDestroyActorFunction) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyActorFunction(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUE4CookBookGameMode(); \

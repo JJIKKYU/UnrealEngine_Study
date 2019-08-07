@@ -2,14 +2,17 @@
   Creating makefile for BasicStudyEditor (ini files are newer than makefile)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 13.8602085 seconds
+  Reflection code generated for BasicStudyEditor in 16.8513099 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] UE4CookBookGameMode.cpp
-    [2/4] UE4Editor-BasicStudy-0029.lib
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0029.lib
-    [3/4] UE4Editor-BasicStudy-0029.dll
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0029.suppressed.lib
-    [4/4] BasicStudyEditor.target
-  Total time in Parallel executor: 11.06 seconds
-  Total execution time: 29.86 seconds
+  Building 7 actions with 8 processes...
+    [1/7] BasicStudy.init.gen.cpp
+    [2/7] soldier.cpp
+    [3/7] UE4CookBookGameMode.cpp
+    [4/7] soldier.gen.cpp
+    [5/7] UE4Editor-BasicStudy-0036.lib
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0036.lib
+    [6/7] UE4Editor-BasicStudy-0036.dll
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0036.suppressed.lib
+    [7/7] BasicStudyEditor.target
+  Total time in Parallel executor: 10.95 seconds
+  Total execution time: 32.82 seconds

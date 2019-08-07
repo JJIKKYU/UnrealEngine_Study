@@ -19,8 +19,8 @@ public:
 	virtual void BeginPlay() override;
 	
 	UPROPERTY()
-	AMyFirstActor* SpawnedActor;
+	class AMyFirstActor* SpawnedActor;
 
-	UPROPERTY()
+	UFUNCTION()
 	void DestroyActorFunction();
 };

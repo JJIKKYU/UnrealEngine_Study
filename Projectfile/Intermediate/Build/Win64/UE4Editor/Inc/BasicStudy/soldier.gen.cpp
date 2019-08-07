@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodesoldier() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_BasicStudy();
 	BASICSTUDY_API UFunction* Z_Construct_UFunction_Asoldier_ToString();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void Asoldier::StaticRegisterNativesAsoldier()
 	{
@@ -72,6 +73,10 @@ void EmptyLinkFunctionForGeneratedCodesoldier() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Name;
@@ -93,6 +98,13 @@ void EmptyLinkFunctionForGeneratedCodesoldier() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Asoldier_Statics::NewProp_Mesh_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "soldier.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Asoldier_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Asoldier, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Asoldier_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_Asoldier_Statics::NewProp_Mesh_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Asoldier_Statics::NewProp_Name_MetaData[] = {
 		{ "Category", "Properties" },
 		{ "ModuleRelativePath", "soldier.h" },
@@ -100,6 +112,7 @@ void EmptyLinkFunctionForGeneratedCodesoldier() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_Asoldier_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Asoldier, Name), METADATA_PARAMS(Z_Construct_UClass_Asoldier_Statics::NewProp_Name_MetaData, ARRAY_COUNT(Z_Construct_UClass_Asoldier_Statics::NewProp_Name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Asoldier_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Asoldier_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Asoldier_Statics::NewProp_Name,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_Asoldier_Statics::StaticCppClassTypeInfo = {
@@ -129,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodesoldier() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Asoldier, 1988387684);
+	IMPLEMENT_CLASS(Asoldier, 2513713391);
 	template<> BASICSTUDY_API UClass* StaticClass<Asoldier>()
 	{
 		return Asoldier::StaticClass();

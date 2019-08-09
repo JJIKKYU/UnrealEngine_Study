@@ -1,17 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study).
-  Creating makefile for BasicStudyEditor (ini files are newer than makefile)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 13.2176966 seconds
+  Reflection code generated for BasicStudyEditor in 10.8102891 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 6 actions with 8 processes...
     [1/6] BasicStudy.init.gen.cpp
-    [2/6] ActorSpawnerComponent.cpp
-    [3/6] ActorSpawnerComponent.gen.cpp
-    [4/6] UE4Editor-BasicStudy-0051.lib
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0051.lib
-    [5/6] UE4Editor-BasicStudy-0051.dll
-       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0051.suppressed.lib
+    [2/6] OrbitingMovementComponent.cpp
+    [3/6] OrbitingMovementComponent.gen.cpp
+    [4/6] UE4Editor-BasicStudy-0054.lib
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0054.lib
+    [5/6] UE4Editor-BasicStudy-0054.dll
+       C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0054.suppressed.lib
     [6/6] BasicStudyEditor.target
-  Total time in Parallel executor: 3.61 seconds
-  Total execution time: 21.83 seconds
+  Total time in Parallel executor: 4.47 seconds
+  Total execution time: 17.45 seconds

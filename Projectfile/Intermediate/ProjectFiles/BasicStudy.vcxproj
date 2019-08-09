@@ -486,8 +486,10 @@
     <ClInclude Include="..\..\Source\BasicStudy\MyFirstActor.h" />
     <ClCompile Include="..\..\Source\BasicStudy\MyWarrior.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\OrbitingMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\RandomMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\OrbitingMovementComponent.h" />
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h" />
     <ClInclude Include="..\..\Source\BasicStudy\soldier.h" />
     <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp" />

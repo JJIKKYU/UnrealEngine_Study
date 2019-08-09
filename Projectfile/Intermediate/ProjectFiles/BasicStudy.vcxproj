@@ -470,7 +470,9 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\BasicStudy\BasicStudy.Build.cs" />
+    <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\BasicStudy.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\ActorSpawnerComponent.h" />
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudy.h" />
     <ClCompile Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.h" />

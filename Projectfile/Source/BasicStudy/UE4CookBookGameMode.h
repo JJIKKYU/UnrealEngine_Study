@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameMode.h"
+#include "MyInterface.h"
 #include "UE4CookBookGameMode.generated.h"
 
 /**
@@ -23,6 +24,4 @@ public:
 
 	UFUNCTION()
 	void DestroyActorFunction();
-
-	
 };

@@ -6,10 +6,11 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source\BasicStudy\MyInterface.h
+C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\MyInterface.generated.h
 C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\UE4CookBookGameMode.generated.h
 C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source\BasicStudy\MyFirstActor.h
 C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\MyFirstActor.generated.h
 C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source\BasicStudy\SingleInterfaceActor.h
-C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Source\BasicStudy\MyInterface.h
-C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\MyInterface.generated.h
 C:\Users\jjikk\Desktop\Git_Unreal\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\SingleInterfaceActor.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineUtils.h

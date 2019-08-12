@@ -6,7 +6,9 @@
 #include "MyFirstActor.h"
 #include "Public/TimerManager.h"
 #include "SingleInterfaceActor.h"
+#include "MyInterface.h"
 #include "Engine/World.h"
+#include "EngineUtils.h"
 
 void AUE4CookBookGameMode::BeginPlay()
 {
@@ -29,6 +31,7 @@ void AUE4CookBookGameMode::BeginPlay()
 	if (SpawnedActor->GetClass()->ImplementsInterface(UMyInterface::StaticClass()))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, TEXT("Spawned actor implements interface!"));
+		UE_LOG(LogTemp, Warning, TEXT("Spawned actor implements interface!"));
 	}
 }
 

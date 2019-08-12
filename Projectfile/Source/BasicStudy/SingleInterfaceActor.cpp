@@ -15,7 +15,6 @@ ASingleInterfaceActor::ASingleInterfaceActor()
 void ASingleInterfaceActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -27,6 +26,7 @@ void ASingleInterfaceActor::Tick(float DeltaTime)
 
 FString ASingleInterfaceActor::GetTestName()
 {
+	UE_LOG(LogTemp, Warning, TEXT("GetTestName() Called"));
 	return IMyInterface::GetTestName();
 }
 

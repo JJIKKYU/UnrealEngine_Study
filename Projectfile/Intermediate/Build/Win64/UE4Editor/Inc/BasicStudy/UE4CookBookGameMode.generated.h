@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASICSTUDY_UE4CookBookGameMode_generated_h
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execDestroyActorFunction) \
 	{ \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDestroyActorFunction) \
 	{ \
@@ -35,7 +35,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUE4CookBookGameMode(); \
 	friend struct Z_Construct_UClass_AUE4CookBookGameMode_Statics; \
@@ -44,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AUE4CookBookGameMode)
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_INCLASS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAUE4CookBookGameMode(); \
 	friend struct Z_Construct_UClass_AUE4CookBookGameMode_Statics; \
@@ -53,7 +53,7 @@ public: \
 	DECLARE_SERIALIZER(AUE4CookBookGameMode)
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_STANDARD_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AUE4CookBookGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUE4CookBookGameMode) \
@@ -66,7 +66,7 @@ private: \
 public:
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_ENHANCED_CONSTRUCTORS \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AUE4CookBookGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -79,26 +79,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUE4CookBookGameMode); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUE4CookBookGameMode)
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_PRIVATE_PROPERTY_OFFSET
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_12_PROLOG
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_GENERATED_BODY_LEGACY \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_PRIVATE_PROPERTY_OFFSET
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_13_PROLOG
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_INCLASS \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_STANDARD_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_RPC_WRAPPERS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_INCLASS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_GENERATED_BODY \
+#define Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_INCLASS_NO_PURE_DECLS \
-	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_PRIVATE_PROPERTY_OFFSET \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_INCLASS_NO_PURE_DECLS \
+	Projectfile_Source_BasicStudy_UE4CookBookGameMode_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

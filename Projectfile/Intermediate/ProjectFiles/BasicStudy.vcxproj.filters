@@ -112,8 +112,11 @@
     <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
-    <ClInclude Include="MyInterface.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="..\..\Source\BasicStudy\SingleInterfaceActor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\MyInterface.h">
+      <Filter>Source\BasicStudy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -132,8 +135,11 @@
     <ClCompile Include="..\..\Source\BasicStudy\SpawnCharacter.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
-    <ClCompile Include="MyInterface.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="..\..\Source\BasicStudy\SingleInterfaceActor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\MyInterface.cpp">
+      <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -463,8 +463,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\BasicStudy-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="MyInterface.cpp" />
-    <ClInclude Include="MyInterface.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\MyInterface.cpp" />
+    <ClCompile Include="..\..\Source\BasicStudy\SingleInterfaceActor.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\MyInterface.h" />
+    <ClInclude Include="..\..\Source\BasicStudy\SingleInterfaceActor.h" />
     <None Include="..\..\BasicStudy.uproject" />
     <None Include="..\..\Source\BasicStudy.Target.cs" />
     <None Include="..\..\Source\BasicStudyEditor.Target.cs" />

@@ -463,6 +463,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\BasicStudy-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="MyInterface.cpp" />
+    <ClInclude Include="MyInterface.h" />
     <None Include="..\..\BasicStudy.uproject" />
     <None Include="..\..\Source\BasicStudy.Target.cs" />
     <None Include="..\..\Source\BasicStudyEditor.Target.cs" />
@@ -492,7 +494,11 @@
     <ClInclude Include="..\..\Source\BasicStudy\OrbitingMovementComponent.h" />
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h" />
     <ClInclude Include="..\..\Source\BasicStudy\soldier.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\SpawnBuliding.cpp" />
+    <ClCompile Include="..\..\Source\BasicStudy\SpawnCharacter.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\SpawnBuliding.h" />
+    <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h" />
     <ClInclude Include="..\..\Source\BasicStudy\UE4CookBookGameMode.h" />
     <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\UserProfile.h" />

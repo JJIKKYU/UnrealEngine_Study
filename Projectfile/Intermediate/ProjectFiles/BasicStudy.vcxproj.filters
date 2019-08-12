@@ -106,6 +106,15 @@
     <ClInclude Include="..\..\Source\BasicStudy\OrbitingMovementComponent.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\SpawnBuliding.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInterface.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\RandomMovementComponent.cpp">
@@ -116,6 +125,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\OrbitingMovementComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\SpawnBuliding.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\SpawnCharacter.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInterface.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

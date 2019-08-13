@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9A72E8E6-468E-4A4F-9AFB-EEE023C97737}</UniqueIdentifier>
+      <UniqueIdentifier>{E46FF705-517C-42F1-9405-0BEF0068B925}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A8FC5ABA-6E73-4FB7-8E9B-1CDC87594376}</UniqueIdentifier>
+      <UniqueIdentifier>{52546A65-6A04-4A3C-99C0-53D1B1F288B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{8B807196-8135-4F63-B389-64341614DA55}</UniqueIdentifier>
+      <UniqueIdentifier>{A74BFC35-BF90-45A1-A586-2CD4ABA74251}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -83,6 +83,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\InterfaceGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Killable.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Killable.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -125,6 +131,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\SingleInterfaceActor.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Snail.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Snail.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -149,6 +161,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\UE4CookBookGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Undead.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Undead.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\UserProfile.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -159,6 +177,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\Warrior.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Zombie.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Zombie.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
   </ItemGroup>

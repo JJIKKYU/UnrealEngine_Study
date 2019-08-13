@@ -1,6 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 8.4896851 seconds
-  Target is up to date
-  Total execution time: 9.48 seconds
+  Reflection code generated for BasicStudyEditor in 8.9803701 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 16 processes...
+    [1/5] NonSelectableCube.cpp
+    [2/5] NonSelectableCube.gen.cpp
+    [3/5] UE4Editor-BasicStudy-0013.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0013.lib
+    [4/5] UE4Editor-BasicStudy-0013.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0013.suppressed.lib
+    [5/5] BasicStudyEditor.target
+  Total time in Parallel executor: 2.10 seconds
+  Total execution time: 12.33 seconds

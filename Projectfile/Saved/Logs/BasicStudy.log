@@ -773,3 +773,345 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.13-13.19.22:786][341]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level0D811C86460EB77968D57EAB116EF271.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
 [2019.08.13-13.19.22:814][341]LogFileHelpers: Saving map 'Level' took 0.341
 [2019.08.13-13.20.59:435][972]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-13.34.18:680][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.34.50:923][275]Candidate modules for hot reload:
+[2019.08.13-13.34.50:923][275]  BasicStudy
+[2019.08.13-13.34.50:923][275]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,8156 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.13-13.35.05:555][275]CompilerResultsLog: New page: 컴파일 - Aug 14, 2019, 7:35:05 AM
+[2019.08.13-13.35.05:555][275]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.13-13.35.05:555][275]CompilerResultsLog: Creating makefile for BasicStudyEditor (game project files are newer)
+[2019.08.13-13.35.05:555][275]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.13-13.35.05:556][275]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.1839326 seconds
+[2019.08.13-13.35.05:556][275]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.13-13.35.05:556][275]CompilerResultsLog: Building 8 actions with 16 processes...
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [1/8] BasicStudy.init.gen.cpp
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [2/8] Zombie.cpp
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [3/8] SelectableCube.cpp
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [4/8] Zombie.gen.cpp
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [5/8] SelectableCube.gen.cpp
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [6/8] UE4Editor-BasicStudy-8156.lib
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8156.lib
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [7/8] UE4Editor-BasicStudy-8156.dll
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8156.suppressed.lib
+[2019.08.13-13.35.05:556][275]CompilerResultsLog:   [8/8] BasicStudyEditor.target
+[2019.08.13-13.35.05:556][275]CompilerResultsLog: Total time in Parallel executor: 2.51 seconds
+[2019.08.13-13.35.05:556][275]CompilerResultsLog: Total execution time: 14.49 seconds
+[2019.08.13-13.35.05:556][275]LogMainFrame: MainFrame: Module compiling took 14.637 seconds
+[2019.08.13-13.35.05:599][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.08.13-13.35.05:601][275]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.13-13.35.05:687][275]LogClass: Could not find existing class SelectableCube in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.13-13.35.05:720][275]LogClass: Status HotReload.
+[2019.08.13-13.35.05:736][275]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.13-13.35.05:737][275]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 26 classes and 2 folders.
+[2019.08.13-13.35.05:743][275]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.08.13-13.35.05:833][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.08.13-13.35.05:853][275]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2759 classes and 663 folders.
+[2019.08.13-13.35.05:853][275]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.13-13.35.05:853][275]Display: HotReload took 14.9s.
+[2019.08.13-13.35.05:855][275]Warning: HotReload operation took 14.9s.
+[2019.08.13-13.35.06:285][275]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/SelectableCube.h'
+[2019.08.13-13.35.06:286][275]LogVSAccessor: Warning: Couldn't open file 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/SelectableCube.cpp'.
+[2019.08.13-13.35.06:293][275]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.13-13.35.06:728][276]LogActor: Warning: SelectableCube /Engine/Transient.World_10:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.35.06:729][276]LogHotReload: New module detected: UE4Editor-BasicStudy-8156.dll
+[2019.08.13-13.35.06:764][277]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.13-13.35.06:882][277]LogUObjectHash: Compacting FUObjectHashTables data took   8.17ms
+[2019.08.13-13.35.06:884][277]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.13-13.35.06:894][277]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.13-13.35.06:895][277]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 26 classes and 2 folders.
+[2019.08.13-13.35.06:903][277]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.13-13.35.06:977][277]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.08.13-13.35.06:997][277]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2759 classes and 663 folders.
+[2019.08.13-13.35.06:997][277]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.13-13.35.07:001][277]Display: HotReload took  0.2s.
+[2019.08.13-13.49.39:020][724]Candidate modules for hot reload:
+[2019.08.13-13.49.39:020][724]  BasicStudy
+[2019.08.13-13.49.39:020][724]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,5573 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.13-13.49.39:024][724]Warning: Starting HotReload took  0.0s.
+[2019.08.13-13.49.51:113][965]CompilerResultsLog: New page: 컴파일 - Aug 14, 2019, 7:49:51 AM
+[2019.08.13-13.49.51:114][965]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.13-13.49.51:114][965]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.13-13.49.51:114][965]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.2876386 seconds
+[2019.08.13-13.49.51:114][965]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.13-13.49.51:114][965]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:   [1/5] SelectableCube.cpp
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:    C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SelectableCube.cpp(8) : error C2248: 'APhysicsCube::Mesh': private ????('APhysicsCube' Ŭ???????? ????)?? ?׼????? ?? ?????ϴ?.
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\PhysicsCube.h(16): note: 'APhysicsCube::Mesh' ?????? ?????Ͻʽÿ?.
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\PhysicsCube.h(11): note: 'APhysicsCube' ?????? ?????Ͻʽÿ?.
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:   [2/5] Selectable.cpp
+[2019.08.13-13.49.51:114][965]CompilerResultsLog:    C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(8)  : error C4716: 'ISelectable::IsSelectable': ???? ??ȯ?ؾ? ?մϴ?.
+[2019.08.13-13.49.51:114][965]LogMainFrame: MainFrame: Module compiling took 12.099 seconds
+[2019.08.13-13.49.51:114][965]Warning: HotReload failed, recompile failed
+[2019.08.13-13.49.52:590][111]LogSlate: Took 0.004005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.08.13-13.49.52:590][111]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '׼ (U+05fc)'
+[2019.08.13-13.49.52:596][111]LogSlate: Took 0.004931 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.08.13-13.49.52:602][111]LogSlate: Took 0.001317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.08.13-13.49.55:349][373]LogVSAccessor: Warning: Couldn't goto line number '8' in 'C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SelectableCube.cpp'
+[2019.08.13-13.50.22:225][225]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.50.22:230][225]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.50.22:993][300]Candidate modules for hot reload:
+[2019.08.13-13.50.22:993][300]  BasicStudy
+[2019.08.13-13.50.22:993][300]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,8397 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.13-13.50.22:997][300]Warning: Starting HotReload took  0.0s.
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: New page: 컴파일 - Aug 14, 2019, 7:50:35 AM
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.13-13.50.35:423][660]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.590916 seconds
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.13-13.50.35:423][660]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.08.13-13.50.35:423][660]CompilerResultsLog:   [1/4] Selectable.cpp
+[2019.08.13-13.50.35:423][660]CompilerResultsLog:    C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(8)  : error C4716: 'ISelectable::IsSelectable': ???? ??ȯ?ؾ? ?մϴ?.
+[2019.08.13-13.50.35:423][660]LogMainFrame: MainFrame: Module compiling took 12.434 seconds
+[2019.08.13-13.50.35:423][660]Warning: HotReload failed, recompile failed
+[2019.08.13-13.50.41:794][322]LogVSAccessor: Warning: Couldn't goto line number '8' in 'C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp'
+[2019.08.13-13.51.19:283][ 43]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.51.19:288][ 43]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.51.19:946][102]Candidate modules for hot reload:
+[2019.08.13-13.51.19:946][102]  BasicStudy
+[2019.08.13-13.51.19:946][102]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,3202 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.13-13.51.19:950][102]Warning: Starting HotReload took  0.0s.
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: New page: 컴파일 - Aug 14, 2019, 7:51:33 AM
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.7716102 seconds
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.13-13.51.33:016][468]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:   [1/7] Selectable.cpp
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:    C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(8)  : error C4716: 'ISelectable::IsSelectable': ???? ??ȯ?ؾ? ?մϴ?.
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:   [2/7] SelectableCube.cpp
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:   [3/7] Selectable.gen.cpp
+[2019.08.13-13.51.33:016][468]CompilerResultsLog:   [4/7] SelectableCube.gen.cpp
+[2019.08.13-13.51.33:016][468]LogMainFrame: MainFrame: Module compiling took 13.074 seconds
+[2019.08.13-13.51.33:017][468]Warning: HotReload failed, recompile failed
+[2019.08.13-13.53.25:551][688]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.53.25:556][688]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.13-13.53.55:364][660]Candidate modules for hot reload:
+[2019.08.13-13.53.55:364][660]  BasicStudy
+[2019.08.13-13.53.55:364][660]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,6455 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.13-13.54.09:547][660]CompilerResultsLog: New page: 컴파일 - Aug 14, 2019, 7:54:09 AM
+[2019.08.13-13.54.09:547][660]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.13-13.54.09:547][660]CompilerResultsLog: Invalidating makefile for BasicStudyEditor (source file added)
+[2019.08.13-13.54.09:547][660]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.13-13.54.09:547][660]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.13-13.54.09:547][660]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.0679424 seconds
+[2019.08.13-13.54.09:548][660]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(1) : error: Expected Selectable.h to be first header included.
+[2019.08.13-13.54.09:548][660]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.13-13.54.09:548][660]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [1/6] BasicStudy.init.gen.cpp
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [2/6] NonSelectableCube.cpp
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [3/6] NonSelectableCube.gen.cpp
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [4/6] UE4Editor-BasicStudy-6455.lib
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-6455.lib
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [5/6] UE4Editor-BasicStudy-6455.dll
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-6455.suppressed.lib
+[2019.08.13-13.54.09:548][660]CompilerResultsLog:   [6/6] BasicStudyEditor.target
+[2019.08.13-13.54.09:548][660]CompilerResultsLog: Total time in Parallel executor: 2.02 seconds
+[2019.08.13-13.54.09:548][660]CompilerResultsLog: Total execution time: 14.04 seconds
+[2019.08.13-13.54.09:548][660]LogMainFrame: MainFrame: Module compiling took 14.188 seconds
+[2019.08.13-13.54.09:638][660]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2019.08.13-13.54.09:640][660]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.13-13.54.09:697][660]LogClass: Could not find existing class NonSelectableCube in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.13-13.54.09:697][660]LogClass: Could not find existing class SelectableCube in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.13-13.54.09:705][660]LogClass: Could not find existing class Selectable in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.13-13.54.09:728][660]LogClass: Status HotReload.
+[2019.08.13-13.54.09:742][660]LogHotReload: Re-instancing SelectableCube after hot-reload.
+[2019.08.13-13.54.09:742][660]LogActor: Warning: SelectableCube /Engine/Transient.World_10:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.54.09:941][660]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.13-13.54.09:942][660]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 28 classes and 2 folders.
+[2019.08.13-13.54.09:948][660]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.08.13-13.54.10:029][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.08.13-13.54.10:052][660]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2761 classes and 663 folders.
+[2019.08.13-13.54.10:052][660]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.13-13.54.10:052][660]Display: HotReload took 14.7s.
+[2019.08.13-13.54.10:053][660]Warning: HotReload operation took 14.7s.
+[2019.08.13-13.54.10:292][660]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/NonSelectableCube.h'
+[2019.08.13-13.54.10:524][660]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/NonSelectableCube.cpp'
+[2019.08.13-13.54.10:533][660]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.13-13.54.10:902][660]LogHotReload: New module detected: UE4Editor-BasicStudy-6455.dll
+[2019.08.13-13.54.10:967][661]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.13-13.54.11:064][661]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.08.13-13.54.11:066][661]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.13-13.54.11:073][661]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.13-13.54.11:074][661]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 28 classes and 2 folders.
+[2019.08.13-13.54.11:079][661]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.13-13.54.11:142][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.08.13-13.54.11:162][661]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2761 classes and 663 folders.
+[2019.08.13-13.54.11:162][661]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.13-13.54.11:165][661]Display: HotReload took  0.2s.
+[2019.08.13-13.54.11:180][661]LogActor: Warning: NonSelectableCube /Engine/Transient.World_11:PersistentLevel.NonSelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.56.36:948][ 28]LogHotReload: New module detected: UE4Editor-BasicStudy-0013.dll
+[2019.08.13-13.56.37:899][ 55]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.13-13.56.37:988][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.08.13-13.56.37:989][ 55]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.13-13.56.38:086][ 55]LogClass: Status HotReload.
+[2019.08.13-13.56.38:103][ 55]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.13-13.56.38:104][ 55]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 28 classes and 2 folders.
+[2019.08.13-13.56.38:111][ 55]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.08.13-13.56.38:194][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.08.13-13.56.38:214][ 55]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2761 classes and 663 folders.
+[2019.08.13-13.56.38:214][ 55]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.13-13.56.38:217][ 55]Display: HotReload took  0.3s.
+[2019.08.13-13.56.39:108][ 98]LogActor: Warning: SelectableCube /Engine/Transient.World_10:PersistentLevel.SelectableCube_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.56.40:906][242]LogEditor: Attempting to add actor of class 'NonSelectableCube' to level at -350.00,320.00,20.00
+[2019.08.13-13.56.40:906][242]LogActor: Warning: NonSelectableCube /Game/Level.Level:PersistentLevel.NonSelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.56.41:759][316]LogEditor: Attempting to add actor of class 'NonSelectableCube' to level at -380.00,-80.00,20.00
+[2019.08.13-13.56.41:759][316]LogActor: Warning: NonSelectableCube /Game/Level.Level:PersistentLevel.NonSelectableCube_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.56.42:974][448]Cmd: TRANSACTION UNDO
+[2019.08.13-13.56.42:974][448]LogEditorTransaction: Undo 액터 이동
+[2019.08.13-13.56.43:446][483]Cmd: TRANSACTION UNDO
+[2019.08.13-13.56.43:446][483]LogEditorTransaction: Undo 액터 생성
+[2019.08.13-13.56.44:997][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.08.13-13.56.45:524][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.08.13-13.56.51:187][264]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-13.56.51:279][264]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.08.13-13.56.51:578][264]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level67278F1847010BDC695BE79681678E6D.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.13-13.57.03:953][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.57.10:330][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.58.03:300][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.58.31:500][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.13-13.58.34:283][259]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-13.58.34:351][259]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.08.13-13.58.34:621][259]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelE51F1C8346832D7E66503A9F9DE5A7A3.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.13-13.58.35:930][366]LogEditor: Attempting to add actor of class 'NonSelectableCube' to level at 630.00,1070.00,-120.00
+[2019.08.13-13.58.35:931][366]LogActor: Warning: NonSelectableCube /Game/Level.Level:PersistentLevel.NonSelectableCube_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.58.36:412][414]LogEditor: Attempting to add actor of class 'NonSelectableCube' to level at 180.00,1480.00,20.00
+[2019.08.13-13.58.36:413][414]LogActor: Warning: NonSelectableCube /Game/Level.Level:PersistentLevel.NonSelectableCube_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.58.47:661][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.58.47:772][714]LogEditor: Attempting to add actor of class 'SelectableCube' to level at 620.00,1470.00,-120.00
+[2019.08.13-13.58.47:772][714]LogActor: Warning: SelectableCube /Game/Level.Level:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.58.48:689][805]LogEditor: Attempting to add actor of class 'SelectableCube' to level at 130.00,1000.00,20.00
+[2019.08.13-13.58.48:690][805]LogActor: Warning: SelectableCube /Game/Level.Level:PersistentLevel.SelectableCube_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.58.50:219][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.58.50:310][989]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.13-13.58.50:322][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.58.50:322][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.13-13.58.50:322][989]PIE: New page: PIE 세션: Level (Aug 14, 2019, 7:58:50 AM)
+[2019.08.13-13.58.50:322][989]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.13-13.58.50:326][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003412s)
+[2019.08.13-13.58.50:327][989]LogAIModule: Creating AISystem for world Level
+[2019.08.13-13.58.50:327][989]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.08.13-13.58.50:327][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.004261s)
+[2019.08.13-13.58.50:368][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.08.13-13.58.50:474][989]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.13-13.58.50:527][989]LogInit: FAudioDevice initialized.
+[2019.08.13-13.58.50:556][989]LogLoad: Game class is 'UE4CookBookGameMode'
+[2019.08.13-13.58.50:558][989]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.13-22.58.50
+[2019.08.13-13.58.50:558][989]LogWorld: Bringing up level for play took: 0.001024
+[2019.08.13-13.58.50:571][989]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.58.50:571][989]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.58.50:571][989]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.58.50:571][989]LogTemp: Warning: Actor Spawning!
+[2019.08.13-13.58.50:571][989]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.58.50:571][989]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.58.50:571][989]LogTemp: Warning: Spawned actor implements interface!
+[2019.08.13-13.58.50:571][989]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.58.50:572][989]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.556
+[2019.08.13-13.58.50:572][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.58.59:273][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-13.59.05:318][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.05:318][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-13.59.05:350][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.13-13.59.05:350][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.05:398][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-13.59.05:403][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.08.13-13.59.05:429][744]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.08.13-13.59.06:031][814]LogEditorViewport: Clicking on Actor (LMB): SelectableCube (SelectableCube1)
+[2019.08.13-13.59.06:610][879]LogEditorViewport: Clicking on Actor (LMB): NonSelectableCube (NonSelectableCube3)
+[2019.08.13-13.59.11:177][416]LogEditorViewport: Clicking on Actor (LMB): SelectableCube (SelectableCube1)
+[2019.08.13-13.59.11:866][493]LogEditorViewport: Clicking on Actor (LMB): NonSelectableCube (NonSelectableCube3)
+[2019.08.13-13.59.31:774][870]LogActor: Warning: NonSelectableCube /Game/Level.Level:PersistentLevel.NonSelectableCube_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-13.59.32:716][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.59.32:790][985]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.13-13.59.32:800][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.32:800][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.13-13.59.32:800][985]PIE: New page: PIE 세션: Level (Aug 14, 2019, 7:59:32 AM)
+[2019.08.13-13.59.32:801][985]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.13-13.59.32:804][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003913s)
+[2019.08.13-13.59.32:805][985]LogAIModule: Creating AISystem for world Level
+[2019.08.13-13.59.32:805][985]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2019.08.13-13.59.32:805][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.004722s)
+[2019.08.13-13.59.32:847][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.08.13-13.59.32:965][985]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.13-13.59.33:017][985]LogInit: FAudioDevice initialized.
+[2019.08.13-13.59.33:049][985]LogLoad: Game class is 'UE4CookBookGameMode'
+[2019.08.13-13.59.33:050][985]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.13-22.59.33
+[2019.08.13-13.59.33:050][985]LogWorld: Bringing up level for play took: 0.001054
+[2019.08.13-13.59.33:064][985]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.59.33:064][985]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.59.33:064][985]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.59.33:064][985]LogTemp: Warning: Actor Spawning!
+[2019.08.13-13.59.33:064][985]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.59.33:064][985]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.59.33:064][985]LogTemp: Warning: Spawned actor implements interface!
+[2019.08.13-13.59.33:064][985]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.59.33:064][985]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.063
+[2019.08.13-13.59.33:065][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.43:658][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.43:658][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-13.59.43:690][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.13-13.59.43:690][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.43:739][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-13.59.43:744][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.08.13-13.59.43:771][255]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.08.13-13.59.45:016][402]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2019.08.13-13.59.48:646][813]Cmd: TRANSACTION UNDO
+[2019.08.13-13.59.48:646][813]LogEditorTransaction: Undo 액터 이동
+[2019.08.13-13.59.49:420][885]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.08.13-13.59.50:485][  4]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.08.13-13.59.55:228][565]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.08.13-13.59.57:424][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.13-13.59.57:500][829]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.13-13.59.57:510][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-13.59.57:511][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.13-13.59.57:511][829]PIE: New page: PIE 세션: Level (Aug 14, 2019, 7:59:57 AM)
+[2019.08.13-13.59.57:511][829]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.13-13.59.57:514][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003515s)
+[2019.08.13-13.59.57:515][829]LogAIModule: Creating AISystem for world Level
+[2019.08.13-13.59.57:515][829]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2019.08.13-13.59.57:515][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.004323s)
+[2019.08.13-13.59.57:558][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.08.13-13.59.57:666][829]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.13-13.59.57:717][829]LogInit: FAudioDevice initialized.
+[2019.08.13-13.59.57:747][829]LogLoad: Game class is 'UE4CookBookGameMode'
+[2019.08.13-13.59.57:748][829]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.13-22.59.57
+[2019.08.13-13.59.57:749][829]LogWorld: Bringing up level for play took: 0.001079
+[2019.08.13-13.59.57:762][829]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.59.57:762][829]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.13-13.59.57:762][829]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.59.57:762][829]LogTemp: Warning: Actor Spawning!
+[2019.08.13-13.59.57:762][829]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.59.57:762][829]LogSpawn: Warning: SpawnActor failed because the given transform (-nan,-nan,-2447057.500000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.08.13-13.59.57:762][829]LogTemp: Warning: Spawned actor implements interface!
+[2019.08.13-13.59.57:763][829]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.13-13.59.57:763][829]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.635
+[2019.08.13-13.59.57:763][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-14.00.05:833][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-14.00.05:834][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-14.00.05:866][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.13-14.00.05:866][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.13-14.00.05:909][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-14.00.05:913][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.08.13-14.00.05:940][796]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.08.13-14.00.06:500][861]LogEditorViewport: Clicking on Actor (LMB): NonSelectableCube (NonSelectableCube3)
+[2019.08.13-14.00.07:291][951]Cmd: DELETE
+[2019.08.13-14.00.07:291][951]Cmd: ACTOR DELETE
+[2019.08.13-14.00.07:294][951]LogEditorActor: Deleted Actor: NonSelectableCube
+[2019.08.13-14.00.07:334][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.08.13-14.00.07:334][951]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.08.13-14.00.07:774][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-14.00.07:824][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.08.13-14.00.08:074][  3]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level4759FFCE4F2E3030EEA11FBC71E65C57.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.13-14.00.11:129][352]LogEditor: Attempting to add actor of class 'SpawnBuliding' to level at 700.00,1490.00,350.00
+[2019.08.13-14.00.11:129][352]LogActor: Warning: SpawnBuliding /Game/Level.Level:PersistentLevel.SpawnBuliding_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-14.00.11:431][380]LogEditor: Attempting to add actor of class 'SpawnBuliding' to level at 90.00,1390.00,20.00
+[2019.08.13-14.00.11:432][380]LogActor: Warning: SpawnBuliding /Game/Level.Level:PersistentLevel.SpawnBuliding_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.13-14.00.12:141][461]Cmd: TRANSACTION UNDO
+[2019.08.13-14.00.12:141][461]LogEditorTransaction: Undo 액터 생성
+[2019.08.13-14.00.13:152][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.13-14.00.13:198][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.08.13-14.00.13:443][569]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level4C64D5C14E42BA7F5F57059CD1D025DE.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.13-14.04.32:788][617]LogFileHelpers: Warning: PromptForCheckoutAndSave attempted to save a compiled in package: /Script/BasicStudy

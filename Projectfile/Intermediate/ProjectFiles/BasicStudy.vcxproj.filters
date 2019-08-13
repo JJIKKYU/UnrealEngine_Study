@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E46FF705-517C-42F1-9405-0BEF0068B925}</UniqueIdentifier>
+      <UniqueIdentifier>{4AA24AC7-F3F9-4F03-B162-FC260BEF74DC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{52546A65-6A04-4A3C-99C0-53D1B1F288B7}</UniqueIdentifier>
+      <UniqueIdentifier>{7191E29E-C9A1-48B1-8A8E-4B368E873F78}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{A74BFC35-BF90-45A1-A586-2CD4ABA74251}</UniqueIdentifier>
+      <UniqueIdentifier>{89EC5767-2563-42DD-A67B-79644E5764DE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -125,6 +125,18 @@
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Selectable.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Selectable.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\SelectableCube.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\SelectableCube.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\SingleInterfaceActor.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -185,5 +197,15 @@
     <ClInclude Include="..\..\Source\BasicStudy\Zombie.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BasicStudy\NonSelectableCube.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BasicStudy\NonSelectableCube.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5E35E72E-9B0E-4886-B295-0F9A3F2C448D}</UniqueIdentifier>
+      <UniqueIdentifier>{9E27B06F-CEA3-4FD8-9A0E-597FE55FEB69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9FB58EEA-720C-42AA-8649-B72D6FD026EE}</UniqueIdentifier>
+      <UniqueIdentifier>{739A2C97-804C-4AF6-A64D-AB8E2BD19040}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{2A908D4F-F073-4D8D-B60E-384A704265E4}</UniqueIdentifier>
+      <UniqueIdentifier>{E01FAE87-9AF7-40CD-B24F-91AF0F0C66EA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -53,10 +53,22 @@
     <ClInclude Include="..\..\Source\BasicStudy\BasicStudyGameModeBase.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Boots.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Boots.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\DoorBell.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\DoorBell.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\FirstGameState.cpp">
@@ -75,6 +87,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\HierachyActor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Interactable.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Interactable.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\InterfaceGameMode.cpp">
@@ -111,6 +129,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\NonSelectableCube.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Openable.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Openable.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\OrbitingMovementComponent.cpp">
@@ -173,6 +197,24 @@
     <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Talker.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Talker.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\TalkingMesh.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\TalkingMesh.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\TalkingPawn.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\TalkingPawn.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -197,6 +239,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\Warrior.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Wearable.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Wearable.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Zombie.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -205,18 +253,24 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\BasicStudy\Wearable.h">
+    <ClInclude Include="..\..\Source\BasicStudy\Door.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\Boots.h">
+    <ClInclude Include="..\..\Source\BasicStudy\InteractingPawn.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\InteracGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\BasicStudy\Wearable.cpp">
+    <ClCompile Include="..\..\Source\BasicStudy\Door.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\Boots.cpp">
+    <ClCompile Include="..\..\Source\BasicStudy\InteractingPawn.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\InteracGameMode.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

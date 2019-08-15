@@ -286,12 +286,18 @@
     <ClInclude Include="..\..\Source\BasicStudy\SlidingDoor.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\Spotter.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\SlidingDoor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\Spotter.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

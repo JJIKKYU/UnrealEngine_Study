@@ -1,15 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+  Invalidating makefile for BasicStudyEditor (working set of source files changed)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 9.1490495 seconds
+  Reflection code generated for BasicStudyEditor in 8.7479214 seconds
+  [Adaptive unity build] Excluded from BasicStudy unity file: Spotter.cpp
+  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, Spotter.gen.cpp
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] SlidingDoor.cpp
-    [2/5] SlidingDoor.gen.cpp
-    [3/5] UE4Editor-BasicStudy-0043.lib
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0043.lib
-    [4/5] UE4Editor-BasicStudy-0043.dll
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0043.suppressed.lib
-    [5/5] BasicStudyEditor.target
-  Total time in Parallel executor: 2.04 seconds
-  Total execution time: 12.41 seconds
+  Building 7 actions with 16 processes...
+    [1/7] BasicStudy.init.gen.cpp
+    [2/7] Spotter.cpp
+    [3/7] Spotter.gen.cpp
+    [4/7] Module.BasicStudy.gen.cpp
+    [5/7] UE4Editor-BasicStudy-0045.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0045.lib
+    [6/7] UE4Editor-BasicStudy-0045.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0045.suppressed.lib
+    [7/7] BasicStudyEditor.target
+  Total time in Parallel executor: 3.31 seconds
+  Total execution time: 14.73 seconds

@@ -30,6 +30,7 @@
 			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
 			"SingleInterfaceActor.cpp.obj",
+			"SlidingDoor.cpp.obj",
 			"Snail.cpp.obj",
 			"soldier.cpp.obj",
 			"SpawnBuliding.cpp.obj",
@@ -44,7 +45,7 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"SlidingDoor.cpp.obj"
+			"Spotter.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -74,6 +75,7 @@
 			"Selectable.gen.cpp.obj",
 			"SelectableCube.gen.cpp.obj",
 			"SingleInterfaceActor.gen.cpp.obj",
+			"SlidingDoor.gen.cpp.obj",
 			"Snail.gen.cpp.obj",
 			"soldier.gen.cpp.obj",
 			"SpawnBuliding.gen.cpp.obj",
@@ -89,7 +91,7 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"SlidingDoor.gen.cpp.obj"
+			"Spotter.gen.cpp.obj"
 		]
 	}
 }

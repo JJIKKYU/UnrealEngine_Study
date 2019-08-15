@@ -438,7 +438,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\SpawnBuliding.h" />
     <ClCompile Include="..\..\Source\BasicStudy\SpawnCharacter.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\Spotter.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\Talker.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\Spotter.h" />
     <ClInclude Include="..\..\Source\BasicStudy\Talker.h" />
     <ClCompile Include="..\..\Source\BasicStudy\TalkingMesh.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\TalkingMesh.h" />

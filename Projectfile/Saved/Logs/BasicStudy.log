@@ -737,3 +737,102 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.15-08.33.17:644][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Tile]
 [2019.08.15-08.33.17:664][260]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Tile_Auto12A61E65A4E697F4ED8627F975C9C30BB.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/Blueprint/Tile_Auto1.uasset'
 [2019.08.15-08.33.17:667][260]LogFileHelpers: Auto-saving content packages took 0.025
+[2019.08.15-08.45.48:541][342]BlueprintLog: New page: Tile 컴파일
+[2019.08.15-08.45.48:543][342]LogClass: Warning: Type mismatch in MyTileType of Tile_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2019.08.15-08.45.48:797][342]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.08.15-08.45.49:038][364]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/TileAE34B39D4EFE3B54DA2B19BF2FA5EA85.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Tile.uasset'
+[2019.08.15-08.45.52:857][779]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.08.15-08.45.53:121][779]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelB51CCD0D4E11F52221DECBAE33DB18F3.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-08.46.04:782][ 93]Candidate modules for hot reload:
+[2019.08.15-08.46.04:783][ 93]  BasicStudy
+[2019.08.15-08.46.04:783][ 93]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,1225 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-08.46.20:918][ 93]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 2:46:20 AM
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.100115 seconds
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: BaseEnemy.cpp, Boots.cpp
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(1) : error: Expected Selectable.h to be first header included.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [1/7] BaseEnemy.cpp
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [2/7] Boots.cpp
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [3/7] Module.BasicStudy.gen.cpp
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [4/7] Module.BasicStudy.cpp
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [5/7] UE4Editor-BasicStudy-1225.lib
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1225.lib
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [6/7] UE4Editor-BasicStudy-1225.dll
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1225.suppressed.lib
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog:   [7/7] BasicStudyEditor.target
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Total time in Parallel executor: 4.30 seconds
+[2019.08.15-08.46.20:919][ 93]CompilerResultsLog: Total execution time: 15.99 seconds
+[2019.08.15-08.46.20:919][ 93]LogMainFrame: MainFrame: Module compiling took 16.140 seconds
+[2019.08.15-08.46.20:980][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.08.15-08.46.20:982][ 93]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-08.46.21:008][ 93]LogClass: Could not find existing class BaseEnemy in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-08.46.21:087][ 93]LogClass: Status HotReload.
+[2019.08.15-08.46.21:108][ 93]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-08.46.21:109][ 93]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0007 seconds. Added 41 classes and 2 folders.
+[2019.08.15-08.46.21:113][ 93]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
+[2019.08.15-08.46.21:186][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.08.15-08.46.21:188][ 93]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-08.46.21:206][ 93]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2774 classes and 663 folders.
+[2019.08.15-08.46.21:206][ 93]Display: HotReload took 16.4s.
+[2019.08.15-08.46.21:207][ 93]Warning: HotReload operation took 16.4s.
+[2019.08.15-08.46.21:714][ 93]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.15-08.46.22:041][ 93]LogHotReload: New module detected: UE4Editor-BasicStudy-1225.dll
+[2019.08.15-08.46.22:107][ 94]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-08.46.22:198][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.08.15-08.46.22:200][ 94]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-08.46.22:208][ 94]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-08.46.22:209][ 94]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 41 classes and 2 folders.
+[2019.08.15-08.46.22:213][ 94]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.15-08.46.22:267][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.08.15-08.46.22:269][ 94]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-08.46.22:287][ 94]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2774 classes and 663 folders.
+[2019.08.15-08.46.22:290][ 94]Display: HotReload took  0.2s.
+[2019.08.15-08.47.21:660][991]LogHotReload: New module detected: UE4Editor-BasicStudy-0039.dll
+[2019.08.15-08.47.22:679][ 21]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-08.47.22:767][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.08.15-08.47.22:769][ 21]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-08.47.22:774][ 21]LogClass: Could not find existing class BaseEnemy in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-08.47.22:862][ 21]LogClass: Status HotReload.
+[2019.08.15-08.47.22:871][ 21]LogHotReload: Re-instancing BaseEnemy after hot-reload.
+[2019.08.15-08.47.23:032][ 21]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-08.47.23:033][ 21]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0007 seconds. Added 41 classes and 2 folders.
+[2019.08.15-08.47.23:037][ 21]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
+[2019.08.15-08.47.23:103][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.08.15-08.47.23:105][ 21]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-08.47.23:123][ 21]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2774 classes and 663 folders.
+[2019.08.15-08.47.23:126][ 21]Display: HotReload took  0.4s.
+[2019.08.15-08.47.48:766][ 59]LogHotReload: New module detected: UE4Editor-BasicStudy-0040.dll
+[2019.08.15-08.47.49:792][ 89]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-08.47.49:887][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.08.15-08.47.49:889][ 89]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-08.47.50:017][ 89]LogClass: Status HotReload.
+[2019.08.15-08.47.50:042][ 89]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-08.47.50:042][ 89]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 41 classes and 2 folders.
+[2019.08.15-08.47.50:048][ 89]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
+[2019.08.15-08.47.50:141][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.08.15-08.47.50:143][ 89]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-08.47.50:161][ 89]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2774 classes and 663 folders.
+[2019.08.15-08.47.50:163][ 89]Display: HotReload took  0.4s.
+[2019.08.15-08.48.13:606][454]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.08.15-08.48.26:490][963]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.08.15-08.48.26:740][963]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level4A53F7574FD72A845236BC88CFC6BD0C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-08.49.00:838][245]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (47.204 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.15-08.50.48:261][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.08.15-08.50.48:483][768]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelB93AB8BB4848AEF57C2C0990DB82C53B.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'

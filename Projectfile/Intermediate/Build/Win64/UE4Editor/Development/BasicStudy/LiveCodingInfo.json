@@ -6,7 +6,6 @@
 			"AntiGravityVolme.cpp.obj",
 			"BasicStudy.cpp.obj",
 			"BasicStudyGameModeBase.cpp.obj",
-			"Boots.cpp.obj",
 			"CookBookGameMode.cpp.obj",
 			"Door.cpp.obj",
 			"DoorBell.cpp.obj",
@@ -26,7 +25,6 @@
 			"OrbitingMovementComponent.cpp.obj",
 			"PhysicsCube.cpp.obj",
 			"RandomMovementComponent.cpp.obj",
-			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
 			"SingleInterfaceActor.cpp.obj",
 			"Snail.cpp.obj",
@@ -36,13 +34,16 @@
 			"Talker.cpp.obj",
 			"TalkingMesh.cpp.obj",
 			"TalkingPawn.cpp.obj",
+			"TileType.cpp.obj",
 			"UE4CookBookGameMode.cpp.obj",
 			"Undead.cpp.obj",
 			"UserProfile.cpp.obj",
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"TileType.cpp.obj"
+			"BaseEnemy.cpp.obj",
+			"Boots.cpp.obj",
+			"Selectable.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -78,14 +79,15 @@
 			"Talker.gen.cpp.obj",
 			"TalkingMesh.gen.cpp.obj",
 			"TalkingPawn.gen.cpp.obj",
+			"TileType.gen.cpp.obj",
 			"UE4CookBookGameMode.gen.cpp.obj",
 			"Undead.gen.cpp.obj",
 			"UserProfile.gen.cpp.obj",
 			"Warrior.gen.cpp.obj",
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
-			"BasicStudy.init.gen.cpp.obj",
-			"TileType.gen.cpp.obj"
+			"BaseEnemy.gen.cpp.obj",
+			"BasicStudy.init.gen.cpp.obj"
 		]
 	}
 }

@@ -1,4 +1,3 @@
-#include "BasicStudy.h"
 #include "Selectable.h"
 #include "Engine/Engine.h"
 

@@ -42,13 +42,14 @@
 			"TalkingMesh.cpp.obj",
 			"TalkingPawn.cpp.obj",
 			"TileType.cpp.obj",
+			"Tree.cpp.obj",
 			"UE4CookBookGameMode.cpp.obj",
 			"Undead.cpp.obj",
 			"UserProfile.cpp.obj",
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"Tree.cpp.obj"
+			"PropertySpecifierActor.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -90,6 +91,7 @@
 			"TalkingMesh.gen.cpp.obj",
 			"TalkingPawn.gen.cpp.obj",
 			"TileType.gen.cpp.obj",
+			"Tree.gen.cpp.obj",
 			"UE4CookBookGameMode.gen.cpp.obj",
 			"Undead.gen.cpp.obj",
 			"UserProfile.gen.cpp.obj",
@@ -97,7 +99,7 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"Tree.gen.cpp.obj"
+			"PropertySpecifierActor.gen.cpp.obj"
 		]
 	}
 }

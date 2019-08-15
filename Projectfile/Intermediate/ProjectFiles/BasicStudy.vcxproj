@@ -424,7 +424,9 @@
     <ClCompile Include="..\..\Source\BasicStudy\PhysicsCube.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\Peasant.h" />
     <ClInclude Include="..\..\Source\BasicStudy\PhysicsCube.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\PropertySpecifierActor.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\RandomMovementComponent.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\PropertySpecifierActor.h" />
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h" />
     <ClCompile Include="..\..\Source\BasicStudy\Selectable.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\Selectable.h" />

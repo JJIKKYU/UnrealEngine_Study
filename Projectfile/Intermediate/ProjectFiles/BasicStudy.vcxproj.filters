@@ -298,6 +298,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\Tree.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\PropertySpecifierActor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">
@@ -316,6 +319,9 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\Tree.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\PropertySpecifierActor.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

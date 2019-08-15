@@ -19,12 +19,14 @@
 			"InteractingPawn.cpp.obj",
 			"InterfaceGameMode.cpp.obj",
 			"Killable.cpp.obj",
+			"King.cpp.obj",
 			"MyFirstActor.cpp.obj",
 			"MyInterface.cpp.obj",
 			"MyWarrior.cpp.obj",
 			"NonSelectableCube.cpp.obj",
 			"Openable.cpp.obj",
 			"OrbitingMovementComponent.cpp.obj",
+			"Peasant.cpp.obj",
 			"PhysicsCube.cpp.obj",
 			"RandomMovementComponent.cpp.obj",
 			"Selectable.cpp.obj",
@@ -46,8 +48,7 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"King.cpp.obj",
-			"Peasant.cpp.obj"
+			"Tree.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -66,12 +67,14 @@
 			"InteractingPawn.gen.cpp.obj",
 			"InterfaceGameMode.gen.cpp.obj",
 			"Killable.gen.cpp.obj",
+			"King.gen.cpp.obj",
 			"MyFirstActor.gen.cpp.obj",
 			"MyInterface.gen.cpp.obj",
 			"MyWarrior.gen.cpp.obj",
 			"NonSelectableCube.gen.cpp.obj",
 			"Openable.gen.cpp.obj",
 			"OrbitingMovementComponent.gen.cpp.obj",
+			"Peasant.gen.cpp.obj",
 			"PhysicsCube.gen.cpp.obj",
 			"RandomMovementComponent.gen.cpp.obj",
 			"Selectable.gen.cpp.obj",
@@ -94,8 +97,7 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"King.gen.cpp.obj",
-			"Peasant.gen.cpp.obj"
+			"Tree.gen.cpp.obj"
 		]
 	}
 }

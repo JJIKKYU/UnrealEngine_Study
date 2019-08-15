@@ -452,7 +452,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\TalkingPawn.h" />
     <ClCompile Include="..\..\Source\BasicStudy\TileType.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\TileType.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\Tree.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\Tree.h" />
     <ClInclude Include="..\..\Source\BasicStudy\UE4CookBookGameMode.h" />
     <ClCompile Include="..\..\Source\BasicStudy\Undead.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\Undead.h" />

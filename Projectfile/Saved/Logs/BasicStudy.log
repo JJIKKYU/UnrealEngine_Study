@@ -20661,3 +20661,403 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.15-11.51.47:692][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
 [2019.08.15-11.51.48:880][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2019.08.15-11.51.53:899][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.01.36:954][489]Candidate modules for hot reload:
+[2019.08.15-12.01.36:954][489]  BasicStudy
+[2019.08.15-12.01.36:954][489]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,2181 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-12.01.54:958][489]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 6:01:54 AM
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 10.788646 seconds
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: Tree.cpp
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [1/6] Tree.cpp
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [2/6] Module.BasicStudy.gen.cpp
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [3/6] Module.BasicStudy.cpp
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [4/6] UE4Editor-BasicStudy-2181.lib
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-2181.lib
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [5/6] UE4Editor-BasicStudy-2181.dll
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-2181.suppressed.lib
+[2019.08.15-12.01.54:959][489]CompilerResultsLog:   [6/6] BasicStudyEditor.target
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Total time in Parallel executor: 4.41 seconds
+[2019.08.15-12.01.54:959][489]CompilerResultsLog: Total execution time: 17.85 seconds
+[2019.08.15-12.01.54:959][489]LogMainFrame: MainFrame: Module compiling took 18.009 seconds
+[2019.08.15-12.01.55:018][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.08.15-12.01.55:020][489]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-12.01.55:230][489]LogClass: Could not find existing class Tree in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-12.01.55:252][489]LogClass: Status HotReload.
+[2019.08.15-12.01.55:265][489]LogHotReload: Re-instancing InteractingPawn after hot-reload.
+[2019.08.15-12.01.55:603][489]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-12.01.55:604][489]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 46 classes and 2 folders.
+[2019.08.15-12.01.55:614][489]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.15-12.01.55:733][489]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.08.15-12.01.55:735][489]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-12.01.55:752][489]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2779 classes and 663 folders.
+[2019.08.15-12.01.55:752][489]Display: HotReload took 18.8s.
+[2019.08.15-12.01.55:754][489]Warning: HotReload operation took 18.8s.
+[2019.08.15-12.01.56:878][489]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/Tree.cpp'
+[2019.08.15-12.01.56:884][489]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.15-12.01.57:206][489]LogHotReload: New module detected: UE4Editor-BasicStudy-2181.dll
+[2019.08.15-12.01.57:276][490]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-12.01.57:396][490]LogUObjectHash: Compacting FUObjectHashTables data took   8.68ms
+[2019.08.15-12.01.57:398][490]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-12.01.57:409][490]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-12.01.57:410][490]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 46 classes and 2 folders.
+[2019.08.15-12.01.57:419][490]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.15-12.01.57:495][490]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.08.15-12.01.57:497][490]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-12.01.57:515][490]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2779 classes and 663 folders.
+[2019.08.15-12.01.57:518][490]Display: HotReload took  0.2s.
+[2019.08.15-12.05.32:815][742]LogHotReload: New module detected: UE4Editor-BasicStudy-0054.dll
+[2019.08.15-12.05.33:756][770]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-12.05.33:871][770]LogUObjectHash: Compacting FUObjectHashTables data took   8.24ms
+[2019.08.15-12.05.33:873][770]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-12.05.33:899][770]LogClass: Could not find existing class Tree in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-12.05.34:079][770]LogClass: Could not find existing type ETreeType for HotReload. Assuming new
+[2019.08.15-12.05.34:079][770]LogClass: Status HotReload.
+[2019.08.15-12.05.34:089][770]LogHotReload: Re-instancing Tree after hot-reload.
+[2019.08.15-12.05.34:413][770]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-12.05.34:413][770]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 46 classes and 2 folders.
+[2019.08.15-12.05.34:422][770]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.15-12.05.34:523][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.08.15-12.05.34:525][770]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-12.05.34:544][770]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2779 classes and 663 folders.
+[2019.08.15-12.05.34:548][770]Display: HotReload took  0.8s.
+[2019.08.15-12.10.21:032][660]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/MyTree.MyTree
+[2019.08.15-12.10.21:433][660]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.15-12.12.10:418][533]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-12.12.11:203][624]LogEditorTransaction: Undo 핀 링크 생성
+[2019.08.15-12.12.11:661][679]LogEditorTransaction: Undo 노드 추가
+[2019.08.15-12.12.51:519][402]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree908A5729403C0C8AF160C5929C1AFF77.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.12.52:845][558]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.12.53:281][558]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2019.08.15-12.12.53:891][621]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree05D4098B4256BECEA0E210976DA4DAAD.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.13.07:828][287]Cmd: TRANSACTION UNDO
+[2019.08.15-12.13.07:828][287]LogEditorTransaction: Undo 새 이벤트 디스패처 추가
+[2019.08.15-12.13.09:342][436]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree7149A8D2489EF29F70B4E9A87638FA1A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.13.09:980][510]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.13.10:370][510]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2019.08.15-12.13.10:739][545]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTreeCF5B2DAB45ED5A7E13CBC38AC886B5EB.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.13.46:568][836]LogHotReload: New module detected: UE4Editor-BasicStudy-0055.dll
+[2019.08.15-12.13.47:506][871]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-12.13.47:579][871]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2019.08.15-12.13.47:580][871]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-12.13.47:608][871]LogClass: Could not find existing class Tree in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-12.13.47:772][871]LogClass: ETreeType HotReload.
+[2019.08.15-12.13.47:773][871]LogClass: Status HotReload.
+[2019.08.15-12.13.47:783][871]LogHotReload: Re-instancing Tree after hot-reload.
+[2019.08.15-12.13.48:392][871]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-12.13.48:393][871]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 46 classes and 2 folders.
+[2019.08.15-12.13.48:401][871]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.15-12.13.48:520][871]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2019.08.15-12.13.48:523][871]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-12.13.48:543][871]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2779 classes and 663 folders.
+[2019.08.15-12.13.48:546][871]Display: HotReload took  1.0s.
+[2019.08.15-12.13.53:611][386]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2019.08.15-12.13.54:994][539]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2019.08.15-12.13.57:596][840]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/MyTree.MyTree
+[2019.08.15-12.14.18:850][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.15.14:136][780]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2019.08.15-12.15.14:136][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.064
+[2019.08.15-12.15.14:138][780]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/MyTree] ([1] browsable assets)...
+[2019.08.15-12.15.14:150][780]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/MyTree.MyTree]
+[2019.08.15-12.15.14:150][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/MyTree]
+[2019.08.15-12.15.14:197][780]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree_Auto3F562136A4BE11A971F3B61A9AC9A50ED.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/Blueprint/MyTree_Auto3.uasset'
+[2019.08.15-12.15.14:200][780]LogFileHelpers: Auto-saving content packages took 0.063
+[2019.08.15-12.27.58:250][302]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.27.58:598][302]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2019.08.15-12.28.23:458][234]Candidate modules for hot reload:
+[2019.08.15-12.28.23:458][234]  BasicStudy
+[2019.08.15-12.28.23:458][234]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,839 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-12.28.23:463][234]Warning: Starting HotReload took  0.0s.
+[2019.08.15-12.28.34:642][548]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 6:28:34 AM
+[2019.08.15-12.28.34:642][548]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-12.28.34:643][548]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+[2019.08.15-12.28.34:643][548]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-12.28.34:643][548]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-12.28.34:643][548]CompilerResultsLog: Error: C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/Tree.h(30)  : LogCompile: Error: Unknown variable specifier 'EdiyAnywhere'
+[2019.08.15-12.28.34:643][548]LogMainFrame: MainFrame: Module compiling took 11.188 seconds
+[2019.08.15-12.28.34:643][548]Warning: HotReload failed, recompile failed
+[2019.08.15-12.29.24:389][338]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.15-12.29.24:394][338]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.15-12.29.26:562][590]Candidate modules for hot reload:
+[2019.08.15-12.29.26:562][590]  BasicStudy
+[2019.08.15-12.29.26:563][590]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,1206 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-12.29.26:568][590]Warning: Starting HotReload took  0.0s.
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 6:29:38 AM
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.0843746 seconds
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:   [1/3] UE4Editor-BasicStudy-1206.lib
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1206.lib
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:   [2/3] UE4Editor-BasicStudy-1206.dll
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1206.suppressed.lib
+[2019.08.15-12.29.38:550][640]CompilerResultsLog:   [3/3] BasicStudyEditor.target
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Total time in Parallel executor: 1.24 seconds
+[2019.08.15-12.29.38:550][640]CompilerResultsLog: Total execution time: 11.82 seconds
+[2019.08.15-12.29.38:550][640]LogMainFrame: MainFrame: Module compiling took 11.992 seconds
+[2019.08.15-12.29.38:613][640]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2019.08.15-12.29.38:615][640]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-12.29.38:641][640]LogClass: Could not find existing class Tree in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-12.29.38:816][640]LogClass: ETreeType HotReload.
+[2019.08.15-12.29.38:816][640]LogClass: Status HotReload.
+[2019.08.15-12.29.38:826][640]LogHotReload: Re-instancing Tree after hot-reload.
+[2019.08.15-12.29.39:466][640]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-12.29.39:467][640]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 46 classes and 2 folders.
+[2019.08.15-12.29.39:475][640]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.15-12.29.39:594][640]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2019.08.15-12.29.39:596][640]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-12.29.39:614][640]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2779 classes and 663 folders.
+[2019.08.15-12.29.39:614][640]Display: HotReload took 13.1s.
+[2019.08.15-12.30.05:397][512]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-12.30.05:729][544]LogEditorTransaction: Undo 핀 링크 생성
+[2019.08.15-12.30.56:800][422]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2019.08.15-12.30.56:800][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.092
+[2019.08.15-12.30.56:803][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/MyTree] ([1] browsable assets)...
+[2019.08.15-12.30.56:814][422]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/MyTree.MyTree]
+[2019.08.15-12.30.56:814][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/MyTree]
+[2019.08.15-12.30.56:860][422]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree_Auto483B4F0354045B4D7EB1A6E94B664504C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/Blueprint/MyTree_Auto4.uasset'
+[2019.08.15-12.30.56:862][422]LogFileHelpers: Auto-saving content packages took 0.060
+[2019.08.15-12.31.23:702][520]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.31.24:092][520]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2019.08.15-12.31.24:344][540]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree308513744BC964E8702CC3BDFE06DCBE.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.32.24:406][468]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTreeCED80764416BBBA849663DB50B2CDB0C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.32.33:780][490]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree0598170C4F863B7F76F73B8827B3B84A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.34.36:314][881]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.34.36:706][881]LogUObjectHash: Compacting FUObjectHashTables data took   6.97ms
+[2019.08.15-12.34.36:953][899]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/MyTree8F6CEF41430017CD2EBB318FB54294E8.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/MyTree.uasset'
+[2019.08.15-12.34.39:253][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2019.08.15-12.34.42:905][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2019.08.15-12.34.43:448][554]Cmd: TRANSACTION UNDO
+[2019.08.15-12.34.43:448][554]LogEditorTransaction: Undo 액터 클릭
+[2019.08.15-12.34.44:220][630]Cmd: TRANSACTION UNDO
+[2019.08.15-12.34.44:220][630]LogEditorTransaction: Undo 액터 이동
+[2019.08.15-12.34.48:730][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.15-12.34.49:376][190]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.15-12.34.49:873][244]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor6)
+[2019.08.15-12.34.51:076][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.34.52:628][543]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2019.08.15-12.34.53:073][543]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelCA065A5E40D74C68FB25C1BF80981B5C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-12.34.55:796][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.34.58:550][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.34.58:620][128]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2019.08.15-12.34.59:065][128]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level9DA528B14A1004173345B58DBDB63BDD.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-12.35.05:706][837]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor7)
+[2019.08.15-12.35.05:750][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.35.06:769][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.06:770][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.06:770][905]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:06 AM)
+[2019.08.15-12.35.06:770][905]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.06:776][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005768s)
+[2019.08.15-12.35.06:776][905]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.06:776][905]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2019.08.15-12.35.06:776][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006586s)
+[2019.08.15-12.35.06:832][905]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2019.08.15-12.35.06:948][905]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.07:010][905]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.07:011][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.35.07:041][905]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.07:043][905]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.07
+[2019.08.15-12.35.07:044][905]LogWorld: Bringing up level for play took: 0.001935
+[2019.08.15-12.35.07:057][905]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.07:057][905]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.07:057][905]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.07:058][905]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.209
+[2019.08.15-12.35.07:058][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.09:098][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.09:099][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.09:131][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.09:132][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.09:197][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.09:205][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2019.08.15-12.35.09:236][148]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.08.15-12.35.09:901][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.35.09:984][235]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-12.35.09:996][235]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.09:996][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.09:996][235]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:09 AM)
+[2019.08.15-12.35.09:996][235]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.10:002][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005826s)
+[2019.08.15-12.35.10:002][235]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.10:003][235]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2019.08.15-12.35.10:003][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006581s)
+[2019.08.15-12.35.10:052][235]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.08.15-12.35.10:155][235]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.10:203][235]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.10:230][235]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.10:232][235]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.10
+[2019.08.15-12.35.10:232][235]LogWorld: Bringing up level for play took: 0.001648
+[2019.08.15-12.35.10:245][235]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.10:245][235]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.10:245][235]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.10:245][235]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.979
+[2019.08.15-12.35.10:246][235]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.10:973][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.10:973][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.11:008][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.11:008][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.11:073][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.11:081][320]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.08.15-12.35.11:102][321]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.08.15-12.35.11:477][366]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-12.35.11:489][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.11:489][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.11:489][366]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:11 AM)
+[2019.08.15-12.35.11:489][366]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.11:495][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005810s)
+[2019.08.15-12.35.11:495][366]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.11:496][366]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2019.08.15-12.35.11:496][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006599s)
+[2019.08.15-12.35.11:547][366]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.08.15-12.35.11:651][366]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.11:688][366]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.11:715][366]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.11:717][366]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.11
+[2019.08.15-12.35.11:718][366]LogWorld: Bringing up level for play took: 0.001886
+[2019.08.15-12.35.11:731][366]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.11:731][366]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.11:731][366]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.11:731][366]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.465
+[2019.08.15-12.35.11:732][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.12:176][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.12:176][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.12:210][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.12:211][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.12:272][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.12:279][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.08.15-12.35.12:299][418]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.08.15-12.35.12:458][437]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-12.35.12:469][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.12:469][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.12:469][437]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:12 AM)
+[2019.08.15-12.35.12:469][437]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.12:475][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005639s)
+[2019.08.15-12.35.12:476][437]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.12:476][437]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2019.08.15-12.35.12:476][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006369s)
+[2019.08.15-12.35.12:531][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.08.15-12.35.12:643][437]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.12:679][437]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.12:708][437]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.12:710][437]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.12
+[2019.08.15-12.35.12:710][437]LogWorld: Bringing up level for play took: 0.001669
+[2019.08.15-12.35.12:724][437]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.12:724][437]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.12:724][437]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.12:724][437]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.542
+[2019.08.15-12.35.12:725][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.13:180][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.13:181][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.13:218][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.13:219][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.13:284][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.13:292][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.08.15-12.35.13:316][491]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.08.15-12.35.13:933][565]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-12.35.13:944][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.13:944][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.13:944][565]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:13 AM)
+[2019.08.15-12.35.13:944][565]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.13:950][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005597s)
+[2019.08.15-12.35.13:950][565]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.13:950][565]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2019.08.15-12.35.13:950][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006359s)
+[2019.08.15-12.35.14:005][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.08.15-12.35.14:113][565]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.14:151][565]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.14:183][565]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.14:185][565]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.14
+[2019.08.15-12.35.14:185][565]LogWorld: Bringing up level for play took: 0.001705
+[2019.08.15-12.35.14:199][565]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.14:199][565]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.14:199][565]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.14:199][565]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.933
+[2019.08.15-12.35.14:200][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.15:605][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.15:605][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.15:638][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.15:638][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.15:698][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.15:705][731]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.08.15-12.35.15:727][732]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.08.15-12.35.19:862][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.35.19:923][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.08.15-12.35.20:370][215]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level09A3BB21473CBE6C5BA529865E386029.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-12.35.21:368][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.35.21:442][333]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-12.35.21:453][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.21:454][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.21:454][333]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:21 AM)
+[2019.08.15-12.35.21:454][333]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.21:459][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005670s)
+[2019.08.15-12.35.21:460][333]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.21:460][333]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2019.08.15-12.35.21:460][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006434s)
+[2019.08.15-12.35.21:523][333]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.08.15-12.35.21:645][333]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.21:703][333]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.21:733][333]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.21:735][333]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.21
+[2019.08.15-12.35.21:735][333]LogWorld: Bringing up level for play took: 0.001687
+[2019.08.15-12.35.21:748][333]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.21:748][333]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.21:748][333]LogBlueprintUserMessages: [MyTree3] ETreeType::ree_Poplar
+[2019.08.15-12.35.21:748][333]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.481
+[2019.08.15-12.35.21:748][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.22:592][432]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.22:592][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.22:628][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-12.35.22:628][432]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.22:688][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-12.35.22:695][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.08.15-12.35.22:716][433]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.08.15-12.35.27:531][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.35.29:112][183]BlueprintLog: New page: Peasant_BP 컴파일
+[2019.08.15-12.35.29:509][183]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2019.08.15-12.35.30:428][289]BlueprintLog: New page: MyTree 컴파일
+[2019.08.15-12.35.30:846][289]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2019.08.15-12.35.31:562][369]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor7)
+[2019.08.15-12.35.31:609][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.35.32:810][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.32:810][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-12.35.32:811][454]PIE: New page: PIE 세션: Level (Aug 16, 2019, 6:35:32 AM)
+[2019.08.15-12.35.32:811][454]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-12.35.32:817][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005826s)
+[2019.08.15-12.35.32:817][454]LogAIModule: Creating AISystem for world Level
+[2019.08.15-12.35.32:817][454]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2019.08.15-12.35.32:817][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006595s)
+[2019.08.15-12.35.32:876][454]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2019.08.15-12.35.32:978][454]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-12.35.33:031][454]LogInit: FAudioDevice initialized.
+[2019.08.15-12.35.33:032][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-12.35.33:064][454]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-12.35.33:066][454]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-21.35.33
+[2019.08.15-12.35.33:067][454]LogWorld: Bringing up level for play took: 0.001833
+[2019.08.15-12.35.33:080][454]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
+[2019.08.15-12.35.33:080][454]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
+[2019.08.15-12.35.33:080][454]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
+[2019.08.15-12.35.33:080][454]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.186
+[2019.08.15-12.35.33:081][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-12.35.51:397][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-12.35.51:548][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.08.15-12.35.52:555][106]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.08.15-12.35.52:619][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.08.15-12.35.53:059][106]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level950F9FAA45E03F990C6FD698C91E20E0.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-12.35.53:083][106]LogFileHelpers: Saving map 'Level' took 0.519

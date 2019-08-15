@@ -295,6 +295,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\Peasant.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\Tree.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">
@@ -310,6 +313,9 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BasicStudy\Peasant.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\Tree.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
   </ItemGroup>

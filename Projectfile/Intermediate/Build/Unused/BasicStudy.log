@@ -1,17 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+  Creating makefile for BasicStudyEditor (ini files are newer than makefile)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 8.8136007 seconds
+  Reflection code generated for BasicStudyEditor in 8.8820463 seconds
+  [Adaptive unity build] Excluded from BasicStudy unity file: Tree.cpp
+  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, Tree.gen.cpp
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] BasicStudy.init.gen.cpp
-    [2/7] Peasant.cpp
-    [3/7] King.gen.cpp
-    [4/7] King.cpp
-    [5/7] UE4Editor-BasicStudy-0052.lib
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0052.lib
-    [6/7] UE4Editor-BasicStudy-0052.dll
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0052.suppressed.lib
-    [7/7] BasicStudyEditor.target
-  Total time in Parallel executor: 1.98 seconds
-  Total execution time: 12.00 seconds
+  Building 6 actions with 16 processes...
+    [1/6] BasicStudy.init.gen.cpp
+    [2/6] Tree.cpp
+    [3/6] Tree.gen.cpp
+    [4/6] UE4Editor-BasicStudy-0056.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0056.lib
+    [5/6] UE4Editor-BasicStudy-0056.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0056.suppressed.lib
+    [6/6] BasicStudyEditor.target
+  Total time in Parallel executor: 1.89 seconds
+  Total execution time: 13.50 seconds

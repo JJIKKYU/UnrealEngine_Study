@@ -20150,3 +20150,514 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.15-10.04.21:516][316]LogPlayLevel: Display: Destroying online subsystem :Context_26
 [2019.08.15-10.04.22:013][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
 [2019.08.15-10.04.22:307][368]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level31A463D2439ECBA5F1F62987211C0497.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 0 (Connection 65 seems to be dead!)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 1 (Closing connection 65)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 3 (  Trying 52.6.79.2...)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (52.6.79.2) port 443 (#66))
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 8 (SSL re-using session ID)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.29.00:867][ 93]LogHttp: Warning: 000002A926995BC0: libcurl info message cache 12 (Closing connection 66)
+[2019.08.15-10.29.00:878][ 94]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2a8ceb7bf70 [can pipeline])
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 1 (Re-using existing connection! (#67) with host datarouter.ol.epicgames.com)
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.214.237.224) port 443 (#67))
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.08.15-10.33.24:346][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.08.15-10.33.24:347][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.08.15-10.33.24:347][650]LogHttp: Warning: 000002A926996480: libcurl info message cache 7 (Closing connection 67)
+[2019.08.15-10.33.24:347][650]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.38.00:843][186]LogHttp: Warning: 000002A957C2C680: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.38.00:843][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 0 (Connection 68 seems to be dead!)
+[2019.08.15-10.38.00:843][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 1 (Closing connection 68)
+[2019.08.15-10.38.00:843][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 3 (  Trying 54.88.198.7...)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (54.88.198.7) port 443 (#69))
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 8 (SSL re-using session ID)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: 000002A957C2C680: libcurl info message cache 12 (Closing connection 69)
+[2019.08.15-10.38.00:844][186]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2a8ceb7bf70 [can pipeline])
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 1 (Re-using existing connection! (#70) with host datarouter.ol.epicgames.com)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.214.237.224) port 443 (#70))
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.08.15-10.42.02:484][841]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 7 (Closing connection 70)
+[2019.08.15-10.42.02:495][842]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 0 (  Trying 54.209.204.64...)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.209.204.64) port 443 (#71))
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 5 (SSL re-using session ID)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.45.02:505][789]LogHttp: Warning: 000002A957C2C2C0: libcurl info message cache 9 (Closing connection 71)
+[2019.08.15-10.45.02:515][790]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 0 (  Trying 34.235.212.28...)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.235.212.28) port 443 (#72))
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 5 (SSL re-using session ID)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 8 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 14 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: 000002A957C2EC00: libcurl info message cache 15 (Closing connection 72)
+[2019.08.15-10.48.02:542][762]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 0 (  Trying 54.236.149.84...)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 2 (connect to 54.236.149.84 port 443 failed: Timed out)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 3 (  Trying 18.235.42.24...)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (18.235.42.24) port 443 (#73))
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.08.15-10.51.02:587][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 8 (SSL re-using session ID)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 13 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 15 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 16 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 17 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 18 (Closing connection 73)
+[2019.08.15-10.51.02:588][732]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-10.54.02:604][628]LogHttp: Warning: 000002A937AB8F40: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-10.54.02:604][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 0 (  Trying 34.206.165.152...)
+[2019.08.15-10.54.02:604][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.08.15-10.54.02:604][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.165.152) port 443 (#74))
+[2019.08.15-10.54.02:604][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 5 (SSL re-using session ID)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: 000002A937AB8F40: libcurl info message cache 9 (Closing connection 74)
+[2019.08.15-10.54.02:605][628]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-11.06.07:355][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-11.06.07:700][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2019.08.15-11.06.07:988][ 35]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelADEB7049472A8366F3B362B20D3B2F4C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.06.18:790][200]Candidate modules for hot reload:
+[2019.08.15-11.06.18:791][200]  BasicStudy
+[2019.08.15-11.06.18:791][200]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,9543 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-11.06.34:937][200]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 5:06:34 AM
+[2019.08.15-11.06.34:937][200]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-11.06.34:937][200]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+[2019.08.15-11.06.34:937][200]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-11.06.34:937][200]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.06.34:937][200]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.031944 seconds
+[2019.08.15-11.06.34:938][200]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: King.cpp
+[2019.08.15-11.06.34:938][200]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.06.34:938][200]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [1/6] King.cpp
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [2/6] Module.BasicStudy.gen.cpp
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [3/6] Module.BasicStudy.cpp
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [4/6] UE4Editor-BasicStudy-9543.lib
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-9543.lib
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [5/6] UE4Editor-BasicStudy-9543.dll
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-9543.suppressed.lib
+[2019.08.15-11.06.34:938][200]CompilerResultsLog:   [6/6] BasicStudyEditor.target
+[2019.08.15-11.06.34:938][200]CompilerResultsLog: Total time in Parallel executor: 4.30 seconds
+[2019.08.15-11.06.34:938][200]CompilerResultsLog: Total execution time: 16.00 seconds
+[2019.08.15-11.06.34:938][200]LogMainFrame: MainFrame: Module compiling took 16.151 seconds
+[2019.08.15-11.06.34:986][200]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.08.15-11.06.34:987][200]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.06.35:064][200]LogClass: Could not find existing class King in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.06.35:138][200]LogClass: Status HotReload.
+[2019.08.15-11.06.35:147][200]LogHotReload: Re-instancing InteractingPawn after hot-reload.
+[2019.08.15-11.06.35:362][200]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.06.35:363][200]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 44 classes and 2 folders.
+[2019.08.15-11.06.35:369][200]Display: HotReload successful (22 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.06.35:453][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.08.15-11.06.35:455][200]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.06.35:475][200]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2777 classes and 663 folders.
+[2019.08.15-11.06.35:475][200]Display: HotReload took 16.7s.
+[2019.08.15-11.06.35:477][200]Warning: HotReload operation took 16.7s.
+[2019.08.15-11.06.35:773][200]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/King.h'
+[2019.08.15-11.06.36:177][200]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/King.cpp'
+[2019.08.15-11.06.36:185][200]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.15-11.06.36:526][200]LogHotReload: New module detected: UE4Editor-BasicStudy-9543.dll
+[2019.08.15-11.06.36:602][201]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-11.06.36:696][201]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2019.08.15-11.06.36:698][201]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.06.36:710][201]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.06.36:711][201]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 44 classes and 2 folders.
+[2019.08.15-11.06.36:720][201]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.06.36:780][201]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.08.15-11.06.36:783][201]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.06.36:807][201]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2777 classes and 663 folders.
+[2019.08.15-11.06.36:812][201]Display: HotReload took  0.2s.
+[2019.08.15-11.07.29:586][448]LogAssetEditorManager: Opening Asset editor for Class /Script/BasicStudy.Door
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 0 (Connection 79 seems to be dead!)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 1 (Closing connection 79)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 3 (  Trying 34.206.62.221...)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (34.206.62.221) port 443 (#80))
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 8 (SSL re-using session ID)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: 000002A954A59440: libcurl info message cache 12 (Closing connection 80)
+[2019.08.15-11.10.00:884][218]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: request failed, libcurl error: 28 (Timeout was reached)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 0 (  Trying 18.204.145.10...)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.204.145.10) port 443 (#81))
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 5 (SSL re-using session ID)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.08.15-11.13.00:914][969]LogHttp: Warning: 000002A954A59440: libcurl info message cache 9 (Closing connection 81)
+[2019.08.15-11.13.00:926][970]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC446589D-428D-DECE-02E8-8C83B4E849FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=551f459b463b0a154fd84fb88346b0f8%7Cb46bc90f43364daeb7cfab584b1dc561%7C7e9b432d-1f8d-4a53-8c1f-2123c3e5f85e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.15-11.21.43:288][178]Candidate modules for hot reload:
+[2019.08.15-11.21.43:289][178]  BasicStudy
+[2019.08.15-11.21.43:289][178]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,5732 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-11.21.43:294][178]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.21.54:255][353]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 5:21:54 AM
+[2019.08.15-11.21.54:255][353]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-11.21.54:255][353]CompilerResultsLog: Invalidating makefile for BasicStudyEditor (working set of source files changed)
+[2019.08.15-11.21.54:255][353]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-11.21.54:255][353]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.21.54:256][353]CompilerResultsLog: Error: C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Source/BasicStudy/King.h(26)  : Error: 'BlueprintAssignable' is only allowed on multicast delegate properties
+[2019.08.15-11.21.54:256][353]LogMainFrame: MainFrame: Module compiling took 10.970 seconds
+[2019.08.15-11.21.54:256][353]Warning: HotReload failed, recompile failed
+[2019.08.15-11.22.24:731][369]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.15-11.22.24:736][369]LogSlate: Window '메시지 로그' being destroyed
+[2019.08.15-11.22.25:489][446]Candidate modules for hot reload:
+[2019.08.15-11.22.25:489][446]  BasicStudy
+[2019.08.15-11.22.25:490][446]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,2221 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-11.22.25:495][446]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 5:22:41 AM
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Invalidating makefile for BasicStudyEditor (working set of source files changed)
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.1430508 seconds
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: King.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, King.gen.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [1/7] BasicStudy.init.gen.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [2/7] King.gen.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [3/7] King.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [4/7] Module.BasicStudy.gen.cpp
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [5/7] UE4Editor-BasicStudy-2221.lib
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-2221.lib
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [6/7] UE4Editor-BasicStudy-2221.dll
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-2221.suppressed.lib
+[2019.08.15-11.22.41:263][205]CompilerResultsLog:   [7/7] BasicStudyEditor.target
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Total time in Parallel executor: 3.67 seconds
+[2019.08.15-11.22.41:263][205]CompilerResultsLog: Total execution time: 15.61 seconds
+[2019.08.15-11.22.41:263][205]LogMainFrame: MainFrame: Module compiling took 15.777 seconds
+[2019.08.15-11.22.41:355][205]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2019.08.15-11.22.41:356][205]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.22.41:384][205]LogClass: Could not find existing class King in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.22.41:384][205]LogClass: Function Die is new.
+[2019.08.15-11.22.41:515][205]LogClass: Status HotReload.
+[2019.08.15-11.22.41:524][205]LogHotReload: Re-instancing King after hot-reload.
+[2019.08.15-11.22.41:792][205]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.22.41:793][205]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0007 seconds. Added 44 classes and 2 folders.
+[2019.08.15-11.22.41:800][205]Display: HotReload successful (22 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.22.41:896][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.08.15-11.22.41:897][205]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.22.41:915][205]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2777 classes and 663 folders.
+[2019.08.15-11.22.41:915][205]Display: HotReload took 16.4s.
+[2019.08.15-11.23.42:686][760]Candidate modules for hot reload:
+[2019.08.15-11.23.42:686][760]  BasicStudy
+[2019.08.15-11.23.42:687][760]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,642 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 5:23:58 AM
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: Invalidating makefile for BasicStudyEditor (source file added)
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-11.23.58:728][760]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 8.9975644 seconds
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: King.cpp, Peasant.cpp
+[2019.08.15-11.23.58:728][760]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, King.gen.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.23.58:729][760]CompilerResultsLog: Building 8 actions with 16 processes...
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [1/8] BasicStudy.init.gen.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [2/8] King.gen.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [3/8] Peasant.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [4/8] King.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [5/8] Module.BasicStudy.gen.cpp
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [6/8] UE4Editor-BasicStudy-0642.lib
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0642.lib
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [7/8] UE4Editor-BasicStudy-0642.dll
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0642.suppressed.lib
+[2019.08.15-11.23.58:729][760]CompilerResultsLog:   [8/8] BasicStudyEditor.target
+[2019.08.15-11.23.58:729][760]CompilerResultsLog: Total time in Parallel executor: 4.07 seconds
+[2019.08.15-11.23.58:729][760]CompilerResultsLog: Total execution time: 15.89 seconds
+[2019.08.15-11.23.58:729][760]LogMainFrame: MainFrame: Module compiling took 16.047 seconds
+[2019.08.15-11.23.58:833][760]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2019.08.15-11.23.58:835][760]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.23.58:859][760]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2777 classes and 663 folders.
+[2019.08.15-11.23.58:859][760]Display: HotReload took 16.3s.
+[2019.08.15-11.23.58:860][760]Warning: HotReload operation took 16.3s.
+[2019.08.15-11.23.59:417][760]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.15-11.23.59:769][760]LogHotReload: New module detected: UE4Editor-BasicStudy-0642.dll
+[2019.08.15-11.23.59:809][761]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-11.23.59:929][761]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2019.08.15-11.23.59:930][761]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.24.00:057][761]LogClass: Could not find existing class Peasant in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.24.00:138][761]LogClass: Status HotReload.
+[2019.08.15-11.24.00:171][761]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.24.00:174][761]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0021 seconds. Added 45 classes and 2 folders.
+[2019.08.15-11.24.00:181][761]Display: HotReload successful (23 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.24.00:295][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.08.15-11.24.00:297][761]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.24.00:316][761]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2778 classes and 663 folders.
+[2019.08.15-11.24.00:320][761]Display: HotReload took  0.5s.
+[2019.08.15-11.28.00:920][479]Candidate modules for hot reload:
+[2019.08.15-11.28.00:921][479]  BasicStudy
+[2019.08.15-11.28.00:921][479]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,3846 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.15-11.28.00:926][479]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: New page: 컴파일 - Aug 16, 2019, 5:28:16 AM
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Invalidating makefile for BasicStudyEditor (working set of source files changed)
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.1661147 seconds
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: King.cpp, Peasant.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, King.gen.cpp, Peasant.gen.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [1/7] BasicStudy.init.gen.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [2/7] Peasant.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [3/7] Peasant.gen.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [4/7] Module.BasicStudy.gen.cpp
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [5/7] UE4Editor-BasicStudy-3846.lib
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-3846.lib
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [6/7] UE4Editor-BasicStudy-3846.dll
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-3846.suppressed.lib
+[2019.08.15-11.28.16:820][309]CompilerResultsLog:   [7/7] BasicStudyEditor.target
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Total time in Parallel executor: 3.67 seconds
+[2019.08.15-11.28.16:820][309]CompilerResultsLog: Total execution time: 15.74 seconds
+[2019.08.15-11.28.16:820][309]LogMainFrame: MainFrame: Module compiling took 15.904 seconds
+[2019.08.15-11.28.16:904][309]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
+[2019.08.15-11.28.16:906][309]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.28.16:932][309]LogClass: Could not find existing class Peasant in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.28.16:932][309]LogClass: Function Flee is new.
+[2019.08.15-11.28.17:065][309]LogClass: Status HotReload.
+[2019.08.15-11.28.17:076][309]LogHotReload: Re-instancing Peasant after hot-reload.
+[2019.08.15-11.28.17:342][309]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.28.17:343][309]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 45 classes and 2 folders.
+[2019.08.15-11.28.17:350][309]Display: HotReload successful (23 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.28.17:440][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.08.15-11.28.17:442][309]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.28.17:459][309]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2778 classes and 663 folders.
+[2019.08.15-11.28.17:459][309]Display: HotReload took 16.6s.
+[2019.08.15-11.28.28:353][549]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.08.15-11.28.28:712][549]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelEBFB236542ECEB1796E470ACBCD07ECC.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.29.05:778][105]LogHotReload: New module detected: UE4Editor-BasicStudy-0050.dll
+[2019.08.15-11.29.07:014][140]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-11.29.07:099][140]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2019.08.15-11.29.07:100][140]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.29.07:270][140]LogClass: Status HotReload.
+[2019.08.15-11.29.07:297][140]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.29.07:298][140]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 45 classes and 2 folders.
+[2019.08.15-11.29.07:304][140]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.29.07:401][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.08.15-11.29.07:402][140]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.29.07:420][140]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2778 classes and 663 folders.
+[2019.08.15-11.29.07:423][140]Display: HotReload took  0.4s.
+[2019.08.15-11.29.16:238][ 53]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/Peasant_BP.Peasant_BP
+[2019.08.15-11.29.16:633][ 53]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.15-11.29.19:604][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.29.19:649][398]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BP279F8BFD46F4776C177D098E7FDDC0A9.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.29.34:838][159]LogEditorTransaction: Undo 코멘트 버블 비저빌리티
+[2019.08.15-11.29.35:431][211]LogEditorTransaction: Undo 노드 추가
+[2019.08.15-11.30.17:469][192]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.15-11.31.31:114][838]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BPCFC0A932465DF7272B1E3CB7A25437A9.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.31.32:168][961]BlueprintLog: New page: Peasant_BP 컴파일
+[2019.08.15-11.31.32:567][961]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2019.08.15-11.31.32:640][961]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BP776AD0F842EEF5A6399CC1A3B20171B7.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.31.32:990][994]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BPC1EEFB5640A069EBAB27D7A13E958A74.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.32.38:877][871]LogHotReload: New module detected: UE4Editor-BasicStudy-0051.dll
+[2019.08.15-11.32.39:862][907]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-11.32.39:952][907]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2019.08.15-11.32.39:954][907]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.32.39:977][907]LogClass: Could not find existing class King in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.32.39:977][907]LogClass: Function Die is new.
+[2019.08.15-11.32.40:130][907]LogClass: Status HotReload.
+[2019.08.15-11.32.40:140][907]LogHotReload: Re-instancing King after hot-reload.
+[2019.08.15-11.32.40:426][907]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.32.40:427][907]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 45 classes and 2 folders.
+[2019.08.15-11.32.40:436][907]Display: HotReload successful (23 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.32.40:534][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.08.15-11.32.40:536][907]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.32.40:557][907]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2778 classes and 663 folders.
+[2019.08.15-11.32.40:560][907]Display: HotReload took  0.7s.
+[2019.08.15-11.33.21:209][604]LogHotReload: New module detected: UE4Editor-BasicStudy-0052.dll
+[2019.08.15-11.33.22:155][638]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.15-11.33.22:257][638]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
+[2019.08.15-11.33.22:258][638]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
+[2019.08.15-11.33.22:281][638]LogClass: Could not find existing class King in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.15-11.33.22:281][638]LogClass: Function Die is new.
+[2019.08.15-11.33.22:456][638]LogClass: Status HotReload.
+[2019.08.15-11.33.22:466][638]LogHotReload: Re-instancing King after hot-reload.
+[2019.08.15-11.33.22:803][638]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
+[2019.08.15-11.33.22:804][638]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 45 classes and 2 folders.
+[2019.08.15-11.33.22:812][638]Display: HotReload successful (23 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.33.22:920][638]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2019.08.15-11.33.22:922][638]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.15-11.33.22:940][638]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2778 classes and 663 folders.
+[2019.08.15-11.33.22:942][638]Display: HotReload took  0.8s.
+[2019.08.15-11.35.00:568][948]BlueprintLog: New page: Peasant_BP 컴파일
+[2019.08.15-11.35.01:031][948]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2019.08.15-11.35.01:455][988]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BP01B8CB4C46EF1B8D1661D6BE937D001A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.35.08:297][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2019.08.15-11.35.11:721][126]Cmd: TRANSACTION UNDO
+[2019.08.15-11.35.11:721][126]LogEditorTransaction: Undo 액터 이동
+[2019.08.15-11.35.15:950][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.35.16:045][590]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2019.08.15-11.35.16:462][590]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelDA060E094B5A9B55F8DD0F95127F93AD.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.35.21:082][  9]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.15-11.35.21:539][ 58]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor5)
+[2019.08.15-11.35.22:835][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-11.35.24:277][355]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.08.15-11.35.24:672][355]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level958925944C27F801A5A3A5A418AF1AFA.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.42.07:613][147]LogEditor: Attempting to add actor of class 'King' to level at 820.00,5380.00,100.00
+[2019.08.15-11.42.08:862][270]LogEditor: Attempting to add actor of class 'King' to level at 20.00,5770.00,20.00
+[2019.08.15-11.42.11:339][531]Cmd: TRANSACTION UNDO
+[2019.08.15-11.42.11:339][531]LogEditorTransaction: Undo 액터 스케일
+[2019.08.15-11.42.13:412][708]Cmd: TRANSACTION UNDO
+[2019.08.15-11.42.13:412][708]LogEditorTransaction: Undo 액터 스케일
+[2019.08.15-11.42.29:210][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-11.42.35:332][ 29]LogEditorViewport: Clicking on Actor (LMB): King (King1)
+[2019.08.15-11.42.37:100][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2019.08.15-11.42.37:477][266]LogEditorViewport: Clicking on Actor (LMB): Peasant_BP_C (Peasant_BP)
+[2019.08.15-11.42.49:745][580]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.42.49:802][580]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2019.08.15-11.42.50:213][580]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level4DD4C30141EE97CCC10246953E72518C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.42.58:619][529]LogBlueprint: Warning: [Compiler ] 붙여넣은  CustomEvent  노드가  BeginPlay 이벤트  노드와 상충하여 커스텀 이벤트로 대체했습니다!
+[2019.08.15-11.43.03:730][135]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-11.43.04:563][228]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2019.08.15-11.43.23:325][416]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-11.43.23:753][465]LogEditorTransaction: Undo 노드 추가
+[2019.08.15-11.43.27:425][904]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-11.43.56:653][289]LogEditorTransaction: Undo 노드 이동
+[2019.08.15-11.43.57:138][346]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2019.08.15-11.44.10:759][928]BlueprintLog: New page: Level 컴파일
+[2019.08.15-11.44.11:097][928]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2019.08.15-11.44.12:140][ 47]LogEditorViewport: Clicking on Actor (LMB): King (King1)
+[2019.08.15-11.44.13:011][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.44.18:355][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-11.44.38:491][114]BlueprintLog: New page: Level 컴파일
+[2019.08.15-11.44.38:836][114]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2019.08.15-11.44.39:473][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.08.15-11.44.39:873][181]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level38395800479A8F768ACCD5991A8ECC0A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.44.39:898][181]LogFileHelpers: Saving map 'Level' took 0.483
+[2019.08.15-11.44.41:073][309]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.15-11.44.41:093][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.44.41:093][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-11.44.41:093][309]PIE: New page: PIE 세션: Level (Aug 16, 2019, 5:44:41 AM)
+[2019.08.15-11.44.41:093][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-11.44.41:099][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005453s)
+[2019.08.15-11.44.41:099][309]LogAIModule: Creating AISystem for world Level
+[2019.08.15-11.44.41:099][309]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2019.08.15-11.44.41:099][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006307s)
+[2019.08.15-11.44.41:152][309]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.08.15-11.44.41:254][309]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-11.44.41:307][309]LogInit: FAudioDevice initialized.
+[2019.08.15-11.44.41:340][309]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-11.44.41:342][309]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-20.44.41
+[2019.08.15-11.44.41:342][309]LogWorld: Bringing up level for play took: 0.001584
+[2019.08.15-11.44.41:356][309]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.089
+[2019.08.15-11.44.41:356][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.44.42:217][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.44.42:218][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-11.44.42:248][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-11.44.42:249][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.44.42:311][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-11.44.42:318][410]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.08.15-11.44.42:346][411]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.08.15-11.44.46:437][880]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor6)
+[2019.08.15-11.44.46:483][880]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.44.47:691][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.44.47:691][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-11.44.47:691][969]PIE: New page: PIE 세션: Level (Aug 16, 2019, 5:44:47 AM)
+[2019.08.15-11.44.47:691][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.15-11.44.47:697][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005458s)
+[2019.08.15-11.44.47:697][969]LogAIModule: Creating AISystem for world Level
+[2019.08.15-11.44.47:698][969]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2019.08.15-11.44.47:698][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006251s)
+[2019.08.15-11.44.47:752][969]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.08.15-11.44.47:862][969]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.15-11.44.47:917][969]LogInit: FAudioDevice initialized.
+[2019.08.15-11.44.47:918][969]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.44.47:945][969]LogLoad: Game class is 'InteracGameMode_BP_C'
+[2019.08.15-11.44.47:947][969]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.15-20.44.47
+[2019.08.15-11.44.47:947][969]LogWorld: Bringing up level for play took: 0.001627
+[2019.08.15-11.44.47:961][969]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.694
+[2019.08.15-11.44.47:961][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.45.12:969][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.45.12:969][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-11.45.13:001][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.15-11.45.13:001][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.15-11.45.13:054][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-11.45.13:061][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.08.15-11.45.13:090][867]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.08.15-11.45.13:584][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.15-11.45.13:640][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.08.15-11.45.14:042][922]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelCF94DFF1494EDE52BA3718AFF8617C5C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.45.18:697][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-11.51.43:022][746]BlueprintLog: New page: Peasant_BP 컴파일
+[2019.08.15-11.51.43:379][746]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2019.08.15-11.51.43:497][750]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Peasant_BP78267B904EB0103F322620ABB1DCA888.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/Peasant_BP.uasset'
+[2019.08.15-11.51.44:101][820]BlueprintLog: New page: Spotter_BP 컴파일
+[2019.08.15-11.51.44:468][820]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2019.08.15-11.51.45:316][919]BlueprintLog: New page: Level 컴파일
+[2019.08.15-11.51.45:671][919]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2019.08.15-11.51.45:809][927]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.08.15-11.51.46:204][927]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level1DB6CF2E4E38A01DC10C78A3DE5A9309.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.15-11.51.46:230][927]LogFileHelpers: Saving map 'Level' took 0.471
+[2019.08.15-11.51.47:692][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2019.08.15-11.51.48:880][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.08.15-11.51.53:899][767]LogSlate: FSceneViewport::OnFocusLost() reason 2

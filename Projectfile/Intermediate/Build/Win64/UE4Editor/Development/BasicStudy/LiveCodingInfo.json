@@ -35,6 +35,7 @@
 			"soldier.cpp.obj",
 			"SpawnBuliding.cpp.obj",
 			"SpawnCharacter.cpp.obj",
+			"Spotter.cpp.obj",
 			"Talker.cpp.obj",
 			"TalkingMesh.cpp.obj",
 			"TalkingPawn.cpp.obj",
@@ -45,7 +46,8 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"Spotter.cpp.obj"
+			"King.cpp.obj",
+			"Peasant.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -80,6 +82,7 @@
 			"soldier.gen.cpp.obj",
 			"SpawnBuliding.gen.cpp.obj",
 			"SpawnCharacter.gen.cpp.obj",
+			"Spotter.gen.cpp.obj",
 			"Talker.gen.cpp.obj",
 			"TalkingMesh.gen.cpp.obj",
 			"TalkingPawn.gen.cpp.obj",
@@ -91,7 +94,8 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"Spotter.gen.cpp.obj"
+			"King.gen.cpp.obj",
+			"Peasant.gen.cpp.obj"
 		]
 	}
 }

@@ -406,7 +406,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\InterfaceGameMode.h" />
     <ClCompile Include="..\..\Source\BasicStudy\Killable.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\Killable.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\King.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\King.h" />
     <ClInclude Include="..\..\Source\BasicStudy\MyFirstActor.h" />
     <ClCompile Include="..\..\Source\BasicStudy\MyInterface.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\MyInterface.h" />
@@ -418,7 +420,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\Openable.h" />
     <ClCompile Include="..\..\Source\BasicStudy\OrbitingMovementComponent.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\OrbitingMovementComponent.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\Peasant.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\PhysicsCube.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\Peasant.h" />
     <ClInclude Include="..\..\Source\BasicStudy\PhysicsCube.h" />
     <ClCompile Include="..\..\Source\BasicStudy\RandomMovementComponent.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h" />

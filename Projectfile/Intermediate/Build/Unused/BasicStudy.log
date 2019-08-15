@@ -2,17 +2,22 @@
   Invalidating makefile for BasicStudyEditor (working set of source files changed)
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 8.7233998 seconds
-  [Adaptive unity build] Excluded from BasicStudy unity file: Door.cpp, DoorBell.cpp, Interactable.cpp, InteractingPawn.cpp, Openable.cpp, Talker.cpp, TalkingMesh.cpp, TalkingPawn.cpp
-  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, Door.gen.cpp, DoorBell.gen.cpp, Interactable.gen.cpp, InteractingPawn.gen.cpp, Openable.gen.cpp, Talker.gen.cpp, TalkingMesh.gen.cpp, TalkingPawn.gen.cpp
+  Reflection code generated for BasicStudyEditor in 8.7987838 seconds
+  [Adaptive unity build] Excluded from BasicStudy unity file: TileType.cpp
+  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, TileType.gen.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Boots.cpp(1): error : Expected Boots.h to be first header included.
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Selectable.cpp(1): error : Expected Selectable.h to be first header included.
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] InteractingPawn.cpp
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(26): error C3867: 'TWeakObjectPtr<AActor,FWeakObjectPtr>::Get': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' 선언은 클래스 멤버를 숨깁니다.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' 선언을 참조하십시오.
-    [2/6] InteractingPawn.gen.cpp
-    [3/6] Module.BasicStudy.gen.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BasicStudyEditor Win64 Development -Project="C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
+  Building 7 actions with 16 processes...
+    [1/7] BasicStudy.init.gen.cpp
+    [2/7] TileType.cpp
+    [3/7] TileType.gen.cpp
+    [4/7] Module.BasicStudy.gen.cpp
+    [5/7] UE4Editor-BasicStudy-0035.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0035.lib
+    [6/7] UE4Editor-BasicStudy-0035.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0035.suppressed.lib
+    [7/7] BasicStudyEditor.target
+  Total time in Parallel executor: 3.53 seconds
+  Total execution time: 15.09 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BasicStudyEditor Win64 Development -Project="C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).

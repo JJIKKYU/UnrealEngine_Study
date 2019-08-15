@@ -4,8 +4,10 @@
 		"Module.BasicStudy.cpp.obj": [
 			"ActorSpawnerComponent.cpp.obj",
 			"AntiGravityVolme.cpp.obj",
+			"BaseEnemy.cpp.obj",
 			"BasicStudy.cpp.obj",
 			"BasicStudyGameModeBase.cpp.obj",
+			"Boots.cpp.obj",
 			"CookBookGameMode.cpp.obj",
 			"Door.cpp.obj",
 			"DoorBell.cpp.obj",
@@ -25,6 +27,7 @@
 			"OrbitingMovementComponent.cpp.obj",
 			"PhysicsCube.cpp.obj",
 			"RandomMovementComponent.cpp.obj",
+			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
 			"SingleInterfaceActor.cpp.obj",
 			"Snail.cpp.obj",
@@ -41,13 +44,12 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"BaseEnemy.cpp.obj",
-			"Boots.cpp.obj",
-			"Selectable.cpp.obj"
+			"SlidingDoor.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
 			"AntiGravityVolme.gen.cpp.obj",
+			"BaseEnemy.gen.cpp.obj",
 			"BasicStudyGameModeBase.gen.cpp.obj",
 			"Boots.gen.cpp.obj",
 			"CookBookGameMode.gen.cpp.obj",
@@ -86,8 +88,8 @@
 			"Warrior.gen.cpp.obj",
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
-			"BaseEnemy.gen.cpp.obj",
-			"BasicStudy.init.gen.cpp.obj"
+			"BasicStudy.init.gen.cpp.obj",
+			"SlidingDoor.gen.cpp.obj"
 		]
 	}
 }

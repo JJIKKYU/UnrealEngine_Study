@@ -428,7 +428,9 @@
     <ClInclude Include="..\..\Source\BasicStudy\SelectableCube.h" />
     <ClCompile Include="..\..\Source\BasicStudy\SingleInterfaceActor.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\SingleInterfaceActor.h" />
+    <ClCompile Include="..\..\Source\BasicStudy\SlidingDoor.cpp" />
     <ClCompile Include="..\..\Source\BasicStudy\Snail.cpp" />
+    <ClInclude Include="..\..\Source\BasicStudy\SlidingDoor.h" />
     <ClInclude Include="..\..\Source\BasicStudy\Snail.h" />
     <ClCompile Include="..\..\Source\BasicStudy\soldier.cpp" />
     <ClInclude Include="..\..\Source\BasicStudy\soldier.h" />

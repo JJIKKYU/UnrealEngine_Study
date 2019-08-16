@@ -12,6 +12,15 @@
 				"CoreUObject",
 				"Engine"
 			]
+		},
+		{
+			"Name" : "BasicStudyEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit",
+			"AdditionalDependencies" : [
+				"Engine",
+				"CourUObject"
+			]
 		}
 	]
 }

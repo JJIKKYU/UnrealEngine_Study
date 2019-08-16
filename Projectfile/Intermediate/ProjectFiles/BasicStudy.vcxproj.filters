@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C2CAB08A-8277-4B70-A801-0A5AED3E570A}</UniqueIdentifier>
+      <UniqueIdentifier>{663A8147-2934-4B0D-BFB7-290271A662FB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C40BCEAF-D129-47C9-9380-C3C8B915BD02}</UniqueIdentifier>
+      <UniqueIdentifier>{F6E0D745-905B-45A1-976F-971A2304A942}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,8 +26,20 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Source\BasicStudyEditor">
+      <UniqueIdentifier>{6CF95468-D93B-449E-9051-B9D4C1833BF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.Build.cs">
+      <Filter>Source\BasicStudyEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.cpp">
+      <Filter>Source\BasicStudyEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.h">
+      <Filter>Source\BasicStudyEditor</Filter>
+    </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{6A23A537-4634-4F06-8E59-78389A21E4E9}</UniqueIdentifier>
+      <UniqueIdentifier>{06D5BF07-1B0B-4042-B849-460DB6122A26}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -162,6 +174,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\NonSelectableCube.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\OnConstructionActor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\OnConstructionActor.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Openable.cpp">

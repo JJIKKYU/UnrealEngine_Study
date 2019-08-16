@@ -470,6 +470,9 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.Build.cs"/>
+    <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.cpp"/>
+    <ClInclude Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp"/>
     <ClInclude Include="..\..\Source\BasicStudy\ActorSpawnerComponent.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\AntiGravityVolme.cpp"/>
@@ -515,6 +518,8 @@
     <ClInclude Include="..\..\Source\BasicStudy\MyWarrior.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\NonSelectableCube.cpp"/>
     <ClInclude Include="..\..\Source\BasicStudy\NonSelectableCube.h"/>
+    <ClCompile Include="..\..\Source\BasicStudy\OnConstructionActor.cpp"/>
+    <ClInclude Include="..\..\Source\BasicStudy\OnConstructionActor.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\Openable.cpp"/>
     <ClInclude Include="..\..\Source\BasicStudy\Openable.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\OrbitingMovementComponent.cpp"/>

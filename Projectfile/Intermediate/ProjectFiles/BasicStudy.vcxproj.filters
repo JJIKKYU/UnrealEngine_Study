@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AFF1699F-53A5-42C5-93C7-D2EF9C54AC86}</UniqueIdentifier>
+      <UniqueIdentifier>{C2CAB08A-8277-4B70-A801-0A5AED3E570A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5C34F3B2-03BB-4C82-8287-ACC03AE28D7B}</UniqueIdentifier>
+      <UniqueIdentifier>{C40BCEAF-D129-47C9-9380-C3C8B915BD02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{2A763C01-E833-4749-A4B4-F457B7350629}</UniqueIdentifier>
+      <UniqueIdentifier>{6A23A537-4634-4F06-8E59-78389A21E4E9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\AntiGravityVolme.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\BaseEnemy.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <None Include="..\..\Source\BasicStudy\BasicStudy.Build.cs">
@@ -128,6 +134,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\Killable.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\King.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\King.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\MyFirstActor.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -164,10 +176,28 @@
     <ClInclude Include="..\..\Source\BasicStudy\OrbitingMovementComponent.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Peasant.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Peasant.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\PhysicsCube.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\PhysicsCube.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\PostEditChangePropertyActor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\PostEditChangePropertyActor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\PropertySpecifierActor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\PropertySpecifierActor.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\RandomMovementComponent.cpp">
@@ -194,6 +224,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\SingleInterfaceActor.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\SlidingDoor.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\SlidingDoor.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Snail.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -218,6 +254,12 @@
     <ClInclude Include="..\..\Source\BasicStudy\SpawnCharacter.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Spotter.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Spotter.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Talker.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -240,6 +282,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\TileType.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\Tree.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\Tree.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\UE4CookBookGameMode.cpp">
@@ -278,51 +326,5 @@
     <ClInclude Include="..\..\Source\BasicStudy\Zombie.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BasicStudy\BaseEnemy.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\SlidingDoor.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\Spotter.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\King.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\Peasant.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\Tree.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\PropertySpecifierActor.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\SlidingDoor.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\Spotter.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\King.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\Peasant.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\Tree.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\PropertySpecifierActor.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

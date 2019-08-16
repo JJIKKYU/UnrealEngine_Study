@@ -28,6 +28,7 @@
 			"OrbitingMovementComponent.cpp.obj",
 			"Peasant.cpp.obj",
 			"PhysicsCube.cpp.obj",
+			"PropertySpecifierActor.cpp.obj",
 			"RandomMovementComponent.cpp.obj",
 			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
@@ -49,7 +50,7 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"PropertySpecifierActor.cpp.obj"
+			"PostEditChangePropertyActor.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -77,6 +78,7 @@
 			"OrbitingMovementComponent.gen.cpp.obj",
 			"Peasant.gen.cpp.obj",
 			"PhysicsCube.gen.cpp.obj",
+			"PropertySpecifierActor.gen.cpp.obj",
 			"RandomMovementComponent.gen.cpp.obj",
 			"Selectable.gen.cpp.obj",
 			"SelectableCube.gen.cpp.obj",
@@ -99,7 +101,7 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"PropertySpecifierActor.gen.cpp.obj"
+			"PostEditChangePropertyActor.gen.cpp.obj"
 		]
 	}
 }

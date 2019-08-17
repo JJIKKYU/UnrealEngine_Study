@@ -32,12 +32,18 @@ public:
 		{
 			FSlateApplication::Get().AddWindow(BasicStudyWindow);
 		}
-	}
+	};
 
 	void AddToolbarExtension(FToolBarBuilder& builder)
 	{
 		FSlateIcon IconBrush = FSlateIcon(FEditorStyle::GetStyleSetName(), "LevelEditor.ViewOptions", "LevelEditor.ViewOptions.Small");
 
 		builder.AddToolBarButton(FBasicStudyCommands::Get().MyButton, NAME_None, FText::FromString("My Button"), FText::FromString("Click me to display a message"), IconBrush, NAME_None);
-	}
+	};
+
+	void AddMenuExtension(FMenuBuilder& builder)
+	{
+		FSlateIcon IconBrush = FSlateIcon(FEditorStyle::GetStyleSetName(), "LevelEditor.ViewOptions", "LevelEditor.ViewOptions.Small");
+		builder.AddMenuEntry(FBasicStudyCommands::Get().MyButton);
+	};
 };

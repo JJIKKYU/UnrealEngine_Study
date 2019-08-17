@@ -1,23 +1,22 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
-  Creating makefile for BasicStudyEditor (ini files are newer than makefile)
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs : warning : Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 7.8986621 seconds
+  Reflection code generated for BasicStudyEditor in 8.0670875 seconds
+  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Binaries\Win64\UE4Editor-BasicStudy-0001.dll
+  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Binaries\Win64\UE4Editor-BasicStudyEditor-0001.dll
   Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0001.lib
+  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0001.lib
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 16 processes...
-    [1/8] UE4Editor-BasicStudy.lib
+  Building 7 actions with 16 processes...
+    [1/7] UE4Editor-BasicStudy.lib
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.lib
-    [2/8] UE4Editor-BasicStudy.dll
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.suppressed.lib
-    [3/8] PCH.BasicStudyEditor.cpp
-    [4/8] BasicStudyCommands.cpp
-    [5/8] BasicStudyEditor.cpp
-    [6/8] UE4Editor-BasicStudyEditor.lib
+    [2/7] PCH.BasicStudyEditor.cpp
+    [3/7] BasicStudyCommands.cpp
+    [4/7] BasicStudyEditor.cpp
+    [5/7] UE4Editor-BasicStudyEditor.lib
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.lib
-    [7/8] UE4Editor-BasicStudyEditor.dll
+    [6/7] UE4Editor-BasicStudyEditor.dll
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.suppressed.lib
-    [8/8] BasicStudyEditor.target
-  Total time in Parallel executor: 42.07 seconds
-  Total execution time: 52.28 seconds
+    [7/7] BasicStudyEditor.target
+  Total time in Parallel executor: 43.01 seconds
+  Total execution time: 51.97 seconds

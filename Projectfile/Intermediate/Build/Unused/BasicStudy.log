@@ -1,22 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
+  Creating makefile for BasicStudyEditor (no existing makefile)
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs : warning : Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 8.0670875 seconds
-  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Binaries\Win64\UE4Editor-BasicStudy-0001.dll
-  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Binaries\Win64\UE4Editor-BasicStudyEditor-0001.dll
-  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0001.lib
-  Deleted hot-reload file: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0001.lib
+  Reflection code generated for BasicStudyEditor in 8.7802317 seconds
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] UE4Editor-BasicStudy.lib
+  Building 11 actions with 16 processes...
+    [1/11] SharedPCH.Engine.cpp
+    [2/11] Module.BasicStudy.gen.cpp
+    [3/11] Module.BasicStudy.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' 선언은 클래스 멤버를 숨깁니다.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' 선언을 참조하십시오.
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' 선언은 클래스 멤버를 숨깁니다.
+    C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' 선언을 참조하십시오.
+    [4/11] UE4Editor-BasicStudy.lib
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.lib
-    [2/7] PCH.BasicStudyEditor.cpp
-    [3/7] BasicStudyCommands.cpp
-    [4/7] BasicStudyEditor.cpp
-    [5/7] UE4Editor-BasicStudyEditor.lib
+    [5/11] UE4Editor-BasicStudy.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.suppressed.lib
+    [6/11] PCH.BasicStudyEditor.cpp
+    [7/11] BasicStudyCommands.cpp
+    [8/11] BasicStudyEditor.cpp
+    [9/11] UE4Editor-BasicStudyEditor.lib
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.lib
-    [6/7] UE4Editor-BasicStudyEditor.dll
+    [10/11] UE4Editor-BasicStudyEditor.dll
        C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.suppressed.lib
-    [7/7] BasicStudyEditor.target
-  Total time in Parallel executor: 43.01 seconds
-  Total execution time: 51.97 seconds
+    [11/11] BasicStudyEditor.target
+  Total time in Parallel executor: 44.58 seconds
+  Total execution time: 55.77 seconds

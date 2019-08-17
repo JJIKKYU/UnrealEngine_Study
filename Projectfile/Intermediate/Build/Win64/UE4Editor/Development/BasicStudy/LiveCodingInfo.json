@@ -24,6 +24,7 @@
 			"MyInterface.cpp.obj",
 			"MyWarrior.cpp.obj",
 			"NonSelectableCube.cpp.obj",
+			"OnConstructionActor.cpp.obj",
 			"Openable.cpp.obj",
 			"OrbitingMovementComponent.cpp.obj",
 			"Peasant.cpp.obj",
@@ -50,13 +51,13 @@
 			"UserProfile.cpp.obj",
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
-			"Zombie.cpp.obj",
-			"OnConstructionActor.cpp.obj"
+			"Zombie.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
 			"AntiGravityVolme.gen.cpp.obj",
 			"BaseEnemy.gen.cpp.obj",
+			"BasicStudy.init.gen.cpp.obj",
 			"BasicStudyGameModeBase.gen.cpp.obj",
 			"Boots.gen.cpp.obj",
 			"CookBookGameMode.gen.cpp.obj",
@@ -75,6 +76,7 @@
 			"MyInterface.gen.cpp.obj",
 			"MyWarrior.gen.cpp.obj",
 			"NonSelectableCube.gen.cpp.obj",
+			"OnConstructionActor.gen.cpp.obj",
 			"Openable.gen.cpp.obj",
 			"OrbitingMovementComponent.gen.cpp.obj",
 			"Peasant.gen.cpp.obj",
@@ -101,9 +103,7 @@
 			"UserProfile.gen.cpp.obj",
 			"Warrior.gen.cpp.obj",
 			"Wearable.gen.cpp.obj",
-			"Zombie.gen.cpp.obj",
-			"BasicStudy.init.gen.cpp.obj",
-			"OnConstructionActor.gen.cpp.obj"
+			"Zombie.gen.cpp.obj"
 		]
 	}
 }

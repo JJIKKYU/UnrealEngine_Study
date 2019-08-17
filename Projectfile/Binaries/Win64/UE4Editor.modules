@@ -2,6 +2,7 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-		"BasicStudy": "UE4Editor-BasicStudy-0003.dll"
+		"BasicStudy": "UE4Editor-BasicStudy.dll",
+		"BasicStudyEditor": "UE4Editor-BasicStudyEditor.dll"
 	}
 }

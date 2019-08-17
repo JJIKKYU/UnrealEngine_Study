@@ -9,6 +9,6 @@ public class BasicStudyEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "BasicStudy" } );
-	}
+        ExtraModuleNames.AddRange(new string[] { "BasicStudyEditor" });
+    }
 }

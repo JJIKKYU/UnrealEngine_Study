@@ -500,11 +500,11 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudy.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudyEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudy.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudyEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1826,6 +1826,14 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-GeometryCollectionEngine.dll",
 			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudy.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BasicStudy.pdb",
+			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/dxil.dll",

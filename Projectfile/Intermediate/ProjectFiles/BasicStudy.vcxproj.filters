@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B8F9F1CB-8B18-4818-92DA-425F16A53996}</UniqueIdentifier>
+      <UniqueIdentifier>{8F8008CB-9158-4F63-96E8-31075473228F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{57F8BB7F-AFEA-494D-B0CD-0B64DABF6A41}</UniqueIdentifier>
+      <UniqueIdentifier>{8ECEF268-3A61-4182-8585-FB517374D240}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudyEditor">
-      <UniqueIdentifier>{7A5DC5CC-FCA8-49DE-BBF0-55B193CD0B7B}</UniqueIdentifier>
+      <UniqueIdentifier>{541A75DD-3FED-424B-AE16-C6F15A921204}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.cpp">
+      <Filter>Source\BasicStudyEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.h">
+      <Filter>Source\BasicStudyEditor</Filter>
+    </ClInclude>
     <None Include="..\..\Source\BasicStudyEditor\BasicStudyEditor.Build.cs">
       <Filter>Source\BasicStudyEditor</Filter>
     </None>
@@ -39,7 +45,7 @@
       <Filter>Source\BasicStudyEditor</Filter>
     </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{B30BC73F-D9D2-41DF-BB6C-61A1B9B70040}</UniqueIdentifier>
+      <UniqueIdentifier>{0A9E6A55-793E-4C91-88C1-65BA6DDB9A26}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>

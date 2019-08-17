@@ -1,0 +1,9 @@
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\AssetThumbnail.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorManager.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h

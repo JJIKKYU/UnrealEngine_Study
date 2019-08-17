@@ -2407,3 +2407,5 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEdMessages\Classes\FileServerMessages.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages\FileServerMessages.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\EditorAnalytics.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\MainFrame\Public\Interfaces/IMainFrameModule.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyCommands.h

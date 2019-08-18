@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5B18FFCF-57D7-4476-A1CF-5337CCC11777}</UniqueIdentifier>
+      <UniqueIdentifier>{1942FF26-0933-4788-80AF-A4BFFCDE155F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C08FCD03-F617-49CF-A334-2E253AE274BE}</UniqueIdentifier>
+      <UniqueIdentifier>{C9B23088-7F66-4009-A41C-D3E2D8A876FD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudyEditor">
-      <UniqueIdentifier>{B0C14928-FC4E-4EA1-B934-33FC0FC49D40}</UniqueIdentifier>
+      <UniqueIdentifier>{0E20250B-37A0-46C3-8EDE-31232C4AC672}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.cpp">
       <Filter>Source\BasicStudyEditor</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BasicStudyEditor</Filter>
     </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{CD0F2247-745A-437E-AD31-334F9454A85A}</UniqueIdentifier>
+      <UniqueIdentifier>{6A3A15FD-C450-4308-87C1-416391C3641A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -90,6 +90,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomHUDGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomHUDGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Door.cpp">
@@ -350,5 +356,15 @@
     <ClInclude Include="..\..\Source\BasicStudy\Zombie.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomHUD.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomHUD.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

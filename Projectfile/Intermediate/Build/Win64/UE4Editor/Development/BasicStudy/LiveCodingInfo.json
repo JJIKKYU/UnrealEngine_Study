@@ -51,13 +51,14 @@
 			"UserProfile.cpp.obj",
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
-			"Zombie.cpp.obj"
+			"Zombie.cpp.obj",
+			"CustomHUD.cpp.obj",
+			"CustomHUDGameMode.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
 			"AntiGravityVolme.gen.cpp.obj",
 			"BaseEnemy.gen.cpp.obj",
-			"BasicStudy.init.gen.cpp.obj",
 			"BasicStudyGameModeBase.gen.cpp.obj",
 			"Boots.gen.cpp.obj",
 			"CookBookGameMode.gen.cpp.obj",
@@ -103,7 +104,10 @@
 			"UserProfile.gen.cpp.obj",
 			"Warrior.gen.cpp.obj",
 			"Wearable.gen.cpp.obj",
-			"Zombie.gen.cpp.obj"
+			"Zombie.gen.cpp.obj",
+			"BasicStudy.init.gen.cpp.obj",
+			"CustomHUD.gen.cpp.obj",
+			"CustomHUDGameMode.gen.cpp.obj"
 		]
 	}
 }

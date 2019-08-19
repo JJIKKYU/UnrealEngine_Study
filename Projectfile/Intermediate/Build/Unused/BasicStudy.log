@@ -1,26 +1,26 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
-  Creating makefile for BasicStudyEditor (ini files are newer than makefile)
+  Invalidating makefile for BasicStudyEditor (working set of source files changed)
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs : warning : Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
   Parsing headers for BasicStudyEditor
     Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BasicStudyEditor in 10.564811 seconds
-  [Adaptive unity build] Excluded from BasicStudy unity file: CustomHUDPlayerController.cpp, SlateHUDGameMode.cpp
-  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, CustomHUDPlayerController.gen.cpp, SlateHUDGameMode.gen.cpp
+  Reflection code generated for BasicStudyEditor in 9.5473293 seconds
+  [Adaptive unity build] Excluded from BasicStudy unity file: ScalingUIGameMode.cpp, ScalingUIPlayerController.cpp
+  [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, ScalingUIGameMode.gen.cpp, ScalingUIPlayerController.gen.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1): error : Expected SlateHUDGameMode.h to be first header included.
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 8 actions with 16 processes...
-    [1/8] UE4Editor-BasicStudyEditor-0009.lib
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0009.lib
-    [2/8] SlateHUDGameMode.cpp
-    [3/8] SlateHUDGameMode.gen.cpp
+    [1/8] UE4Editor-BasicStudyEditor-0013.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0013.lib
+    [2/8] ScalingUIGameMode.cpp
+    [3/8] ScalingUIGameMode.gen.cpp
     [4/8] Module.BasicStudy.gen.cpp
-    [5/8] UE4Editor-BasicStudy-0009.lib
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0009.lib
-    [6/8] UE4Editor-BasicStudy-0009.dll
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0009.suppressed.lib
-    [7/8] UE4Editor-BasicStudyEditor-0009.dll
-       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0009.suppressed.lib
+    [5/8] UE4Editor-BasicStudy-0013.lib
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0013.lib
+    [6/8] UE4Editor-BasicStudy-0013.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-0013.suppressed.lib
+    [7/8] UE4Editor-BasicStudyEditor-0013.dll
+       C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0013.suppressed.lib
     [8/8] BasicStudyEditor.target
-  Total time in Parallel executor: 7.12 seconds
-  Total execution time: 21.14 seconds
+  Total time in Parallel executor: 4.42 seconds
+  Total execution time: 17.04 seconds
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BasicStudyEditor Win64 Development -Project="C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).

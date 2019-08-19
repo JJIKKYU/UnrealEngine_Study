@@ -11,6 +11,7 @@
 			"CookBookGameMode.cpp.obj",
 			"CustomHUD.cpp.obj",
 			"CustomHUDGameMode.cpp.obj",
+			"CustomHUDPlayerController.cpp.obj",
 			"Door.cpp.obj",
 			"DoorBell.cpp.obj",
 			"FirstGameState.cpp.obj",
@@ -37,6 +38,7 @@
 			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
 			"SingleInterfaceActor.cpp.obj",
+			"SlateHUDGameMode.cpp.obj",
 			"SlidingDoor.cpp.obj",
 			"Snail.cpp.obj",
 			"soldier.cpp.obj",
@@ -54,8 +56,8 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"CustomHUDPlayerController.cpp.obj",
-			"SlateHUDGameMode.cpp.obj"
+			"ScalingUIGameMode.cpp.obj",
+			"ScalingUIPlayerController.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -66,6 +68,7 @@
 			"CookBookGameMode.gen.cpp.obj",
 			"CustomHUD.gen.cpp.obj",
 			"CustomHUDGameMode.gen.cpp.obj",
+			"CustomHUDPlayerController.gen.cpp.obj",
 			"Door.gen.cpp.obj",
 			"DoorBell.gen.cpp.obj",
 			"FirstGameState.gen.cpp.obj",
@@ -92,6 +95,7 @@
 			"Selectable.gen.cpp.obj",
 			"SelectableCube.gen.cpp.obj",
 			"SingleInterfaceActor.gen.cpp.obj",
+			"SlateHUDGameMode.gen.cpp.obj",
 			"SlidingDoor.gen.cpp.obj",
 			"Snail.gen.cpp.obj",
 			"soldier.gen.cpp.obj",
@@ -110,8 +114,8 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"CustomHUDPlayerController.gen.cpp.obj",
-			"SlateHUDGameMode.gen.cpp.obj"
+			"ScalingUIGameMode.gen.cpp.obj",
+			"ScalingUIPlayerController.gen.cpp.obj"
 		]
 	}
 }

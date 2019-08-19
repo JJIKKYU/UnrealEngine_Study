@@ -375,4 +375,20 @@
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIPlayerController.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIPlayerController.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

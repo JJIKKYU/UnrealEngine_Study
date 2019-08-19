@@ -9,6 +9,8 @@
 			"BasicStudyGameModeBase.cpp.obj",
 			"Boots.cpp.obj",
 			"CookBookGameMode.cpp.obj",
+			"CustomHUD.cpp.obj",
+			"CustomHUDGameMode.cpp.obj",
 			"Door.cpp.obj",
 			"DoorBell.cpp.obj",
 			"FirstGameState.cpp.obj",
@@ -52,8 +54,8 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"CustomHUD.cpp.obj",
-			"CustomHUDGameMode.cpp.obj"
+			"CustomHUDPlayerController.cpp.obj",
+			"SlateHUDGameMode.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -62,6 +64,8 @@
 			"BasicStudyGameModeBase.gen.cpp.obj",
 			"Boots.gen.cpp.obj",
 			"CookBookGameMode.gen.cpp.obj",
+			"CustomHUD.gen.cpp.obj",
+			"CustomHUDGameMode.gen.cpp.obj",
 			"Door.gen.cpp.obj",
 			"DoorBell.gen.cpp.obj",
 			"FirstGameState.gen.cpp.obj",
@@ -106,8 +110,8 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"CustomHUD.gen.cpp.obj",
-			"CustomHUDGameMode.gen.cpp.obj"
+			"CustomHUDPlayerController.gen.cpp.obj",
+			"SlateHUDGameMode.gen.cpp.obj"
 		]
 	}
 }

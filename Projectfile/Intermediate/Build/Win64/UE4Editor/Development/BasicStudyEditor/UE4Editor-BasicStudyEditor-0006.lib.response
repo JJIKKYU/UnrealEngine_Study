@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BasicStudyEditor-0006.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\PCH.BasicStudyEditor.h.obj"
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\BasicStudyCommands.cpp.obj"
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\BasicStudyEditor.cpp.obj"
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\Default.rc2.res"
+/OUT:"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor-0006.lib"
+/INCLUDE:IMPLEMENT_MODULE_BasicStudyEditor

@@ -6,6 +6,8 @@
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\BasicStudyGameModeBase.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Boots.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\CookBookGameMode.cpp"
+#include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\CustomHUD.cpp"
+#include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\CustomHUDGameMode.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\Door.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\DoorBell.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\FirstGameState.cpp"

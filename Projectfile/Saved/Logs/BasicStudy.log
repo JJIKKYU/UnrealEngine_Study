@@ -773,3 +773,120 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.20-14.18.27:211][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.08.20-14.18.27:214][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2019.08.20-14.18.27:241][130]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.08.20-14.23.01:171][995]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject" -game -rocket -progress
+[2019.08.20-14.23.01:680][995]Discovering modules, targets and source code for project...
+[2019.08.20-14.23.05:113][995]Binding IntelliSense data...
+[2019.08.20-14.23.07:035][995]C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
+[2019.08.20-14.23.07:138][995]Binding IntelliSense data... 100%
+[2019.08.20-14.23.07:138][995]Writing project files...
+[2019.08.20-14.23.11:378][995]Writing project files... 100%
+[2019.08.20-14.23.11:485][995]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.08.20-14.23.11:488][995]Candidate modules for hot reload:
+[2019.08.20-14.23.11:488][995]  BasicStudy
+[2019.08.20-14.23.11:489][995]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,8543 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.20-14.23.29:784][995]CompilerResultsLog: New page: 컴파일 - Aug 21, 2019, 8:23:29 AM
+[2019.08.20-14.23.29:784][995]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy).
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Creating makefile for BasicStudyEditor (no existing makefile)
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 7.9463901 seconds
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: AtributeGameMode.cpp
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1) : error: Expected SlateHUDGameMode.h to be first header included.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [1/6] AtributeGameMode.cpp
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [2/6] Module.BasicStudy.gen.cpp
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [3/6] Module.BasicStudy.cpp
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [4/6] UE4Editor-BasicStudy-8543.lib
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8543.lib
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [5/6] UE4Editor-BasicStudy-8543.dll
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-8543.suppressed.lib
+[2019.08.20-14.23.29:785][995]CompilerResultsLog:   [6/6] BasicStudyEditor.target
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Total time in Parallel executor: 7.83 seconds
+[2019.08.20-14.23.29:785][995]CompilerResultsLog: Total execution time: 18.17 seconds
+[2019.08.20-14.23.29:785][995]LogMainFrame: MainFrame: Module compiling took 18.300 seconds
+[2019.08.20-14.23.29:826][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.08.20-14.23.29:858][995]LogClass: Could not find existing class AtributeGameMode in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.20-14.23.29:937][995]LogClass: ETreeType HotReload.
+[2019.08.20-14.23.29:938][995]LogClass: Status HotReload.
+[2019.08.20-14.23.29:969][995]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 57 classes and 2 folders.
+[2019.08.20-14.23.29:972][995]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.20-14.23.30:035][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.08.20-14.23.30:050][995]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2790 classes and 663 folders.
+[2019.08.20-14.23.30:050][995]Display: HotReload took 18.6s.
+[2019.08.20-14.23.30:052][995]Warning: HotReload operation took 18.6s.
+[2019.08.20-14.23.30:075][995]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.20-14.23.30:090][995]LogHotReload: New module detected: UE4Editor-BasicStudy-8543.dll
+[2019.08.20-14.23.30:161][996]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.20-14.23.30:236][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.08.20-14.23.30:242][996]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 57 classes and 2 folders.
+[2019.08.20-14.23.30:245][996]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.20-14.23.30:279][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.08.20-14.23.30:295][996]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2790 classes and 663 folders.
+[2019.08.20-14.23.30:299][996]Display: HotReload took  0.1s.
+[2019.08.20-14.24.44:892][930]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.128 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.20-14.29.54:891][  3]LogHotReload: New module detected: UE4Editor-BasicStudy-0004.dll
+[2019.08.20-14.29.56:144][ 39]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.20-14.29.56:191][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.08.20-14.29.56:198][ 39]LogClass: Could not find existing class AtributeGameMode in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.20-14.29.56:303][ 39]LogClass: ETreeType HotReload.
+[2019.08.20-14.29.56:303][ 39]LogClass: Status HotReload.
+[2019.08.20-14.29.56:307][ 39]LogHotReload: Re-instancing AtributeGameMode after hot-reload.
+[2019.08.20-14.29.56:425][ 39]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 57 classes and 2 folders.
+[2019.08.20-14.29.56:429][ 39]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.20-14.29.56:495][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.08.20-14.29.56:511][ 39]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2790 classes and 663 folders.
+[2019.08.20-14.29.56:516][ 39]Display: HotReload took  0.4s.
+[2019.08.20-14.30.00:937][419]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.20-14.30.03:745][732]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.20-14.30.03:756][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.30.03:756][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.20-14.30.03:756][732]PIE: New page: PIE 세션: Level (Aug 21, 2019, 8:30:03 AM)
+[2019.08.20-14.30.03:756][732]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.20-14.30.03:762][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006241s)
+[2019.08.20-14.30.03:763][732]LogAIModule: Creating AISystem for world Level
+[2019.08.20-14.30.03:763][732]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2019.08.20-14.30.03:763][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.007066s)
+[2019.08.20-14.30.03:800][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.08.20-14.30.03:906][732]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.20-14.30.03:962][732]LogInit: FAudioDevice initialized.
+[2019.08.20-14.30.03:993][732]LogLoad: Game class is 'AtributeGameMode'
+[2019.08.20-14.30.03:995][732]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-23.30.03
+[2019.08.20-14.30.03:996][732]LogWorld: Bringing up level for play took: 0.002012
+[2019.08.20-14.30.04:009][732]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.30.04:009][732]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.30.04:009][732]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.30.04:010][732]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Redwood
+[2019.08.20-14.30.04:010][732]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
+[2019.08.20-14.30.04:010][732]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Spruce
+[2019.08.20-14.30.04:010][732]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.30.04:010][732]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.062
+[2019.08.20-14.30.04:010][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.30.14:265][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.20-14.30.14:862][923]Cmd: SELECT NONE
+[2019.08.20-14.30.15:835][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.30.15:836][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.30.15:862][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.20-14.30.15:863][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.30.15:906][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.30.15:909][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.08.20-14.30.15:937][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.08.20-14.32.08:074][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.20-14.32.09:058][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.08.20-14.32.09:864][536]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.08.20-14.32.09:924][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.08.20-14.32.10:120][536]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/LevelBE01EB6941B3E7F16B696086FF6BF320.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/Level.umap'
+[2019.08.20-14.32.10:140][536]LogFileHelpers: Saving map 'Level' took 0.256

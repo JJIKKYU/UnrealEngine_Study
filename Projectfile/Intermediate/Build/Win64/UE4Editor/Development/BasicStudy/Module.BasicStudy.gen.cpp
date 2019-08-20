@@ -4,6 +4,7 @@
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\BaseEnemy.gen.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\BasicStudyGameModeBase.gen.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\Boots.gen.cpp"
+#include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ClickEventGameMode.gen.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CookBookGameMode.gen.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUD.gen.cpp"
 #include "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUDGameMode.gen.cpp"

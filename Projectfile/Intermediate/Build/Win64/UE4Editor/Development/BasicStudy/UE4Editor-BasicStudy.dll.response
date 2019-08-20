@@ -32,10 +32,10 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\ClickEventGameMode.cpp.obj"
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\AtributeGameMode.cpp.obj"
 "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Module.BasicStudy.cpp.obj"
+"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\AtributeGameMode.gen.cpp.obj"
 "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\BasicStudy.init.gen.cpp.obj"
-"C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\ClickEventGameMode.gen.cpp.obj"
 "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Module.BasicStudy.gen.cpp.obj"
 "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\Default.rc2.res"
 "delayimp.lib"

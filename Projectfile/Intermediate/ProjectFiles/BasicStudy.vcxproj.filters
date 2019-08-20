@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{25C5F565-22E5-4FEE-92B8-4091B6B10BBD}</UniqueIdentifier>
+      <UniqueIdentifier>{B688C710-20C7-48B1-A66C-B5E931E72348}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{98C6809F-082B-4374-8C34-9AE3F315A45C}</UniqueIdentifier>
+      <UniqueIdentifier>{2B4BC1B1-085C-4666-AEA7-355CB0B25866}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudyEditor">
-      <UniqueIdentifier>{96902926-FDF0-4D29-96EC-F4A9C3D22CC5}</UniqueIdentifier>
+      <UniqueIdentifier>{D23065DB-51B2-4C42-8158-F49D04039B8D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.cpp">
       <Filter>Source\BasicStudyEditor</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BasicStudyEditor</Filter>
     </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{CAC85C25-2CA2-41B8-9EAC-EE3067329E9A}</UniqueIdentifier>
+      <UniqueIdentifier>{6B747F0B-CED7-4672-8F4D-2DD52458A4D9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -57,6 +57,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\AntiGravityVolme.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\AtributeGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\AtributeGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\BaseEnemy.cpp">

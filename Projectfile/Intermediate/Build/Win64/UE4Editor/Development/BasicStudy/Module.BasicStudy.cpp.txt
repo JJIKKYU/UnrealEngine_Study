@@ -28,36 +28,11 @@ C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\Wearable.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\Wearable.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\Boots.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CookBookGameMode.cpp
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CookBookGameMode.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CookBookGameMode.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\MyFirstActor.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\MyFirstActor.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUD.cpp
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUD.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUD.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDGameMode.cpp
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDGameMode.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUDGameMode.generated.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDPlayerController.cpp
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDPlayerController.h
-C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUDPlayerController.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\ClickEventGameMode.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\ClickEventGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ClickEventGameMode.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\SlateBasics.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
@@ -248,6 +223,36 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/I
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSlider.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CookBookGameMode.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CookBookGameMode.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CookBookGameMode.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\MyFirstActor.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\MyFirstActor.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUD.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUD.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDGameMode.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDGameMode.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUDGameMode.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDPlayerController.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\CustomHUDPlayerController.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CustomHUDPlayerController.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\Door.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\Door.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
@@ -333,8 +338,6 @@ C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\RandomMovementComponent.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\ScalingUIGameMode.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\ScalingUIGameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ScalingUIGameMode.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\ScalingUIPlayerController.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ScalingUIPlayerController.generated.h

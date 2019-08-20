@@ -22,6 +22,11 @@ C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\Wearable.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\Wearable.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\Boots.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ClickEventGameMode.gen.cpp
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy/ClickEventGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ClickEventGameMode.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CookBookGameMode.gen.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy/CookBookGameMode.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\CookBookGameMode.generated.h
@@ -128,8 +133,6 @@ C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\RandomMovementComponent.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ScalingUIGameMode.gen.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy/ScalingUIGameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ScalingUIGameMode.generated.h
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Inc\BasicStudy\ScalingUIPlayerController.gen.cpp
 C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy/ScalingUIPlayerController.h

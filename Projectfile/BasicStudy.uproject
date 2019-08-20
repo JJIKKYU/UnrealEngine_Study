@@ -3,20 +3,21 @@
 	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
-  "Modules": [
-    {
-      "Name": "BasicStudy",
-      "Type": "Runtime",
-      "LoadingPhase": "Default",
-      "AdditionalDependencies": [
-        "CoreUObject",
-        "Engine"
-      ]
-    },
-    {
-      "Name": "BasicStudyEditor",
-      "Type": "Editor",
-      "LoadingPhase": "PostEngineInit"
-    }
-  ]
+	"Modules": [
+		{
+			"Name": "BasicStudy",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine",
+				"UMG"
+			]
+		},
+		{
+			"Name": "BasicStudyEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
 }

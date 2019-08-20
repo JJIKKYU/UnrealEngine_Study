@@ -11,6 +11,8 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBasicStudy_init() {}
+	BASICSTUDY_API UFunction* Z_Construct_UDelegateFunction_BasicStudy_GetString__DelegateSignature();
+	BASICSTUDY_API UFunction* Z_Construct_UDelegateFunction_BasicStudy_ButtonClicked__DelegateSignature();
 	BASICSTUDY_API UFunction* Z_Construct_UDelegateFunction_BasicStudy_OnKingDeathSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_BasicStudy()
 	{
@@ -18,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeBasicStudy_init() {}
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_BasicStudy_GetString__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_BasicStudy_ButtonClicked__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_BasicStudy_OnKingDeathSignature__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -25,8 +29,8 @@ void EmptyLinkFunctionForGeneratedCodeBasicStudy_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xF86B93E6,
-				0x2514CD51,
+				0x80E8BD37,
+				0x91C7320F,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

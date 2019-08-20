@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B688C710-20C7-48B1-A66C-B5E931E72348}</UniqueIdentifier>
+      <UniqueIdentifier>{FD56FB55-8C4C-493E-AD6E-623046E23EC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2B4BC1B1-085C-4666-AEA7-355CB0B25866}</UniqueIdentifier>
+      <UniqueIdentifier>{FDAB35BB-A765-4F76-86D9-172599C92932}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudyEditor">
-      <UniqueIdentifier>{D23065DB-51B2-4C42-8158-F49D04039B8D}</UniqueIdentifier>
+      <UniqueIdentifier>{5AE9FF6B-7875-473B-95D3-A7FED3BDA34C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.cpp">
       <Filter>Source\BasicStudyEditor</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BasicStudyEditor</Filter>
     </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{6B747F0B-CED7-4672-8F4D-2DD52458A4D9}</UniqueIdentifier>
+      <UniqueIdentifier>{619F0E99-19FC-4371-8577-856BAB1D7554}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -102,6 +102,18 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomButton.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomButton.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomButtonWidget.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomButtonWidget.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\CustomHUD.cpp">

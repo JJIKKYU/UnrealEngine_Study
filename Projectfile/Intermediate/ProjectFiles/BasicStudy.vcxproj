@@ -395,6 +395,10 @@
     <ClInclude Include="..\..\Source\BasicStudy\ClickEventGameMode.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp"/>
     <ClInclude Include="..\..\Source\BasicStudy\CookBookGameMode.h"/>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomButton.cpp"/>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomButton.h"/>
+    <ClCompile Include="..\..\Source\BasicStudy\CustomButtonWidget.cpp"/>
+    <ClInclude Include="..\..\Source\BasicStudy\CustomButtonWidget.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\CustomHUD.cpp"/>
     <ClInclude Include="..\..\Source\BasicStudy\CustomHUD.h"/>
     <ClCompile Include="..\..\Source\BasicStudy\CustomHUDGameMode.cpp"/>

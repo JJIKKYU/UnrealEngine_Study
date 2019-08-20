@@ -4,6 +4,7 @@
 		"Module.BasicStudy.cpp.obj": [
 			"ActorSpawnerComponent.cpp.obj",
 			"AntiGravityVolme.cpp.obj",
+			"AtributeGameMode.cpp.obj",
 			"BaseEnemy.cpp.obj",
 			"BasicStudy.cpp.obj",
 			"BasicStudyGameModeBase.cpp.obj",
@@ -59,11 +60,13 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"AtributeGameMode.cpp.obj"
+			"CustomButton.cpp.obj",
+			"CustomButtonWidget.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
 			"AntiGravityVolme.gen.cpp.obj",
+			"AtributeGameMode.gen.cpp.obj",
 			"BaseEnemy.gen.cpp.obj",
 			"BasicStudyGameModeBase.gen.cpp.obj",
 			"Boots.gen.cpp.obj",
@@ -118,8 +121,8 @@
 			"Warrior.gen.cpp.obj",
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
-			"AtributeGameMode.gen.cpp.obj",
-			"BasicStudy.init.gen.cpp.obj"
+			"BasicStudy.init.gen.cpp.obj",
+			"CustomButtonWidget.gen.cpp.obj"
 		]
 	}
 }

@@ -1,4 +1,4 @@
-﻿Log file open, 08/20/19 01:16:42
+﻿Log file open, 08/20/19 22:35:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: BasicStudy
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.894528
+LogStats: Stats thread started at 0.559153
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,6 +97,65 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: BasicStudy
+LogInit: Warning: Incompatible or missing module: BasicStudyEditor
+Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy).
+Creating makefile for BasicStudyEditor (no existing makefile)
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
+@progress push 5%
+Parsing headers for BasicStudyEditor
+  Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BasicStudyEditor in 8.0188661 seconds
+@progress pop
+C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1): error: Expected SlateHUDGameMode.h to be first header included.
+Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 13 actions with 16 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 8%
+  [1/13] Default.rc2
+  @progress 'Compiling C++ source code...' 15%
+  [2/13] Default.rc2
+  @progress 'Compiling C++ source code...' 23%
+  [3/13] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 31%
+  [4/13] Module.BasicStudy.gen.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [5/13] Module.BasicStudy.cpp
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
+  C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
+  @progress 'Compiling C++ source code...' 46%
+  [6/13] UE4Editor-BasicStudy.lib
+     C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.lib
+  @progress 'Compiling C++ source code...' 54%
+  [7/13] UE4Editor-BasicStudy.dll
+     C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy.suppressed.lib
+  @progress 'Compiling C++ source code...' 62%
+  [8/13] PCH.BasicStudyEditor.cpp
+  @progress 'Compiling C++ source code...' 69%
+  [9/13] BasicStudyCommands.cpp
+  @progress 'Compiling C++ source code...' 77%
+  [10/13] BasicStudyEditor.cpp
+  @progress 'Compiling C++ source code...' 85%
+  [11/13] UE4Editor-BasicStudyEditor.lib
+     C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.lib
+  @progress 'Compiling C++ source code...' 92%
+  [12/13] UE4Editor-BasicStudyEditor.dll
+     C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudyEditor\UE4Editor-BasicStudyEditor.suppressed.lib
+  @progress 'Compiling C++ source code...' 100%
+  [13/13] BasicStudyEditor.target
+Total time in Parallel executor: 45.29 seconds
+Total execution time: 55.59 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -156,826 +215,561 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.19-16.16.43:464][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.19-16.16.43:465][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:465][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:479][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.19-16.16.43:479][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.19-16.16.43:480][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:480][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.19-16.16.43:481][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.19-16.16.43:481][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.19-16.16.43:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.19-16.16.43:498][  0]LogHAL: Display: Platform has ~ 32 GB [34291081216 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.19-16.16.43:498][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.08.19-16.16.43:498][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.19-16.16.43:499][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.19-16.16.43:499][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Scalability.ini]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.19-16.16.43:500][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.19-16.16.43:501][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.19-16.16.43:501][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.08.19-16.16.43:501][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Config/Windows/Engine.ini]
-[2019.08.19-16.16.43:501][  0]LogInit: Computer: JJIKKYU
-[2019.08.19-16.16.43:501][  0]LogInit: User: JJiKKYU
-[2019.08.19-16.16.43:501][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.08.19-16.16.43:501][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.08.19-16.16.43:501][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.08.19-16.16.43:501][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.19-16.16.43:501][  0]LogMemory: Process Physical Memory: 100.34 MB used, 100.34 MB peak
-[2019.08.19-16.16.43:501][  0]LogMemory: Process Virtual Memory: 90.84 MB used, 90.84 MB peak
-[2019.08.19-16.16.43:501][  0]LogMemory: Physical Memory: 8493.54 MB used,  24208.99 MB free, 32702.52 MB total
-[2019.08.19-16.16.43:501][  0]LogMemory: Virtual Memory: 4677.02 MB used,  134213048.00 MB free, 134217728.00 MB total
-[2019.08.19-16.16.43:651][  0]LogInit: Overriding language with editor language configuration option (ko).
-[2019.08.19-16.16.43:651][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2019.08.19-16.16.43:651][  0]LogInit: Using OS detected locale (en-US).
-[2019.08.19-16.16.43:796][  0]LogInit: Setting process to per monitor DPI aware
-[2019.08.19-16.16.43:894][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.19-16.16.43:894][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.19-16.16.44:520][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.19-16.16.44:520][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.19-16.16.44:645][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.08.19-16.16.44:645][  0]LogD3D11RHI:       6052/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.08.19-16.16.44:649][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.19-16.16.44:649][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.19-16.16.44:649][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.19-16.16.44:660][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.19-16.16.44:660][  0]LogD3D11RHI:     GPU DeviceId: 0x1c06 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.19-16.16.44:660][  0]LogWindows: EnumDisplayDevices:
-[2019.08.19-16.16.44:660][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.08.19-16.16.44:661][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2019.08.19-16.16.44:662][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.08.19-16.16.44:664][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.08.19-16.16.44:664][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.08.19-16.16.44:664][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.08.19-16.16.44:664][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
-[2019.08.19-16.16.44:664][  0]LogD3D11RHI:      Driver Date: 7-17-2019
-[2019.08.19-16.16.44:664][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.08.19-16.16.44:726][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.19-16.16.44:742][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.19-16.16.44:742][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.19-16.16.44:742][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.19-16.16.44:752][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.08.19-16.16.45:407][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.08.19-16.16.45:428][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.08.19-16.16.45:449][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.08.19-16.16.45:470][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.08.19-16.16.45:492][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.08.19-16.16.45:513][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.08.19-16.16.45:535][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.08.19-16.16.45:556][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.08.19-16.16.45:567][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.08.19-16.16.45:689][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.08.19-16.16.45:695][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.08.19-16.16.45:762][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.08.19-16.16.45:762][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.08.19-16.16.45:798][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.08.19-16.16.45:798][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.08.19-16.16.45:817][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.08.19-16.16.45:837][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.08.19-16.16.45:858][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.08.19-16.16.45:879][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.08.19-16.16.45:948][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.08.19-16.16.45:948][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.08.19-16.16.45:948][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.19-16.16.45:972][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.08.19-16.16.46:110][  0]LogShaderCompilers: Guid format shader working directory is -68 characters bigger than the processId version (../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Intermediate/Shaders/WorkingDirectory/16420/).
-[2019.08.19-16.16.46:111][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JJiKKYU/AppData/Local/Temp/UnrealShaderWorkingDir/45CDFA06493DB36A373B24B240517E30/'.
-[2019.08.19-16.16.46:115][  0]LogXGEController: Cleaning working directory: C:/Users/JJiKKYU/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.08.19-16.16.46:116][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.19-16.16.46:116][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.19-16.16.46:117][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.19-16.16.46:961][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.19-16.16.47:029][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.19-16.16.47:030][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.08.19-16.16.47:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.19-16.16.47:030][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.19-16.16.47:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.19-16.16.47:030][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.19-16.16.47:045][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.19-16.16.47:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.19-16.16.47:045][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.19-16.16.47:058][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JJiKKYU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.19-16.16.47:058][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.19-16.16.47:058][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.19-16.16.47:083][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.19-16.16.47:088][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.19-16.16.47:095][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.19-16.16.47:302][  0]LogAssetRegistry: FAssetRegistry took 0.0411 seconds to start up
-[2019.08.19-16.16.47:887][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.19-16.16.48:147][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.19-16.16.48:147][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.08.19-16.16.48:147][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.19-16.16.48:147][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.08.19-16.16.48:147][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.08.19-16.16.48:178][  0]LogNetVersion: BasicStudy 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2039729301)
-[2019.08.19-16.16.48:921][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.062175 seconds
-[2019.08.19-16.16.48:930][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.08.19-16.16.48:930][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.08.19-16.16.48:930][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.19-16.16.51:513][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.19-16.16.51:529][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.19-16.16.51:774][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2019.08.19-16.16.51:775][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2019.08.19-16.16.51:787][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2019.08.19-16.16.51:791][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2019.08.19-16.16.52:027][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.19-16.16.52:355][  0]LogOcInput: OculusInput pre-init called
-[2019.08.19-16.16.53:588][  0]LogEngine: Initializing Engine...
-[2019.08.19-16.16.53:593][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.19-16.16.53:594][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.08.19-16.16.53:855][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.19-16.16.53:897][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.19-16.16.54:013][  0]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.16.54:084][  0]LogInit: FAudioDevice initialized.
-[2019.08.19-16.16.54:084][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.19-16.16.54:142][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.19-16.16.54:146][  0]LogInit: Texture streaming: Enabled
-[2019.08.19-16.16.54:182][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.19-16.16.54:221][  0]LogInit: Transaction tracking system initialized
-[2019.08.19-16.16.54:285][  0]BlueprintLog: New page: 에디터 로드
-[2019.08.19-16.16.54:517][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2019.08.19-16.16.55:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/' took 0.02s
-[2019.08.19-16.16.55:066][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.19-16.16.55:066][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.19-16.16.55:515][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2019.08.19-16.16.55:516][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.19-16.16.55:518][  0]LightingResults: New page: 라이팅 빌드
-[2019.08.19-16.16.55:526][  0]MapCheck: New page: 맵 체크
-[2019.08.19-16.16.55:526][  0]LightingResults: New page: 라이팅 빌드
-[2019.08.19-16.16.55:568][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2019.08.19-16.16.55:797][  0]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.16.55:819][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.19-16.16.55:865][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2019.08.19-16.16.55:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.19-16.16.55:865][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.291ms.
-[2019.08.19-16.16.55:866][  0]LogFileHelpers: Loading map 'Level' took 0.350
-[2019.08.19-16.16.56:052][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.16.56:061][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.16.56:071][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.16.56:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.16.56:097][  0]LogCollectionManager: Loaded 0 collections in 0.002669 seconds
-[2019.08.19-16.16.56:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Collections/' took 0.01s
-[2019.08.19-16.16.56:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Developers/JJiKKYU/Collections/' took 0.00s
-[2019.08.19-16.16.56:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Collections/' took 0.00s
-[2019.08.19-16.16.56:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.08.19-16.16.56:140][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2785 classes and 661 folders.
-[2019.08.19-16.16.56:154][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.08.19-16.16.56:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:163][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:164][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:171][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:174][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:175][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:176][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:178][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:179][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:181][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:182][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:189][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:193][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:195][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:196][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.19-16.16.56:312][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.08.19-16.16.56:329][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.08.19-16.16.56:472][  0]LogSlate: Took 0.002090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.19-16.16.56:477][  0]LogSlate: Took 0.004075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.08.19-16.16.56:483][  0]LogSlate: Took 0.003891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2019.08.19-16.16.56:484][  0]LogSlate: Took 0.001240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.19-16.16.56:489][  0]LogSlate: Took 0.000972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.19-16.16.56:582][  0]LogRenderer: Reallocating scene render targets to support 1668x844 Format 10 NumSamples 1 (Frame:1).
-[2019.08.19-16.16.56:637][  0]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '라 (U+b77c)'
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:413][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:423][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.20-13.36.34:423][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.20-13.36.34:424][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.20-13.36.34:424][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.20-13.36.34:424][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.20-13.36.34:438][  0]LogHAL: Display: Platform has ~ 32 GB [34291081216 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.20-13.36.34:438][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.20-13.36.34:438][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.20-13.36.34:438][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Scalability.ini]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.20-13.36.34:439][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.20-13.36.34:440][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.20-13.36.34:440][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.20-13.36.34:440][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Config/Windows/Engine.ini]
+[2019.08.20-13.36.34:440][  0]LogInit: Computer: JJIKKYU
+[2019.08.20-13.36.34:440][  0]LogInit: User: JJiKKYU
+[2019.08.20-13.36.34:440][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.08.20-13.36.34:440][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.20-13.36.34:440][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.08.20-13.36.34:440][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.20-13.36.34:440][  0]LogMemory: Process Physical Memory: 106.60 MB used, 106.61 MB peak
+[2019.08.20-13.36.34:440][  0]LogMemory: Process Virtual Memory: 92.20 MB used, 92.20 MB peak
+[2019.08.20-13.36.34:440][  0]LogMemory: Physical Memory: 9976.05 MB used,  22726.47 MB free, 32702.52 MB total
+[2019.08.20-13.36.34:440][  0]LogMemory: Virtual Memory: 4729.71 MB used,  134213000.00 MB free, 134217728.00 MB total
+[2019.08.20-13.36.34:493][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2019.08.20-13.36.34:493][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.08.20-13.36.34:493][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.20-13.36.34:601][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.20-13.36.34:676][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.20-13.36.34:677][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.20-13.36.35:251][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.20-13.36.35:251][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.20-13.36.35:360][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.08.20-13.36.35:360][  0]LogD3D11RHI:       6052/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.20-13.36.35:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.20-13.36.35:364][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.20-13.36.35:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.20-13.36.35:375][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.20-13.36.35:375][  0]LogD3D11RHI:     GPU DeviceId: 0x1c06 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.20-13.36.35:375][  0]LogWindows: EnumDisplayDevices:
+[2019.08.20-13.36.35:375][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.08.20-13.36.35:376][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.08.20-13.36.35:377][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.08.20-13.36.35:379][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.08.20-13.36.35:380][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.20-13.36.35:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.08.20-13.36.35:380][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.20-13.36.35:380][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.20-13.36.35:380][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.08.20-13.36.35:444][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.20-13.36.35:455][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.20-13.36.35:455][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.20-13.36.35:455][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.20-13.36.35:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.20-13.36.36:042][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.08.20-13.36.36:065][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.08.20-13.36.36:086][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.08.20-13.36.36:108][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.08.20-13.36.36:130][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.08.20-13.36.36:151][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.20-13.36.36:172][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.20-13.36.36:194][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.20-13.36.36:207][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.08.20-13.36.36:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.08.20-13.36.36:334][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.08.20-13.36.36:397][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.08.20-13.36.36:397][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.08.20-13.36.36:432][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.08.20-13.36.36:432][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.08.20-13.36.36:450][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.08.20-13.36.36:471][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.08.20-13.36.36:489][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.08.20-13.36.36:509][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.08.20-13.36.36:575][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.08.20-13.36.36:575][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.08.20-13.36.36:575][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.20-13.36.36:589][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.20-13.36.36:680][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Intermediate/Shaders/WorkingDirectory/38240/).
+[2019.08.20-13.36.36:681][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JJiKKYU/AppData/Local/Temp/UnrealShaderWorkingDir/A934876D48D12B4D3055E2AF4AE6294F/'.
+[2019.08.20-13.36.36:684][  0]LogXGEController: Cleaning working directory: C:/Users/JJiKKYU/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.20-13.36.36:685][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.20-13.36.36:685][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.20-13.36.36:685][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.20-13.36.37:369][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.20-13.36.37:416][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.20-13.36.37:430][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.20-13.36.37:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.20-13.36.37:431][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.20-13.36.37:444][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JJiKKYU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.20-13.36.37:444][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.20-13.36.37:444][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.20-13.36.37:469][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.20-13.36.37:470][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.20-13.36.37:472][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.20-13.36.37:628][  0]LogAssetRegistry: FAssetRegistry took 0.0397 seconds to start up
+[2019.08.20-13.36.38:138][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.20-13.36.38:311][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.20-13.36.38:311][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.20-13.36.38:311][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.20-13.36.38:311][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.20-13.36.38:311][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.20-13.36.38:325][  0]LogNetVersion: BasicStudy 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2039729301)
+[2019.08.20-13.36.38:861][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.055182 seconds
+[2019.08.20-13.36.38:871][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.08.20-13.36.38:871][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.08.20-13.36.38:871][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.20-13.36.40:409][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.20-13.36.40:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.20-13.36.40:591][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2019.08.20-13.36.40:591][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2019.08.20-13.36.40:593][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2019.08.20-13.36.40:596][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2019.08.20-13.36.40:740][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.20-13.36.41:119][  0]LogOcInput: OculusInput pre-init called
+[2019.08.20-13.36.42:352][  0]LogEngine: Initializing Engine...
+[2019.08.20-13.36.42:354][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.20-13.36.42:355][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.20-13.36.42:588][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.20-13.36.42:607][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.20-13.36.42:734][  0]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.20-13.36.42:808][  0]LogInit: FAudioDevice initialized.
+[2019.08.20-13.36.42:808][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.20-13.36.42:880][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/JJiKKYU/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.20-13.36.42:883][  0]LogInit: Texture streaming: Enabled
+[2019.08.20-13.36.42:914][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.20-13.36.42:914][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5CAEFC69-4C0E-0D6B-E8DE-21B9D045CB96}
+[2019.08.20-13.36.42:947][  0]LogInit: Transaction tracking system initialized
+[2019.08.20-13.36.42:985][  0]BlueprintLog: New page: 에디터 로드
+[2019.08.20-13.36.43:116][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.08.20-13.36.43:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/' took 0.01s
+[2019.08.20-13.36.43:556][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.20-13.36.43:556][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.20-13.36.43:830][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2019.08.20-13.36.43:830][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.20-13.36.43:831][  0]LightingResults: New page: 라이팅 빌드
+[2019.08.20-13.36.43:835][  0]MapCheck: New page: 맵 체크
+[2019.08.20-13.36.43:835][  0]LightingResults: New page: 라이팅 빌드
+[2019.08.20-13.36.43:876][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.08.20-13.36.44:059][  0]LogAIModule: Creating AISystem for world Level
+[2019.08.20-13.36.44:068][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.20-13.36.44:109][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.08.20-13.36.44:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.20-13.36.44:110][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.361ms.
+[2019.08.20-13.36.44:110][  0]LogFileHelpers: Loading map 'Level' took 0.280
+[2019.08.20-13.36.44:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-13.36.44:265][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-13.36.44:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-13.36.44:286][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-13.36.44:298][  0]LogCollectionManager: Loaded 0 collections in 0.003139 seconds
+[2019.08.20-13.36.44:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Collections/' took 0.01s
+[2019.08.20-13.36.44:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/Developers/JJiKKYU/Collections/' took 0.01s
+[2019.08.20-13.36.44:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/Collections/' took 0.01s
+[2019.08.20-13.36.44:340][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.20-13.36.44:352][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2787 classes and 661 folders.
+[2019.08.20-13.36.44:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.08.20-13.36.44:365][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:367][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:368][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:371][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:372][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:374][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:375][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:376][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:377][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:379][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:380][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:381][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:382][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:383][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:384][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:385][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:386][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:388][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.20-13.36.44:467][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.08.20-13.36.44:476][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.08.20-13.36.44:548][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.20-13.36.44:552][  0]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.08.20-13.36.44:556][  0]LogSlate: Took 0.001852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.08.20-13.36.44:556][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.20-13.36.44:561][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.20-13.36.44:655][  0]LogRenderer: Reallocating scene render targets to support 1668x844 Format 10 NumSamples 1 (Frame:1).
+[2019.08.20-13.36.44:711][  0]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '라 (U+b77c)'
 Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
 Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
-[2019.08.19-16.16.56:641][  0]LogSlate: Took 0.003074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.08.19-16.16.56:804][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.08.19-16.16.56:804][  0]LogLoad: (Engine Initialization) Total time: 18.33 seconds
-[2019.08.19-16.16.56:804][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.19-16.16.56:895][  0]LogAssetRegistry: Asset discovery search completed in 9.6149 seconds
-[2019.08.19-16.16.56:897][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.19-16.16.56:897][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
-[2019.08.19-16.16.56:900][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.08.19-16.16.57:073][  3]LogActor: Warning: SpawnBuliding /Engine/Transient.World_4:PersistentLevel.SpawnBuliding_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.08.19-16.16.57:104][  4]LogActor: Warning: soldier /Engine/Transient.World_5:PersistentLevel.soldier_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.08.19-16.16.57:173][  6]LogActor: Warning: SelectableCube /Engine/Transient.World_7:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.08.19-16.16.57:197][  7]LogActor: Warning: PhysicsCube /Engine/Transient.World_9:PersistentLevel.PhysicsCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.08.19-16.16.57:270][ 10]LogActor: Warning: NonSelectableCube /Engine/Transient.World_12:PersistentLevel.NonSelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.08.19-16.17.41:434][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.27.38:917][577]LogHotReload: New module detected: UE4Editor-BasicStudy-0009.dll
-[2019.08.19-16.27.40:280][617]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.19-16.27.40:285][617]LogSlate: Took 0.002346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.19-16.27.40:336][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2019.08.19-16.27.40:443][617]LogClass: ETreeType HotReload.
-[2019.08.19-16.27.40:443][617]LogClass: Status HotReload.
-[2019.08.19-16.27.40:446][617]LogHotReload: Re-instancing SlateHUDGameMode after hot-reload.
-[2019.08.19-16.27.40:569][617]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 53 classes and 2 folders.
-[2019.08.19-16.27.40:573][617]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.27.40:798][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2019.08.19-16.27.40:815][617]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2786 classes and 663 folders.
-[2019.08.19-16.27.40:819][617]Display: HotReload took  0.5s.
-[2019.08.19-16.28.08:909][636]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.28.08:920][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.28.08:920][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.28.08:921][636]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:28:08 AM)
-[2019.08.19-16.28.08:933][636]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.28.08:941][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006635s)
-[2019.08.19-16.28.08:941][636]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.28.08:941][636]LogPlayLevel: PIE: World Init took: (0.000669s)
-[2019.08.19-16.28.08:941][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.007981s)
-[2019.08.19-16.28.08:978][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
-[2019.08.19-16.28.09:079][636]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.28.09:134][636]LogInit: FAudioDevice initialized.
-[2019.08.19-16.28.09:177][636]LogLoad: Game class is 'SlateHUDGameMode'
-[2019.08.19-16.28.09:180][636]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.28.09
-[2019.08.19-16.28.09:181][636]LogWorld: Bringing up level for play took: 0.002454
-[2019.08.19-16.28.09:261][636]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.08.19-16.28.09:261][636]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.28.09:261][636]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.28.09:261][636]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.28.09:263][636]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.28.09:263][636]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.28.09:263][636]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.28.09:265][636]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.28.09:265][636]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.023
-[2019.08.19-16.28.09:265][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.28.14:604][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.28.14:604][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.28.14:632][267]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.28.14:633][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.28.14:676][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.28.14:680][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2019.08.19-16.28.14:731][269]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.08.19-16.28.23:179][117]LogSlate: Took 0.001166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.08.19-16.28.27:344][593]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/SlateHUDGameMode_BP.SlateHUDGameMode_BP
-[2019.08.19-16.28.27:701][593]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
-[2019.08.19-16.28.28:602][593]LogSlate: Window '블루프린트 클래스 추가' being destroyed
-[2019.08.19-16.28.28:739][593]LogRenderer: Reallocating scene render targets to support 1668x1000 Format 10 NumSamples 1 (Frame:1).
-[2019.08.19-16.28.30:720][761]LogSlate: Window 'SlateHUDGameMode_BP' being destroyed
-[2019.08.19-16.28.31:350][823]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.08.19-16.28.59:302][ 99]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.28.59:311][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.28.59:311][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.28.59:311][ 99]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:28:59 AM)
-[2019.08.19-16.28.59:312][ 99]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.28.59:318][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006150s)
-[2019.08.19-16.28.59:319][ 99]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.28.59:319][ 99]LogPlayLevel: PIE: World Init took: (0.001168s)
-[2019.08.19-16.28.59:319][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.007566s)
-[2019.08.19-16.28.59:362][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2019.08.19-16.28.59:463][ 99]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.28.59:512][ 99]LogInit: FAudioDevice initialized.
-[2019.08.19-16.28.59:544][ 99]LogLoad: Game class is 'SlateHUDGameMode_BP_C'
-[2019.08.19-16.28.59:547][ 99]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.28.59
-[2019.08.19-16.28.59:547][ 99]LogWorld: Bringing up level for play took: 0.001874
-[2019.08.19-16.28.59:560][ 99]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.28.59:560][ 99]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.28.59:560][ 99]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.28.59:560][ 99]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.28.59:560][ 99]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.28.59:560][ 99]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.28.59:560][ 99]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.28.59:561][ 99]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.318
-[2019.08.19-16.28.59:561][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.02:549][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.02:549][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.29.02:579][453]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.29.02:580][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.02:619][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.29.02:624][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
-[2019.08.19-16.29.02:653][454]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2019.08.19-16.29.03:584][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.29.08:653][ 87]LogAssetEditorManager: Opening Asset editor for Class /Script/BasicStudy.CustomHUDPlayerController
-[2019.08.19-16.29.25:185][781]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.29.25:195][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.25:195][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.29.25:195][781]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:29:25 AM)
-[2019.08.19-16.29.25:195][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.29.25:201][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006040s)
-[2019.08.19-16.29.25:202][781]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.29.25:202][781]LogPlayLevel: PIE: World Init took: (0.000571s)
-[2019.08.19-16.29.25:202][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006787s)
-[2019.08.19-16.29.25:240][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
-[2019.08.19-16.29.25:343][781]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.29.25:398][781]LogInit: FAudioDevice initialized.
-[2019.08.19-16.29.25:430][781]LogLoad: Game class is 'SlateHUDGameMode_BP_C'
-[2019.08.19-16.29.25:432][781]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.29.25
-[2019.08.19-16.29.25:433][781]LogWorld: Bringing up level for play took: 0.002009
-[2019.08.19-16.29.25:446][781]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.29.25:446][781]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.29.25:446][781]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.29.25:446][781]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.29.25:446][781]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.29.25:446][781]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.29.25:446][781]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.29.25:447][781]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.204
-[2019.08.19-16.29.25:447][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.26:786][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.26:786][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.29.26:815][937]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.29.26:815][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.26:861][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.29.26:866][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2019.08.19-16.29.26:892][938]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2019.08.19-16.29.27:857][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.19-16.29.29:328][190]Candidate modules for hot reload:
-[2019.08.19-16.29.29:328][190]  BasicStudy
-[2019.08.19-16.29.29:329][190]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,1977 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
-[2019.08.19-16.29.29:333][190]Warning: Starting HotReload took  0.1s.
-[2019.08.19-16.29.35:964][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.19-16.29.41:148][371]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/SlateHUDGameMode_BP.SlateHUDGameMode_BP
-[2019.08.19-16.29.41:448][371]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
-[2019.08.19-16.29.43:570][568]LogSlate: Window 'CompilerResults' being destroyed
-[2019.08.19-16.29.43:580][568]LogSlate: Window 'CompilerResults' being destroyed
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: New page: 컴파일 - Aug 20, 2019, 10:29:48 AM
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: Parsing headers for BasicStudyEditor
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.19-16.29.48:410][ 35]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.4494081 seconds
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: CustomHUDPlayerController.cpp, SlateHUDGameMode.cpp
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, CustomHUDPlayerController.gen.cpp, SlateHUDGameMode.gen.cpp
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1) : error: Expected SlateHUDGameMode.h to be first header included.
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: Building 4 actions with 16 processes...
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:   [1/4] CustomHUDPlayerController.cpp
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:   [2/4] UE4Editor-BasicStudy-1977.lib
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1977.lib
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:   [3/4] UE4Editor-BasicStudy-1977.dll
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1977.suppressed.lib
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog:   [4/4] BasicStudyEditor.target
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: Total time in Parallel executor: 6.46 seconds
-[2019.08.19-16.29.48:411][ 35]CompilerResultsLog: Total execution time: 18.92 seconds
-[2019.08.19-16.29.48:411][ 35]LogMainFrame: MainFrame: Module compiling took 19.086 seconds
-[2019.08.19-16.29.48:451][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2019.08.19-16.29.48:451][ 35]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.29.48:581][ 35]LogClass: ETreeType HotReload.
-[2019.08.19-16.29.48:581][ 35]LogClass: Status HotReload.
-[2019.08.19-16.29.48:613][ 35]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.29.48:614][ 35]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 53 classes and 2 folders.
-[2019.08.19-16.29.48:619][ 35]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.29.48:694][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2019.08.19-16.29.48:694][ 35]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.29.48:712][ 35]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2786 classes and 663 folders.
-[2019.08.19-16.29.48:712][ 35]Display: HotReload took 19.5s.
-[2019.08.19-16.29.49:933][121]BlueprintLog: New page: SlateHUDGameMode_BP 컴파일
-[2019.08.19-16.29.50:174][121]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
-[2019.08.19-16.29.50:541][152]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/SlateHUDGameMode_BP886159FA414026853AF24FA2BF021BE6.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Blueprint/SlateHUDGameMode_BP.uasset'
-[2019.08.19-16.29.51:076][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.29.51:162][209]LogSlate: Window 'SlateHUDGameMode_BP' being destroyed
-[2019.08.19-16.29.52:092][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.29.52:192][311]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.29.52:204][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.29.52:204][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.29.52:204][311]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:29:52 AM)
-[2019.08.19-16.29.52:204][311]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.29.52:210][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005870s)
-[2019.08.19-16.29.52:210][311]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.29.52:211][311]LogPlayLevel: PIE: World Init took: (0.000555s)
-[2019.08.19-16.29.52:211][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006591s)
-[2019.08.19-16.29.52:275][311]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
-[2019.08.19-16.29.52:380][311]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.29.52:437][311]LogInit: FAudioDevice initialized.
-[2019.08.19-16.29.52:467][311]LogLoad: Game class is 'SlateHUDGameMode_BP_C'
-[2019.08.19-16.29.52:469][311]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.29.52
-[2019.08.19-16.29.52:470][311]LogWorld: Bringing up level for play took: 0.002025
-[2019.08.19-16.29.52:483][311]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.29.52:483][311]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.29.52:483][311]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.29.52:483][311]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.29.52:483][311]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.29.52:483][311]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.29.52:484][311]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.29.52:484][311]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 1.242
-[2019.08.19-16.29.52:484][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.38.50:961][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.38.53:365][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.38.53:365][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.38.53:397][479]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.38.53:397][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.38.53:441][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.38.53:448][479]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
-[2019.08.19-16.38.53:475][480]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2019.08.19-16.39.07:462][940]Candidate modules for hot reload:
-[2019.08.19-16.39.07:462][940]  BasicStudy
-[2019.08.19-16.39.07:463][940]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,5981 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
-[2019.08.19-16.39.28:430][940]CompilerResultsLog: New page: 컴파일 - Aug 20, 2019, 10:39:28 AM
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Parsing headers for BasicStudyEditor
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.4072667 seconds
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: ScalingUIPlayerController.cpp
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1) : error: Expected SlateHUDGameMode.h to be first header included.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Building 6 actions with 16 processes...
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [1/6] ScalingUIPlayerController.cpp
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [2/6] Module.BasicStudy.gen.cpp
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [3/6] Module.BasicStudy.cpp
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\HierachyActor.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\InteractingPawn.cpp(35): warning C4458: 'InputComponent' ?????? Ŭ???? ?????? ?????ϴ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: 'AActor::InputComponent' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\TalkingPawn.cpp(13): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.cpp(28): warning C4458: 'SpawnedActor' ?????? Ŭ???? ?????? ?????ϴ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\UE4CookBookGameMode.h(23): note: 'AUE4CookBookGameMode::SpawnedActor' ?????? ?????Ͻʽÿ?.
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [4/6] UE4Editor-BasicStudy-5981.lib
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-5981.lib
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [5/6] UE4Editor-BasicStudy-5981.dll
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-5981.suppressed.lib
-[2019.08.19-16.39.28:431][940]CompilerResultsLog:   [6/6] BasicStudyEditor.target
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Total time in Parallel executor: 8.49 seconds
-[2019.08.19-16.39.28:431][940]CompilerResultsLog: Total execution time: 20.82 seconds
-[2019.08.19-16.39.28:431][940]LogMainFrame: MainFrame: Module compiling took 20.973 seconds
-[2019.08.19-16.39.28:469][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
-[2019.08.19-16.39.28:469][940]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.39.28:563][940]LogClass: Could not find existing class ScalingUIPlayerController in package /Script/BasicStudy for HotReload, assuming new class
-[2019.08.19-16.39.28:605][940]LogClass: ETreeType HotReload.
-[2019.08.19-16.39.28:605][940]LogClass: Status HotReload.
-[2019.08.19-16.39.28:633][940]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.39.28:633][940]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0007 seconds. Added 54 classes and 2 folders.
-[2019.08.19-16.39.28:638][940]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.39.28:708][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2019.08.19-16.39.28:708][940]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.39.28:727][940]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2787 classes and 663 folders.
-[2019.08.19-16.39.28:727][940]Display: HotReload took 21.3s.
-[2019.08.19-16.39.28:728][940]Warning: HotReload operation took 21.3s.
-[2019.08.19-16.39.28:751][940]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2019.08.19-16.39.29:102][940]LogHotReload: New module detected: UE4Editor-BasicStudy-5981.dll
-[2019.08.19-16.39.29:174][941]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.19-16.39.29:302][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
-[2019.08.19-16.39.29:303][941]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.39.29:308][941]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.39.29:309][941]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 54 classes and 2 folders.
-[2019.08.19-16.39.29:313][941]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.39.29:372][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2019.08.19-16.39.29:372][941]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.39.29:391][941]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2787 classes and 663 folders.
-[2019.08.19-16.39.29:394][941]Display: HotReload took  0.2s.
-[2019.08.19-16.39.39:856][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2019.08.19-16.39.40:105][ 17]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Level_Auto107814CBF4109C4AAFDAC2F9579010238.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/Level_Auto1.umap'
-[2019.08.19-16.39.40:109][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.334
-[2019.08.19-16.39.40:109][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
-[2019.08.19-16.43.37:985][ 56]Candidate modules for hot reload:
-[2019.08.19-16.43.37:985][ 56]  BasicStudy
-[2019.08.19-16.43.37:985][ 56]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,7380 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
-[2019.08.19-16.43.56:374][ 56]CompilerResultsLog: New page: 컴파일 - Aug 20, 2019, 10:43:56 AM
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study).
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Creating makefile for BasicStudyEditor (ini files are newer than makefile)
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Parsing headers for BasicStudyEditor
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 9.5015848 seconds
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: ScalingUIGameMode.cpp, ScalingUIPlayerController.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy.gen unity file: BasicStudy.init.gen.cpp, ScalingUIPlayerController.gen.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1) : error: Expected SlateHUDGameMode.h to be first header included.
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Building 8 actions with 16 processes...
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [1/8] BasicStudy.init.gen.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [2/8] ScalingUIGameMode.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [3/8] ScalingUIPlayerController.gen.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [4/8] Module.BasicStudy.gen.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [5/8] ScalingUIPlayerController.cpp
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [6/8] UE4Editor-BasicStudy-7380.lib
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-7380.lib
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [7/8] UE4Editor-BasicStudy-7380.dll
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngine_Study\UnrealEngine_Study\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-7380.suppressed.lib
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog:   [8/8] BasicStudyEditor.target
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Total time in Parallel executor: 5.81 seconds
-[2019.08.19-16.43.56:375][ 56]CompilerResultsLog: Total execution time: 18.25 seconds
-[2019.08.19-16.43.56:375][ 56]LogMainFrame: MainFrame: Module compiling took 18.395 seconds
-[2019.08.19-16.43.56:425][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
-[2019.08.19-16.43.56:425][ 56]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.43.56:558][ 56]LogClass: Could not find existing class ScalingUIGameMode in package /Script/BasicStudy for HotReload, assuming new class
-[2019.08.19-16.43.56:602][ 56]LogClass: ETreeType HotReload.
-[2019.08.19-16.43.56:602][ 56]LogClass: Status HotReload.
-[2019.08.19-16.43.56:634][ 56]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.43.56:635][ 56]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 55 classes and 2 folders.
-[2019.08.19-16.43.56:640][ 56]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.43.56:714][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
-[2019.08.19-16.43.56:714][ 56]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.43.56:734][ 56]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2788 classes and 663 folders.
-[2019.08.19-16.43.56:735][ 56]Display: HotReload took 18.9s.
-[2019.08.19-16.43.56:736][ 56]Warning: HotReload operation took 18.9s.
-[2019.08.19-16.43.56:757][ 56]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2019.08.19-16.43.57:174][ 56]LogHotReload: New module detected: UE4Editor-BasicStudy-7380.dll
-[2019.08.19-16.43.57:250][ 57]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.19-16.43.57:352][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
-[2019.08.19-16.43.57:352][ 57]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.43.57:357][ 57]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.43.57:358][ 57]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 55 classes and 2 folders.
-[2019.08.19-16.43.57:362][ 57]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.43.57:419][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2019.08.19-16.43.57:420][ 57]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.43.57:439][ 57]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2788 classes and 663 folders.
-[2019.08.19-16.43.57:442][ 57]Display: HotReload took  0.2s.
-[2019.08.19-16.45.18:475][268]LogHotReload: New module detected: UE4Editor-BasicStudy-0013.dll
-[2019.08.19-16.45.19:809][306]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.19-16.45.19:911][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2019.08.19-16.45.19:911][306]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (unloaded)
-[2019.08.19-16.45.20:081][306]LogClass: ETreeType HotReload.
-[2019.08.19-16.45.20:081][306]LogClass: Status HotReload.
-[2019.08.19-16.45.20:085][306]LogHotReload: Re-instancing ScalingUIGameMode after hot-reload.
-[2019.08.19-16.45.20:262][306]LogBlueprintActionDatabase: Requesting refresh due to module change: BasicStudy (loaded)
-[2019.08.19-16.45.20:263][306]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0008 seconds. Added 55 classes and 2 folders.
-[2019.08.19-16.45.20:269][306]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
-[2019.08.19-16.45.20:343][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2019.08.19-16.45.20:343][306]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.19-16.45.20:362][306]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2788 classes and 663 folders.
-[2019.08.19-16.45.20:366][306]Display: HotReload took  0.6s.
-[2019.08.19-16.45.48:011][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.19-16.45.55:621][159]LogAssetEditorManager: Opening Asset editor for Class /Script/BasicStudy.ScalingUIGameMode
-[2019.08.19-16.45.58:458][431]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.08.19-16.46.05:976][274]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.46.05:988][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.46.05:988][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.46.05:988][274]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:46:05 AM)
-[2019.08.19-16.46.05:988][274]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.46.05:994][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006293s)
-[2019.08.19-16.46.05:995][274]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.46.05:995][274]LogPlayLevel: PIE: World Init took: (0.000704s)
-[2019.08.19-16.46.05:995][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.007185s)
-[2019.08.19-16.46.06:072][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
-[2019.08.19-16.46.06:179][274]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.46.06:239][274]LogInit: FAudioDevice initialized.
-[2019.08.19-16.46.06:268][274]LogLoad: Game class is 'ScalingUIGameMode'
-[2019.08.19-16.46.06:270][274]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.46.06
-[2019.08.19-16.46.06:271][274]LogWorld: Bringing up level for play took: 0.001940
-[2019.08.19-16.46.06:284][274]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.46.06:284][274]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.46.06:284][274]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.46.06:284][274]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.46.06:284][274]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.46.06:284][274]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.46.06:285][274]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.46.06:285][274]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 1.043
-[2019.08.19-16.46.06:285][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.46.07:818][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.46.07:819][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.46.07:853][454]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.46.07:853][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.46.07:894][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.46.07:922][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2019.08.19-16.46.07:940][455]LogPlayLevel: Display: Destroying online subsystem :Context_29
-[2019.08.19-16.46.10:058][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
-[2019.08.19-16.46.11:043][695]LogSlate: Window '콘텐츠 저장' being destroyed
-[2019.08.19-16.46.11:100][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2019.08.19-16.46.11:353][695]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Saved/LevelE0BA316F4A61B40CAECDADAD87A1CCC5.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/UnrealEngine_Study/Projectfile/Content/Level.umap'
-[2019.08.19-16.46.11:373][695]LogFileHelpers: Saving map 'Level' took 0.312
-[2019.08.19-16.47.32:988][ 64]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
-[2019.08.19-16.47.33:972][ 64]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.08.19-16.48.16:711][921]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.08.19-16.48.16:717][921]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.08.19-16.48.18:651][138]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.08.19-16.48.18:660][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.48.18:660][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.19-16.48.18:660][138]PIE: New page: PIE 세션: Level (Aug 20, 2019, 10:48:18 AM)
-[2019.08.19-16.48.18:660][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
-[2019.08.19-16.48.18:667][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006494s)
-[2019.08.19-16.48.18:667][138]LogAIModule: Creating AISystem for world Level
-[2019.08.19-16.48.18:668][138]LogPlayLevel: PIE: World Init took: (0.000643s)
-[2019.08.19-16.48.18:668][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.007329s)
-[2019.08.19-16.48.18:744][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
-[2019.08.19-16.48.18:852][138]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.19-16.48.18:902][138]LogInit: FAudioDevice initialized.
-[2019.08.19-16.48.18:930][138]LogLoad: Game class is 'ScalingUIGameMode'
-[2019.08.19-16.48.18:932][138]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-01.48.18
-[2019.08.19-16.48.18:933][138]LogWorld: Bringing up level for play took: 0.002068
-[2019.08.19-16.48.18:946][138]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.48.18:946][138]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.08.19-16.48.18:946][138]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.48.18:946][138]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Spruce
-[2019.08.19-16.48.18:946][138]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
-[2019.08.19-16.48.18:946][138]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Eucalyptus
-[2019.08.19-16.48.18:947][138]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.08.19-16.48.18:947][138]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.295
-[2019.08.19-16.48.18:947][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.48.21:777][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.48.21:778][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.48.21:806][470]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.19-16.48.21:807][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
-[2019.08.19-16.48.21:852][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.19-16.48.21:870][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
-[2019.08.19-16.48.21:897][471]LogPlayLevel: Display: Destroying online subsystem :Context_31
-[2019.08.19-17.03.37:780][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.20-13.36.44:713][  0]LogSlate: Took 0.002658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.08.20-13.36.44:870][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.08.20-13.36.44:870][  0]LogLoad: (Engine Initialization) Total time: 73.58 seconds
+[2019.08.20-13.36.44:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.20-13.36.44:930][  0]LogAssetRegistry: Asset discovery search completed in 7.3253 seconds
+[2019.08.20-13.36.44:932][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.20-13.36.44:932][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2019.08.20-13.36.44:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.20-13.36.45:090][  3]LogActor: Warning: SpawnBuliding /Engine/Transient.World_4:PersistentLevel.SpawnBuliding_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.20-13.36.45:109][  4]LogActor: Warning: soldier /Engine/Transient.World_5:PersistentLevel.soldier_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.20-13.36.45:134][  5]LogActor: Warning: SelectableCube /Engine/Transient.World_7:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.20-13.36.45:161][  6]LogActor: Warning: PhysicsCube /Engine/Transient.World_9:PersistentLevel.PhysicsCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.20-13.36.45:212][  8]LogActor: Warning: NonSelectableCube /Engine/Transient.World_12:PersistentLevel.NonSelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.20-13.37.18:499][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.20-13.37.18:948][621]LogSlate: Took 0.000527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.20-13.37.19:026][621]LogSlate: Took 0.000615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.20-13.37.26:465][436]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject" -game -rocket -progress
+[2019.08.20-13.37.26:974][436]Discovering modules, targets and source code for project...
+[2019.08.20-13.37.30:408][436]Binding IntelliSense data...
+[2019.08.20-13.37.32:124][436]C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
+[2019.08.20-13.37.32:228][436]Binding IntelliSense data... 100%
+[2019.08.20-13.37.32:228][436]Writing project files...
+[2019.08.20-13.37.35:967][436]Writing project files... 100%
+[2019.08.20-13.37.36:075][436]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.08.20-13.37.36:080][436]Candidate modules for hot reload:
+[2019.08.20-13.37.36:080][436]  BasicStudy
+[2019.08.20-13.37.36:080][436]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BasicStudy,1395 Win64 Development -TargetType=Editor -Project="C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject" "C:/Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/BasicStudy.uproject"  -IgnoreJunk]
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: New page: 컴파일 - Aug 21, 2019, 7:37:50 AM
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy).
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Creating makefile for BasicStudyEditor (no existing makefile)
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudyEditor\BasicStudyEditor.Build.cs: warning: Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BasicStudyEditor.h") from UE 4.21 onwards.
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Parsing headers for BasicStudyEditor
+[2019.08.20-13.37.50:203][436]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\BasicStudy.uproject" "C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\BasicStudyEditor\Development\BasicStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Reflection code generated for BasicStudyEditor in 8.2275353 seconds
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: [Adaptive unity build] Excluded from BasicStudy unity file: ClickEventGameMode.cpp
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Error: C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Source\BasicStudy\SlateHUDGameMode.cpp(1) : error: Expected SlateHUDGameMode.h to be first header included.
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.20-13.37.50:203][436]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.08.20-13.37.50:203][436]CompilerResultsLog:   [1/5] ClickEventGameMode.cpp
+[2019.08.20-13.37.50:203][436]CompilerResultsLog:   [2/5] Module.BasicStudy.gen.cpp
+[2019.08.20-13.37.50:203][436]CompilerResultsLog:   [3/5] UE4Editor-BasicStudy-1395.lib
+[2019.08.20-13.37.50:204][436]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1395.lib
+[2019.08.20-13.37.50:204][436]CompilerResultsLog:   [4/5] UE4Editor-BasicStudy-1395.dll
+[2019.08.20-13.37.50:204][436]CompilerResultsLog:      C:\Users\JJiKKYU\Desktop\OneDrive - Hongik\00_ Git\UnrealEngineStudy\Projectfile\Intermediate\Build\Win64\UE4Editor\Development\BasicStudy\UE4Editor-BasicStudy-1395.suppressed.lib
+[2019.08.20-13.37.50:204][436]CompilerResultsLog:   [5/5] BasicStudyEditor.target
+[2019.08.20-13.37.50:204][436]CompilerResultsLog: Total time in Parallel executor: 3.42 seconds
+[2019.08.20-13.37.50:204][436]CompilerResultsLog: Total execution time: 13.99 seconds
+[2019.08.20-13.37.50:204][436]LogMainFrame: MainFrame: Module compiling took 14.129 seconds
+[2019.08.20-13.37.50:245][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.08.20-13.37.50:261][436]LogClass: Could not find existing class ClickEventGameMode in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.20-13.37.50:340][436]LogClass: ETreeType HotReload.
+[2019.08.20-13.37.50:340][436]LogClass: Status HotReload.
+[2019.08.20-13.37.50:368][436]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 56 classes and 2 folders.
+[2019.08.20-13.37.50:372][436]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.20-13.37.50:598][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.08.20-13.37.50:613][436]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2789 classes and 663 folders.
+[2019.08.20-13.37.50:613][436]Display: HotReload took 14.5s.
+[2019.08.20-13.37.50:615][436]Warning: HotReload operation took 14.5s.
+[2019.08.20-13.37.50:647][436]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.20-13.37.50:655][436]LogHotReload: New module detected: UE4Editor-BasicStudy-1395.dll
+[2019.08.20-13.37.50:724][437]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.20-13.37.50:813][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.08.20-13.37.50:819][437]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0009 seconds. Added 56 classes and 2 folders.
+[2019.08.20-13.37.50:822][437]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.20-13.37.50:859][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.08.20-13.37.50:874][437]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2789 classes and 663 folders.
+[2019.08.20-13.37.50:878][437]Display: HotReload took  0.2s.
+[2019.08.20-13.53.58:624][659]LogHotReload: New module detected: UE4Editor-BasicStudy-0002.dll
+[2019.08.20-13.53.59:913][696]LogHotReload: Starting Hot-Reload from IDE
+[2019.08.20-13.53.59:962][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.08.20-13.53.59:996][696]LogClass: Could not find existing class ClickEventGameMode in package /Script/BasicStudy for HotReload, assuming new class
+[2019.08.20-13.54.00:123][696]LogClass: ETreeType HotReload.
+[2019.08.20-13.54.00:124][696]LogClass: Status HotReload.
+[2019.08.20-13.54.00:129][696]LogHotReload: Re-instancing ClickEventGameMode after hot-reload.
+[2019.08.20-13.54.00:258][696]LogContentBrowser: Native class hierarchy updated for 'BasicStudy' in 0.0010 seconds. Added 56 classes and 2 folders.
+[2019.08.20-13.54.00:261][696]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2019.08.20-13.54.00:324][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.08.20-13.54.00:342][696]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2789 classes and 663 folders.
+[2019.08.20-13.54.00:346][696]Display: HotReload took  0.4s.
+[2019.08.20-14.17.53:720][ 56]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.20-14.18.00:621][821]LogFileHelpers: Warning: PromptForCheckoutAndSave attempted to save a compiled in package: /Script/BasicStudy
+[2019.08.20-14.18.01:766][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.08.20-14.18.01:977][945]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Saved/Level2A4F59AB452F2521AC06F9B93B712B1B.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngineStudy/Projectfile/Content/Level.umap'
+[2019.08.20-14.18.02:954][ 54]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.20-14.18.02:965][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.02:965][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.20-14.18.02:965][ 54]PIE: New page: PIE 세션: Level (Aug 21, 2019, 8:18:02 AM)
+[2019.08.20-14.18.02:978][ 54]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.20-14.18.02:985][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006367s)
+[2019.08.20-14.18.02:986][ 54]LogAIModule: Creating AISystem for world Level
+[2019.08.20-14.18.02:986][ 54]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2019.08.20-14.18.02:986][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.008406s)
+[2019.08.20-14.18.03:027][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.20-14.18.03:143][ 54]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.20-14.18.03:192][ 54]LogInit: FAudioDevice initialized.
+[2019.08.20-14.18.03:235][ 54]LogLoad: Game class is 'ClickEventGameMode'
+[2019.08.20-14.18.03:238][ 54]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-23.18.03
+[2019.08.20-14.18.03:238][ 54]LogWorld: Bringing up level for play took: 0.002142
+[2019.08.20-14.18.03:315][ 54]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.08.20-14.18.03:315][ 54]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.18.03:315][ 54]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.18.03:315][ 54]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.18.03:316][ 54]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Redwood
+[2019.08.20-14.18.03:316][ 54]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
+[2019.08.20-14.18.03:316][ 54]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Spruce
+[2019.08.20-14.18.03:316][ 54]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SVerticalBox [ClickEventGameMode.cpp(16)]!
+[2019.08.20-14.18.03:316][ 54]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.18.03:316][ 54]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 1.244
+[2019.08.20-14.18.03:316][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.04:612][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.20-14.18.05:820][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.20-14.18.05:912][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.05:913][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.18.05:941][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.20-14.18.05:942][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.05:986][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.18.05:989][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.08.20-14.18.06:018][349]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.08.20-14.18.07:564][525]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.08.20-14.18.07:573][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.07:573][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.20-14.18.07:573][525]PIE: New page: PIE 세션: Level (Aug 21, 2019, 8:18:07 AM)
+[2019.08.20-14.18.07:573][525]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.20-14.18.07:579][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006014s)
+[2019.08.20-14.18.07:580][525]LogAIModule: Creating AISystem for world Level
+[2019.08.20-14.18.07:580][525]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2019.08.20-14.18.07:580][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.006811s)
+[2019.08.20-14.18.07:618][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.08.20-14.18.07:720][525]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.20-14.18.07:769][525]LogInit: FAudioDevice initialized.
+[2019.08.20-14.18.07:796][525]LogLoad: Game class is 'ClickEventGameMode'
+[2019.08.20-14.18.07:798][525]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.20-23.18.07
+[2019.08.20-14.18.07:799][525]LogWorld: Bringing up level for play took: 0.001955
+[2019.08.20-14.18.07:812][525]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.18.07:812][525]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.20-14.18.07:812][525]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.18.07:812][525]LogBlueprintUserMessages: [MyTree_2] ETreeType::Tree_Redwood
+[2019.08.20-14.18.07:812][525]LogBlueprintUserMessages: [MyTree2] ETreeType::ree_Poplar
+[2019.08.20-14.18.07:812][525]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Spruce
+[2019.08.20-14.18.07:812][525]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SVerticalBox [ClickEventGameMode.cpp(16)]!
+[2019.08.20-14.18.07:813][525]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.20-14.18.07:813][525]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: -0.259
+[2019.08.20-14.18.07:813][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.10:103][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.20-14.18.27:139][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.27:140][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.18.27:168][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.20-14.18.27:168][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.20-14.18.27:211][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.20-14.18.27:214][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.08.20-14.18.27:241][130]LogPlayLevel: Display: Destroying online subsystem :Context_20

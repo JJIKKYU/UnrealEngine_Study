@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BasicStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1FD5B6A8-6500-424C-9562-BDE5862068C6}</UniqueIdentifier>
+      <UniqueIdentifier>{25C5F565-22E5-4FEE-92B8-4091B6B10BBD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BasicStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{69F42737-C12A-40C1-87BD-F595ADAB66BD}</UniqueIdentifier>
+      <UniqueIdentifier>{98C6809F-082B-4374-8C34-9AE3F315A45C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BasicStudyEditor">
-      <UniqueIdentifier>{048D7BCC-6E60-40C5-8D6B-74126C19280A}</UniqueIdentifier>
+      <UniqueIdentifier>{96902926-FDF0-4D29-96EC-F4A9C3D22CC5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudyEditor\BasicStudyCommands.cpp">
       <Filter>Source\BasicStudyEditor</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BasicStudyEditor</Filter>
     </ClInclude>
     <Filter Include="Source\BasicStudy">
-      <UniqueIdentifier>{45A8E5FC-F24E-47E7-A734-C5B20F51CE8F}</UniqueIdentifier>
+      <UniqueIdentifier>{CAC85C25-2CA2-41B8-9EAC-EE3067329E9A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BasicStudy\ActorSpawnerComponent.cpp">
       <Filter>Source\BasicStudy</Filter>
@@ -84,6 +84,12 @@
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BasicStudy\Boots.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\ClickEventGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\ClickEventGameMode.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\CookBookGameMode.cpp">
@@ -248,6 +254,18 @@
     <ClInclude Include="..\..\Source\BasicStudy\RandomMovementComponent.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIGameMode.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIGameMode.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIPlayerController.cpp">
+      <Filter>Source\BasicStudy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIPlayerController.h">
+      <Filter>Source\BasicStudy</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BasicStudy\Selectable.cpp">
       <Filter>Source\BasicStudy</Filter>
     </ClCompile>
@@ -374,21 +392,5 @@
     <ClInclude Include="..\..\Source\BasicStudy\Zombie.h">
       <Filter>Source\BasicStudy</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIPlayerController.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BasicStudy\ScalingUIGameMode.h">
-      <Filter>Source\BasicStudy</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIPlayerController.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BasicStudy\ScalingUIGameMode.cpp">
-      <Filter>Source\BasicStudy</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

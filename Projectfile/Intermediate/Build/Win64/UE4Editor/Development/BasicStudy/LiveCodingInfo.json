@@ -35,6 +35,8 @@
 			"PostEditChangePropertyActor.cpp.obj",
 			"PropertySpecifierActor.cpp.obj",
 			"RandomMovementComponent.cpp.obj",
+			"ScalingUIGameMode.cpp.obj",
+			"ScalingUIPlayerController.cpp.obj",
 			"Selectable.cpp.obj",
 			"SelectableCube.cpp.obj",
 			"SingleInterfaceActor.cpp.obj",
@@ -56,8 +58,7 @@
 			"Warrior.cpp.obj",
 			"Wearable.cpp.obj",
 			"Zombie.cpp.obj",
-			"ScalingUIGameMode.cpp.obj",
-			"ScalingUIPlayerController.cpp.obj"
+			"ClickEventGameMode.cpp.obj"
 		],
 		"Module.BasicStudy.gen.cpp.obj": [
 			"ActorSpawnerComponent.gen.cpp.obj",
@@ -92,6 +93,8 @@
 			"PostEditChangePropertyActor.gen.cpp.obj",
 			"PropertySpecifierActor.gen.cpp.obj",
 			"RandomMovementComponent.gen.cpp.obj",
+			"ScalingUIGameMode.gen.cpp.obj",
+			"ScalingUIPlayerController.gen.cpp.obj",
 			"Selectable.gen.cpp.obj",
 			"SelectableCube.gen.cpp.obj",
 			"SingleInterfaceActor.gen.cpp.obj",
@@ -114,8 +117,7 @@
 			"Wearable.gen.cpp.obj",
 			"Zombie.gen.cpp.obj",
 			"BasicStudy.init.gen.cpp.obj",
-			"ScalingUIGameMode.gen.cpp.obj",
-			"ScalingUIPlayerController.gen.cpp.obj"
+			"ClickEventGameMode.gen.cpp.obj"
 		]
 	}
 }

@@ -744,3 +744,80 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.21-10.48.43:040][224]BlueprintLog: New page: AIMeleeController_BP 컴파일
 [2019.08.21-10.48.43:284][224]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
 [2019.08.21-10.48.43:535][249]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BPE080EE6F48A8A4F5D106DDAF9915FC70.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-13.52.19:080][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.21-13.52.20:596][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.21-13.52.29:511][831]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2019.08.21-13.52.29:810][831]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/10_/BTTask_BlueprintBase_New.
+[2019.08.21-13.54.42:526][459]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2019.08.21-13.54.42:526][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.069
+[2019.08.21-13.54.42:528][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/10_/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2019.08.21-13.54.42:528][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/10_/BTTask_BlueprintBase_New]
+[2019.08.21-13.54.42:538][459]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTTask_BlueprintBase_New_Auto2E2EC701C46D98648C4F6929F68A5C1C7.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/10_/BTTask_BlueprintBase_New_Auto2.uasset'
+[2019.08.21-13.54.42:540][459]LogFileHelpers: Auto-saving content packages took 0.013
+[2019.08.21-14.03.11:904][567]BlueprintLog: New page: BTTask_BlueprintBase_New 컴파일
+[2019.08.21-14.03.11:971][567]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.08.21-14.03.12:353][608]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTTask_BlueprintBase_New478D066E4CDF22E9FAF94C990022AF9A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTTask_BlueprintBase_New.uasset'
+[2019.08.21-14.03.12:424][615]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/10_/BTTask_BlueprintBase_New.
+[2019.08.21-14.08.36:804][324]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
+[2019.08.21-14.08.37:104][324]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/10_/BTDecorator_BlueprintBase_New.
+[2019.08.21-14.08.42:406][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.08.21-14.08.43:541][921]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.21-14.08.43:633][921]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/10_/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2019.08.21-14.08.44:313][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.08.21-14.08.44:353][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.08.21-14.08.44:389][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.08.21-14.08.46:457][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.08.21-14.08.47:364][154]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.21-14.08.47:445][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.08.21-14.08.48:630][280]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/10_/BehaviorTree_FFA_MeleeAttacker.BehaviorTree_FFA_MeleeAttacker
+[2019.08.21-14.08.49:524][362]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.21-14.08.51:448][558]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.21-14.08.51:448][558]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
+[2019.08.21-14.08.51:744][558]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/10_/BTDecorator_BlueprintBase_New.
+[2019.08.21-14.09.07:271][666]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTDecorator_BlueprintBase_NewB47884E24BDE63BAC386A3AA63D033F5.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTDecorator_BlueprintBase_New.uasset'
+[2019.08.21-14.09.07:401][677]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/10_/BTDecorator_BlueprintBase_New.
+[2019.08.21-14.10.08:689][666]BlueprintLog: New page: BTDecorator_BlueprintBase_New 컴파일
+[2019.08.21-14.10.08:731][666]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.08.21-14.10.23:201][116]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTDecorator_BlueprintBase_New42F953224972D2CAB96BD89179F6BF25.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTDecorator_BlueprintBase_New.uasset'
+[2019.08.21-14.11.45:719][939]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTDecorator_BlueprintBase_New4294C80A4234A9B744D205BBD1B0D092.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTDecorator_BlueprintBase_New.uasset'
+[2019.08.21-14.11.59:792][259]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.21-14.12.58:348][654]LogEditorTransaction: Undo 변수로 승격
+[2019.08.21-14.13.12:411][823]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTDecorator_BlueprintBase_NewABF44FD04DB397D5D21E5FB94F91B75D.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTDecorator_BlueprintBase_New.uasset'
+[2019.08.21-14.20.16:300][228]BlueprintLog: New page: BTDecorator_BlueprintBase_New 컴파일
+[2019.08.21-14.20.16:345][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.08.21-14.20.16:742][256]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTDecorator_BlueprintBase_New405D66534E15F40D5696E09D62C83929.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BTDecorator_BlueprintBase_New.uasset'
+[2019.08.21-14.20.17:702][343]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2019.08.21-14.20.18:026][343]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/10_/BTService_BlueprintBase_New.
+[2019.08.21-14.23.43:656][563]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.08.21-14.23.43:656][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.043
+[2019.08.21-14.23.43:658][563]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/10_/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2019.08.21-14.23.43:658][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/10_/BTService_BlueprintBase_New]
+[2019.08.21-14.23.43:665][563]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTService_BlueprintBase_New_Auto25077CAD45444FF4836560A1FD8684CF.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/10_/BTService_BlueprintBase_New_Auto3.uasset'
+[2019.08.21-14.23.43:667][563]LogFileHelpers: Auto-saving content packages took 0.010
+[2019.08.21-14.31.27:269][370]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2019.08.21-14.31.27:574][370]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/10_/BTTask_BlueprintBase_New.
+[2019.08.21-14.32.35:212][884]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.08.21-14.32.35:224][884]LogMetaData: Removing '/Game/10_/BehaviorTree_Service_FindOpponent.SKEL_BehaviorTree_Service_FindOpponent_C' ref from Metadata '/Game/10_/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.08.21-14.32.35:224][884]LogMetaData: Removing '/Game/10_/BehaviorTree_Service_FindOpponent.BehaviorTree_Service_FindOpponent_C' ref from Metadata '/Game/10_/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.08.21-14.32.35:260][884]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BehaviorTree_Service_FindOpponenA22E2F194C11B0393FF113A04B54B30B.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BehaviorTree_Service_FindOpponent.uasset'
+[2019.08.21-14.32.35:534][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.08.21-14.32.35:573][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.08.21-14.32.35:613][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.08.21-14.32.35:711][889]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/10_/BehaviorTree_Service_FindOpponent.
+[2019.08.21-14.32.54:592][648]LogEditorTransaction: Undo 노드 추가
+[2019.08.21-14.33.19:721][ 87]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.08.21-14.33.21:684][266]LogSlate: Took 0.001930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.08.21-14.33.37:716][662]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.08.21-14.33.58:656][632]LogEditorTransaction: Undo 노드 추가
+[2019.08.21-14.35.20:326][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.08.21-14.35.20:327][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.044
+[2019.08.21-14.35.20:328][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/10_/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2019.08.21-14.35.20:328][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/10_/BTService_BlueprintBase_New]
+[2019.08.21-14.35.20:335][531]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BTService_BlueprintBase_New_Auto01A341134E57EC7C2922C1997E7662A1.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/10_/BTService_BlueprintBase_New_Auto4.uasset'
+[2019.08.21-14.35.20:337][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/10_/BehaviorTree_Service_FindOpponent] ([1] browsable assets)...
+[2019.08.21-14.35.20:337][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/10_/BehaviorTree_Service_FindOpponent]
+[2019.08.21-14.35.20:358][531]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BehaviorTree_Service_FindOpponenB031C7FF47DEE5BBA9AD089666A1EC63.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/10_/BehaviorTree_Service_FindOpponent_Auto4.uasset'
+[2019.08.21-14.35.20:360][531]LogFileHelpers: Auto-saving content packages took 0.032
+[2019.08.21-14.35.34:299][693]BlueprintLog: New page: BehaviorTree_Service_FindOpponent 컴파일
+[2019.08.21-14.35.34:346][693]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms

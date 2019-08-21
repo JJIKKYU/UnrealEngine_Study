@@ -688,3 +688,59 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.21-08.48.30:126][484]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level71C965AD44FF43812F4682BAFBC8A69C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
 [2019.08.21-08.49.12:444][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
 [2019.08.21-08.49.13:157][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.08.21-08.58.08:930][349]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.58.08:979][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.08.21-08.58.09:286][349]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level582A0112412E20285366AEBA16A76242.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-10.18.07:990][494]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.08.21-10.18.12:421][ 10]LogActor: Warning: SpawnBuliding /Engine/Transient.World_8:PersistentLevel.SpawnBuliding_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.21-10.18.12:495][ 13]LogActor: Warning: soldier /Engine/Transient.World_12:PersistentLevel.soldier_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.21-10.18.12:517][ 14]LogActor: Warning: SelectableCube /Engine/Transient.World_14:PersistentLevel.SelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.21-10.18.12:555][ 16]LogActor: Warning: PhysicsCube /Engine/Transient.World_16:PersistentLevel.PhysicsCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.21-10.18.12:597][ 18]LogActor: Warning: NonSelectableCube /Engine/Transient.World_19:PersistentLevel.NonSelectableCube_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.21-10.19.19:663][644]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.21-10.19.58:918][537]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.21-10.20.07:552][334]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.08.21-10.20.12:261][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.08.21-10.20.14:886][850]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.21-10.20.14:970][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.08.21-10.41.01:424][790]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2019.08.21-10.42.54:790][247]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.21-10.43.34:240][545]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/MeleeCharacter_BP.MeleeCharacter_BP
+[2019.08.21-10.43.34:624][545]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.21-10.44.39:155][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-10.45.18:391][436]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.21-10.45.47:272][689]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/AIMeleeController_BP.AIMeleeController_BP
+[2019.08.21-10.45.47:591][689]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2019.08.21-10.46.10:055][283]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BP1485C77F4B6640CEE3D1829E6390277F.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-10.46.53:949][515]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BPFB86174C49A87C3389BAFCAF25029917.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-10.46.54:816][617]BlueprintLog: New page: AIMeleeController_BP 컴파일
+[2019.08.21-10.46.55:067][617]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2019.08.21-10.46.55:332][643]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BP3D4EC0B9438182BC59BF9A9EB9F02F93.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-10.46.56:475][774]BlueprintLog: New page: MeleeCharacter_BP 컴파일
+[2019.08.21-10.46.56:741][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.08.21-10.46.56:913][784]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/MeleeCharacter_BP466199D346F724C195787EBD2EAD4F48.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/MeleeCharacter_BP.uasset'
+[2019.08.21-10.46.57:933][884]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/10_/BlackboardMelee.BlackboardMelee
+[2019.08.21-10.47.01:019][247]LogBehaviorTree: Warning: Blackboard asset (BlackboardMelee) has (BlackboardMelee) in parent chain! Clearing value to avoid cycle.
+[2019.08.21-10.47.04:416][655]Cmd: TRANSACTION UNDO
+[2019.08.21-10.47.04:416][655]LogEditorTransaction: Undo Parent 편집
+[2019.08.21-10.47.07:308][  1]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.21-10.47.15:822][998]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/10_/BehaviorTreeMelee.BehaviorTreeMelee
+[2019.08.21-10.47.30:127][705]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BehaviorTreeMelee74F2F53243250CD524DA819257D64F8D.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BehaviorTreeMelee.uasset'
+[2019.08.21-10.47.55:949][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.08.21-10.47.55:949][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level' took 0.049
+[2019.08.21-10.47.55:952][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/10_/BlackboardMelee] ([1] browsable assets)...
+[2019.08.21-10.47.55:952][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/10_/BlackboardMelee]
+[2019.08.21-10.47.55:957][774]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BlackboardMelee_Auto1AAA5EBB8464EF499C3FA1FB1E602FD9A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Autosaves/Game/10_/BlackboardMelee_Auto1.uasset'
+[2019.08.21-10.47.55:958][774]LogFileHelpers: Auto-saving content packages took 0.008
+[2019.08.21-10.48.31:591][991]LogMetaData: Removing '/Game/10_/BehaviorTree_FFA_MeleeAttacker.BehaviorTree_FFA_MeleeAttacker:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/10_/BehaviorTreeMelee.PackageMetaData'
+[2019.08.21-10.48.31:619][991]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/BehaviorTree_FFA_MeleeAttacker5802AE7D455ADAF1CCDC20AE4275A232.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/BehaviorTree_FFA_MeleeAttacker.uasset'
+[2019.08.21-10.48.31:845][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.08.21-10.48.31:887][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.08.21-10.48.31:934][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.08.21-10.48.31:964][991]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BP4CCABF4A401ACE6825182E88F2FDADDD.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-10.48.32:205][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.08.21-10.48.32:539][  2]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level42C2F59E4BCABE6B9926A099132083C4.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-10.48.42:521][165]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BPB3E5F78740DAAA2FD7C70FAA0623A0BF.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'
+[2019.08.21-10.48.43:040][224]BlueprintLog: New page: AIMeleeController_BP 컴파일
+[2019.08.21-10.48.43:284][224]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.08.21-10.48.43:535][249]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/AIMeleeController_BPE080EE6F48A8A4F5D106DDAF9915FC70.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/AIMeleeController_BP.uasset'

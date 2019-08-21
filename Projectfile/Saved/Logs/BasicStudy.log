@@ -602,3 +602,89 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.08.21-08.41.09:202][642]LogFileHelpers: Saving map 'Level' took 0.260
 [2019.08.21-08.41.31:480][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.08.21-08.41.32:763][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.08.21-08.43.55:468][895]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.08.21-08.43.55:504][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.43.58:433][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.08.21-08.43.58:921][231]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.08.21-08.43.59:339][278]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor9)
+[2019.08.21-08.44.06:425][108]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.21-08.44.06:816][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.21-08.44.07:216][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.21-08.44.07:597][237]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor10)
+[2019.08.21-08.44.08:771][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.44.10:581][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.08.21-08.44.10:791][569]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level5CBFAD2E41D968A820340E95910D5B5A.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-08.44.14:257][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.44.21:550][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor11)
+[2019.08.21-08.44.24:148][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.44.24:193][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.08.21-08.44.24:402][ 76]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level85E964E541A0F286CB8664939BCC63A9.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-08.45.25:973][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.45.27:354][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.08.21-08.45.27:563][ 51]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level1997E93E4BE83F10FD7A5FB063E414BB.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-08.45.28:082][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.45.47:735][217]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.08.21-08.45.52:348][759]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/10_/Follower_BP.Follower_BP
+[2019.08.21-08.45.52:688][759]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.08.21-08.45.53:674][759]LogRenderer: Reallocating scene render targets to support 1668x1000 Format 10 NumSamples 1 (Frame:1).
+[2019.08.21-08.45.55:324][886]LogSlate: Window 'Follower_BP' being destroyed
+[2019.08.21-08.45.56:260][997]LogSlate: Took 0.001118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.21-08.46.40:124][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/10_/Follower_BP" FILE="../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset" SILENT=true
+[2019.08.21-08.46.40:146][ 35]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Follower_BPACFDEB594FD10494E0D818AA79FD89D9.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset'
+[2019.08.21-08.47.00:359][445]BlueprintLog: New page: Follower_BP 컴파일
+[2019.08.21-08.47.00:580][445]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.08.21-08.47.00:888][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/10_/Follower_BP" FILE="../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset" SILENT=true
+[2019.08.21-08.47.00:914][479]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Follower_BP67179030403A29B11954E98B76F93D38.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset'
+[2019.08.21-08.47.04:580][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.47.28:045][630]BlueprintLog: New page: Follower_BP 컴파일
+[2019.08.21-08.47.28:338][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.08.21-08.47.29:235][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/10_/Follower_BP" FILE="../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset" SILENT=true
+[2019.08.21-08.47.29:258][725]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Follower_BP5DD18A134F3312FECC9CB8B45861CD1B.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/10_/Follower_BP.uasset'
+[2019.08.21-08.47.30:349][844]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.21-08.47.30:385][844]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.47.30:904][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.21-08.47.30:904][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.21-08.47.30:904][890]PIE: New page: PIE 세션: Level (Aug 22, 2019, 2:47:30 AM)
+[2019.08.21-08.47.30:917][890]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2019.08.21-08.47.30:927][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009178s)
+[2019.08.21-08.47.30:927][890]LogAIModule: Creating AISystem for world Level
+[2019.08.21-08.47.30:928][890]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2019.08.21-08.47.30:928][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.010431s)
+[2019.08.21-08.47.30:970][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.21-08.47.31:074][890]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.21-08.47.31:124][890]LogInit: FAudioDevice initialized.
+[2019.08.21-08.47.31:124][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.47.31:167][890]LogLoad: Game class is 'AtributeGameMode'
+[2019.08.21-08.47.31:170][890]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2019.08.21-17.47.31
+[2019.08.21-08.47.31:172][890]LogWorld: Bringing up level for play took: 0.004048
+[2019.08.21-08.47.31:197][890]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.08.21-08.47.31:204][890]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.08.21-08.47.31:205][890]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.08.21-08.47.31:205][890]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.21-08.47.31:205][890]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.21-08.47.31:205][890]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.21-08.47.31:206][890]LogBlueprintUserMessages: [MyTree_2] ETreeType::ree_Poplar
+[2019.08.21-08.47.31:206][890]LogBlueprintUserMessages: [MyTree2] ETreeType::Tree_Spruce
+[2019.08.21-08.47.31:207][890]LogBlueprintUserMessages: [MyTree3] ETreeType::Tree_Spruce
+[2019.08.21-08.47.31:209][890]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.21-08.47.31:209][890]PIE: /Game/UEDPIE_0_Level 에 대한 에디터에서 플레이 시작 시간: 0.399
+[2019.08.21-08.47.31:210][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.21-08.47.43:120][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.21-08.47.43:121][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.21-08.47.43:153][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.21-08.47.43:154][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level.Level:PersistentLevel' has LevelScriptBlueprint '/Game/Level.Level:PersistentLevel.Level' with GeneratedClass '/Game/Level.Level_C' with ClassGeneratedBy '/Game/Level.Level:PersistentLevel.Level'
+[2019.08.21-08.47.43:204][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.21-08.47.43:233][267]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2019.08.21-08.47.43:259][268]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.08.21-08.47.44:278][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor11)
+[2019.08.21-08.47.45:892][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.47.49:133][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor11)
+[2019.08.21-08.47.49:548][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor11)
+[2019.08.21-08.47.50:249][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.21-08.47.57:395][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.08.21-08.47.57:703][897]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/LevelBF487D1F4CBAC0D062AF39AC3928B419.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-08.48.29:775][484]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.21-08.48.29:824][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.08.21-08.48.30:126][484]LogSavePackage: Moving '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Saved/Level71C965AD44FF43812F4682BAFBC8A69C.tmp' to '../../../../../../Users/JJiKKYU/Desktop/OneDrive - Hongik/00_ Git/UnrealEngine_Study/Projectfile/Content/Level.umap'
+[2019.08.21-08.49.12:444][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.08.21-08.49.13:157][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
